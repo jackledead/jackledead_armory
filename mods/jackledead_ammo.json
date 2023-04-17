@@ -1,0 +1,17 @@
+[
+  {
+    "id": "762R_tracer",
+    "copy-from": "762_54R",
+    "type": "AMMO",
+    "name": { "str_sp": "7.62x54mmR tracer" },
+    "description": "7.62x54mmR tracer ammunition with a 150gr FMJ bullet. The tracer element ignites upon firing, leaving a visible trail in the air to help with aiming.",
+    "symbol": "=",
+    "color": "light_red",
+    "ammo_type": "762R",
+    "range": 75,
+    "damage": { "damage_type": "bullet", "amount": 50, "armor_penetration": 8 },
+    "dispersion": 15,
+    "recoil": 2645,
+    "effects": [ "COOKOFF", "INCENDIARY" ]
+  }
+]

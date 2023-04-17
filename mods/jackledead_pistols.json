@@ -1,0 +1,28 @@
+[
+  {
+    "id": "fort_221",
+    "copy-from": "pistol_base",
+    "looks_like": "walther_ppk",
+    "type": "GUN",
+    "name": { "str": "Fort-221 pistol" },
+    "description": "A compact and reliable 9x18mm pistol produced in Ukraine. The Fort-221 is a popular firearm among law enforcement and military units in Ukraine due to its size and reliability. It bears a striking resemblance to the Walther PPK.",
+    "weight": "500 g",
+    "volume": "250 ml",
+    "longest_side": "165 mm",
+    "price": 45000,
+    "price_postapoc": 2000,
+    "to_hit": -1,
+    "bashing": 6,
+    "material": [ "steel", "plastic" ],
+    "symbol": "(",
+    "color": "light_gray",
+    "ammo": [ "9x18" ],
+    "ranged_damage": { "damage_type": "bullet", "amount": -1 },
+    "dispersion": 420,
+    "durability": 6,
+    "min_cycle_recoil": 300,
+    "flags": [ "ALLOWS_BODY_BLOCK" ],
+    "weapon_category": [ "AUTOMATIC_PISTOLS" ],
+    "pocket_data": [ { "magazine_well": "150 ml", "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "fort221_mag" ] } ]
+  }
+]
