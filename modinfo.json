@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "jackledead_apocalypse",
+    "name": "Jackledead Apocalypse",
+    "authors": [ "Jackledead" ],
+    "maintainers": [ "Jackledead" ],
+    "description": "Adds new stuff for my personal apocalypse style. Starting with rifles.",
+    "category": "items",
+    "dependencies": [ "dda" ]
+  }
+]

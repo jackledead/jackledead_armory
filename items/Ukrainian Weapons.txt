@@ -12,4 +12,4 @@ Gepard M3: The Gepard is a Ukrainian-made anti-materiel rifle that is designed t
 UKM: The UKM is a Ukrainian-made heavy machine gun that has been widely used by the Ukrainian Armed Forces and other military units in Ukraine. It is known for its reliability and versatility.
 
 Fictional:
-VP Scout: The VP Scout is a compact and lightweight rifle designed for reconnaissance and stealth missions. It features a bullpup configuration and a folding stock, allowing for easy storage and transportation. The gun is chambered in the powerful 7.62x54r cartridge, making it effective at long ranges while still remaining compact."
+VP Scout: The VP Scout is a compact and lightweight rifle designed for reconnaissance and stealth missions. It features a bullpup configuration and a folding stock, allowing for easy storage and transportation. The gun is chambered in the powerful 7.62x54r cartridge, making it effective at long ranges while still remaining compact.
