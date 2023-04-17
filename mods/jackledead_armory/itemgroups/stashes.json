@@ -1,11 +1,5 @@
-TODO:
-
-add zb to hunting rifles
-add all mil to mil general loot
-add assault rifles to assault rifles
-
-bugout itemgroups
-{
+[
+  {
     "type": "item_group",
     "id": "bugout_small_gun",
     "subtype": "distribution",
@@ -24,14 +18,5 @@ bugout itemgroups
       { "item": "vepr", "prob": 8 },
       { "item": "zbroyar_z15", "prob": 15 }
     ]
-  },
-  
-  { "item": "9x18mm", "prob": 20, "charges": [ 0, 6 ] }
-  pistol common ammo
-  
-  
-  make vepr and mag and ammo common
-  same with fort_221
-  
-  and the mosin cause why not
-  
+  }
+]

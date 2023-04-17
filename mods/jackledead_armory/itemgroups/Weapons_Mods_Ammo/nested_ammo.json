@@ -1,0 +1,11 @@
+[
+  {
+    "id": "on_hand_762R",
+    "type": "item_group",
+    "//": "a collection of ammo that would be found with a loaded gun.",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "762R_tracer", "prob": 3, "charges": [ 1, 20 ] }
+    ]
+  }
+]

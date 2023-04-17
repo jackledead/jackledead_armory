@@ -1,0 +1,109 @@
+[
+  {
+    "type": "item_group",
+    "id": "military_standard_assault_rifles",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "vepr", "prob": 40, "charges": [ 0, 30 ] },
+      { "item": "tavor_x95", "prob": 8, "charges": [ 0, 30 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "military_standard_assault_rifles_sighted",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "vepr", "prob": 35, "charges": [ 0, 30 ], "contents-item": "acog_scope" },
+      {
+        "item": "tavor_x95",
+        "prob": 10,
+        "charges": [ 0, 30 ],
+        "contents-item": "acog_scope"
+      }    ]
+  },
+  {
+    "type": "item_group",
+    "id": "military_standard_sniper_rifles",
+    "subtype": "distribution",
+    "entries": [ { "item": "m3_gepard", "prob": 1, "charges": [ 0, 5 ] }, { "item": "vp_scout", "prob": 30, "charges": [ 0, 10 ] } ]
+  },
+  {
+    "type": "item_group",
+    "id": "military_standard_lmgs",
+    "subtype": "distribution",
+    "entries": [ { "item": "ukm_2000", "prob": 80, "charges": [ 0, 200 ] } ]
+  },
+  {
+    "type": "item_group",
+    "id": "military_standard_pistols",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "fort_221", "prob": 20, "charges": [ 0, 8 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "military",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "m3_gepard", "prob": 2 },
+      { "item": "ukm_2000", "prob": 4 },
+      { "item": "fort_221", "prob": 8 },
+      { "item": "vepr", "prob": 6 },
+      { "item": "tavor_x95", "prob": 8 },
+      { "item": "vp_scout", "prob": 5 },
+      { "item": "762R_tracer", "prob": 2 },
+      { "item": "belt762r", "prob": 2 },
+      { "item": "drum762r", "prob": 2 },
+      { "item": "fort221_mag", "prob": 8 },
+      { "item": "m3gepardmag", "prob": 2 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "army_bed",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "fort221_mag", "prob": 5 },
+      { "item": "fort_221", "prob": 6 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mil_hw",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "ukm_2000", "prob": 30, "charges": [ 0, 200 ] },
+      { "item": "m240", "prob": 20, "charges": [ 0, 200 ] },
+      { "item": "m3_gepard", "prob": 5, "charges": [ 0, 5 ] },
+      { "item": "762R_tracer", "prob": 5, "charges": [ 1, 50 ] },
+      { "item": "belt762r", "prob": 8, "charges": [ 0, 200 ] },
+      { "item": "drum762r", "prob": 10, "charges": [ 1, 50 ] },
+      { "item": "m3gepardmag", "prob": 3, "charges": [ 1, 5 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "helicopter",
+    "magazine": 100,
+    "subtype": "distribution",
+    "entries": [
+      { "item": "ukm_2000", "prob": 1, "charges": [ 0, 200 ] },
+      { "item": "m240", "prob": 1, "charges": [ 0, 200 ] },
+      { "item": "m3_gepard", "prob": 1, "charges": [ 0, 5 ] },
+      { "item": "762R_tracer", "prob": 1, "charges": [ 1, 50 ] },
+      { "item": "belt762r", "prob": 1, "charges": [ 0, 200 ] },
+      { "item": "drum762r", "prob": 1, "charges": [ 1, 50 ] },
+      { "item": "m3gepardmag", "prob": 1, "charges": [ 1, 5 ] },
+      { "item": "m3gepardmag", "prob": 1, "charges": [ 1, 5 ] },
+	  { "item": "vepr", "prob": 2, "charges": [ 0, 30 ], "contents-item": "acog_scope" },
+      {
+        "item": "tavor_x95",
+        "prob": 1,
+        "charges": [ 0, 30 ],
+        "contents-item": "acog_scope"
+      },
+	  { "item": "fort_221", "prob": 3, "charges": [ 0, 8 ] }
+    ]
+  }
+]

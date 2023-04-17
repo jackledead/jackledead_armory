@@ -1,11 +1,11 @@
 [
   {
     "type": "MOD_INFO",
-    "id": "jackledead_apocalypse",
-    "name": "Jackledead Apocalypse",
+    "id": "jackledead_armory",
+    "name": "Jackledead Armory",
     "authors": [ "Jackledead" ],
     "maintainers": [ "Jackledead" ],
-    "description": "Adds new stuff for my personal apocalypse style. Starting with rifles.",
+    "description": "Adds Ukrainian firearms and some of my own design.",
     "category": "items",
     "dependencies": [ "dda" ]
   }

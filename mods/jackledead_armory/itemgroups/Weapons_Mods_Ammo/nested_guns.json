@@ -1,0 +1,93 @@
+[
+  {
+    "id": "nested_fort_221",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [ { "item": "fort_221" }, { "item": "fort221_mag" }, { "item": "fort221_mag", "prob": 50 }, { "group": "on_hand_9x18" } ]
+  },
+  {
+    "id": "nested_vp_scout",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "vp_scout", "charges-min": 0, "charges-max": 10 },
+      { "item": "pslmag5" },
+      { "item": "pslmag5", "prob": 50 },
+	  { "item": "pslmag10", "prob": 70 },
+      { "group": "on_hand_762R" }
+    ]
+  },
+  {
+    "id": "nested_ukm_2000",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "ukm_2000", "charges-min": 0, "charges-max": 200 },
+      { "item": "drum762r" },
+      { "item": "drum762r", "prob": 35 },
+	  { "item": "belt762r", "prob": 25 },
+      { "group": "on_hand_762R" }
+    ]
+  },
+  {
+    "id": "nested_vepr",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "vepr", "charges-min": 0, "charges-max": 40 },
+      { "item": "akmag30" },
+	  { "item": "akmag20", "prob": 50 },
+      { "item": "akmag40", "prob": 50 },
+      { "group": "on_hand_762" }
+    ]
+  },
+  {
+    "id": "nested_tavor_x95",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "tavor_x95", "charges-min": 0, "charges-max": 40 },
+      { "item": "stanag30" },
+      { "item": "stanag40", "prob": 50 },
+	  { "item": "stanag20", "prob": 50 },
+      { "group": "on_hand_223" }
+    ]
+  },
+  {
+    "id": "nested_zbroyar_z15",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "zbroyar_z15", "charges-min": 0, "charges-max": 20 },
+      { "item": "stanag20" },
+      { "item": "stanag20", "prob": 50 },
+	  { "item": "stanag20", "prob": 50 },
+      { "group": "on_hand_223" }
+    ]
+  },
+  {
+    "id": "nested_m3_gepard",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "m3_gepard", "charges-min": 0, "charges-max": 5 },
+      { "item": "m3gepardmag" },
+      { "item": "m3gepardmag", "prob": 35 },
+      { "group": "on_hand_50" }
+    ]
+  }
+]
