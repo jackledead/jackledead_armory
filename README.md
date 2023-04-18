@@ -1,6 +1,11 @@
 # jackledead_armory
 CDDA mod to add Ukrainian firearms and some of my own design. Aimed to be used alongside my upcoming apocalypse mod.
 
+## How to install:
+1. Click the green button in the top and download as a zip
+2. Extract and then
+3. simply put jackledead_armory in your data/mods/ folder
+
 ## Weapons
 ### Real:
 Fort-221: The Fort-221 is a Ukrainian-made pistol that is similar in appearance to the Walther PPK. It is a compact and reliable firearm that is popular with law enforcement and military units in Ukraine.
