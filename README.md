@@ -1,5 +1,5 @@
 # jackledead_armory
-CDDA mod to add Ukrainian firearms and some of my own design. Aimed to be used alongside my upcoming apocalypse mod.
+CDDA mod to add Ukrainian firearms and some of my own design. Also adds some proffesions to make the weapons more accessible. Aimed to be used alongside my upcoming apocalypse mod. 
 
 ## How to install:
 1. Click the green button in the top and download as a zip
@@ -25,3 +25,26 @@ VP Scout: The VP Scout is a compact and lightweight rifle designed for reconnais
 
 ### Existing:
 Made makarovs, mosins, ak74 more common.
+
+## Professions:
+
+Black Sea Mafia Boss: Start with AK74, Fort 221, cigarettes, lighter, cell phone, blazer, dress shirt, pants. I'm sure he's a nice guy. A little OP, statted at 8 points but really meant to be used for roleplay and fun.
+
+## Suggested Tileset
+#### ASCII/RETRODAYS: Simple means more imagination to fill your mind.
+#### UNDEAD PEOPLE TILESET: [github.com/Theawesomeboophis/UndeadPeopleTileset](https://github.com/Theawesomeboophis/UndeadPeopleTileset) Looks great with the guns from jackledead armory, is very visible and fun. Great mods compatibility.
+
+## Suggested Mods for use with this mod
+#### [Jackledead Infected Github](https://github.com/jackledead/jackledead_armory) for that fast running infected zombie  apocalypse feel.
+
+## Additional Mods you may be interested in
+#### My repo of the exclusions mods anthology by Kenan [CDDA-CBN-Jackledead-NoMods-Collection](https://github.com/jackledead/CDDA-CBN-Jackledead-NoMods-Collection)
+
+## Special Thanks
+#### My Wife for being my biggest fan.
+#### Phoenix of the Chorus for getting me back into modding by pointing out a simple old bug I accidentally left in dinomod.
+#### LyleSY and the Dino Gang. Long live laser spinosaurus.
+#### Kenan and Kenan's modding discord server and modpack [Kenans Modpack CDDA Github](https://github.com/Kenan2000/CDDA-Structured-Kenan-Modpack)
+#### All contributers to CDDA and BN
+#### All modders of CDDA and BN who use Github.
+#### and Lastly those modders who use other strange websites like google drive to post their mods.
