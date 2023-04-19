@@ -1,0 +1,36 @@
+[
+  {
+    "type": "profession",
+    "id": "black_sea_mafia_boss",
+    "name": "Black Sea Mafia Boss",
+    "description": "In Ukraine you were born into poverty, you joined one of the organized crime families to make a living.  There, you quickly made it to the top and became the boss. Your crew is gone, but your past life has prepared you for a world where violence is common currency.",
+    "points": 7,
+    "skills": [
+      { "level": 2, "name": "pistol" },
+      { "level": 1, "name": "smg" },
+      { "level": 1, "name": "rifle" },
+      { "level": 1, "name": "unarmed" },
+      { "level": 2, "name": "melee" },
+      { "level": 3, "name": "speech" }
+    ],
+    "items": {
+      "both": {
+        "items": [ "knit_scarf", "socks", "dress_shoes", "gold_watch", "diamond_ring", "diamond_gold_pendant_necklace", "gold_bracelet" ],
+        "entries": [
+          { "group": "charged_cell_phone" },
+          { "group": "charged_ref_lighter", "container-item": "dress_shirt" },
+          { "item": "ak74", "custom-flags": [ "auto_wield" ], "ammo-item": "545", "charges": 30 },
+          { "item": "ak74mag", "ammo-item": "545", "charges": 30, "count": 1 },
+          { "item": "cig", "container-item": "blazer" },
+          { "item": "fort_221", "ammo-item": "9x18mm", "container-item": "holster", "charges": 8 },
+          { "item": "fort221_mag", "ammo-item": "9x18mm", "charges": 8, "count": 2 },
+          { "item": "knife_folding", "container-item": "pants" }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "bra", "panties", "diamond_gold_earring" ]
+    },
+    "traits": [ "LIAR" ],
+    "missions": [ "MISSION_MAFIA_BOSS", "MISSION_SOCIAL_BUTTERFLY" ]
+  }
+]
