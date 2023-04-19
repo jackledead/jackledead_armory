@@ -35,7 +35,7 @@ Black Sea Mafia Boss: Start with AK74, Fort 221, cigarettes, lighter, cell phone
 #### UNDEAD PEOPLE TILESET: [github.com/Theawesomeboophis/UndeadPeopleTileset](https://github.com/Theawesomeboophis/UndeadPeopleTileset) Looks great with the guns from jackledead armory, is very visible and fun. Great mods compatibility.
 
 ## Suggested Mods for use with this mod
-#### [Jackledead Infected Github](https://github.com/jackledead/jackledead_armory) for that fast running infected zombie  apocalypse feel.
+#### [Jackledead Infected Github](https://github.com/jackledead/jackledead_infected) for that fast running infected zombie  apocalypse feel.
 
 ## Additional Mods you may be interested in
 #### My repo of the exclusions mods anthology by Kenan [CDDA-CBN-Jackledead-NoMods-Collection](https://github.com/jackledead/CDDA-CBN-Jackledead-NoMods-Collection)
