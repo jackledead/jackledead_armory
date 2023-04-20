@@ -4,7 +4,7 @@ CDDA mod to add Ukrainian firearms and some of my own design. Also adds some pro
 ## How to install:
 1. Click the green button in the top and download as a zip
 2. Extract and then
-3. simply put jackledead_armory in your data/mods/ folder
+3. simply put jackledead_armory/mods/jackledead_armory in your data/mods/ folder
 
 ## Weapons
 ### Real:
