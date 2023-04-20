@@ -8,6 +8,8 @@ CDDA mod to add Ukrainian firearms and some of my own design. Also adds some pro
 
 ## Weapons
 ### Real:
+Snipex Aliigator: Firing the massive 145x114mm anti material round, this sniper is no joke.
+
 Fort-221: The Fort-221 is a Ukrainian-made pistol that is similar in appearance to the Walther PPK. It is a compact and reliable firearm that is popular with law enforcement and military units in Ukraine.
 
 Vepr: The Vepr is a Ukrainian-made rifle that is based on the AK-47 design. It is a rugged and reliable firearm that is often used by Ukrainian military and law enforcement units.
