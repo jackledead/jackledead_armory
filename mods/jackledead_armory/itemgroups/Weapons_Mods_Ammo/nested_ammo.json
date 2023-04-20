@@ -11,7 +11,7 @@
     "type": "item_group",
     "subtype": "distribution",
     "entries": [
-      { "item": "145x114", "prob": 100, "charges": [ 1, 15 ] },
+      { "item": "145x114mm", "prob": 100, "charges": [ 1, 15 ] },
       { "item": "145X114_incendiary", "prob": 20, "charges": [ 1, 10 ] }
     ]
   }

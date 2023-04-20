@@ -102,5 +102,18 @@
     "subtype": "collection",
     "ammo": 100,
     "entries": [ { "item": "tos_30" }, { "item": "tos_30_mag" }, { "item": "tos_30_mag", "prob": 50 }, { "group": "on_hand_9x18" } ]
+  },
+  {
+    "id": "nested_m3_gepard",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "m3_gepard" },
+      { "item": "m3gepardmag" },
+      { "item": "m3gepardmag", "prob": 40 },
+      { "group": "on_hand_50" }
+    ]
   }
 ]

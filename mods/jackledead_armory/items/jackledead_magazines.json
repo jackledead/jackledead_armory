@@ -66,6 +66,7 @@
   },
   {
     "id": "alligator_mag",
+	"type": "MAGAZINE",
     "copy-from": "m3gepardmag",
     "name": { "str": "Snipex Alligator 5-round magazine" },
     "description": "A 5-round box magazine for the Snipex Alligator rifle, chambered in the powerful 14.5x114mm anti-material round.",

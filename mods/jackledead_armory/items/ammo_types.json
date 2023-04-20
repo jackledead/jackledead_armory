@@ -1,0 +1,8 @@
+[
+  {
+    "type": "ammunition_type",
+    "id": "145x114",
+    "name": "145x114mm anti material round",
+    "default": "145x114mm"
+  }
+]

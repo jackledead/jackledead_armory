@@ -25,7 +25,7 @@
     "type": "item_group",
     "id": "military_standard_sniper_rifles",
     "subtype": "distribution",
-    "entries": [ { "item": "m3_gepard", "prob": 1, "charges": [ 0, 5 ] }, { "item": "vp_scout", "prob": 30, "charges": [ 0, 10 ] } ]
+    "entries": [ { "item": "m3_gepard", "prob": 1, "charges": [ 0, 5 ] }, { "item": "vp_scout", "prob": 30, "charges": [ 0, 10 ] }, { "item": "snipex_alligator", "prob": 2, "charges": [ 0, 5 ] } ]
   },
   {
     "type": "item_group",
@@ -60,7 +60,7 @@
 	  { "item": "tos_30", "prob": 6 },
       { "item": "tos_30_mag", "prob": 8 },
       { "item": "alligator_mag", "prob": 2 }, 
-	  { "item": "145x114", "prob": 2 },
+	  { "item": "145x114mm", "prob": 2 },
       { "item": "145X114_incendiary", "prob": 1 },
 	  { "item": "snipex_alligator", "prob": 2 }
     ]
@@ -87,8 +87,8 @@
       { "item": "drum762r", "prob": 10, "charges": [ 1, 50 ] },
       { "item": "m3gepardmag", "prob": 3, "charges": [ 1, 5 ] },
 	  { "item": "alligator_mag", "prob": 3, "charges": [ 1, 5 ] }, 
-	  { "item": "145x114", "prob": 2, "charges": [ 1, 25 ] },
-      { "item": "145X114_incendiary", "prob": 1, "charges": [ 1, 25 ] }
+	  { "item": "145x114mm", "prob": 2, "charges": [ 1, 25 ] },
+      { "item": "145X114_incendiary", "prob": 1, "charges": [ 1, 25 ] },
 	  { "item": "snipex_alligator", "prob": 5, "charges": [ 0, 5 ] }
     ]
   },
@@ -114,7 +114,7 @@
       },
 	  { "item": "fort_221", "prob": 3, "charges": [ 0, 8 ] },
 	  { "item": "alligator_mag", "prob": 1, "charges": [ 0, 5 ] }, 
-	  { "item": "145x114", "prob": 1, "charges": [ 1, 15 ] },
+	  { "item": "145x114mm", "prob": 1, "charges": [ 1, 15 ] },
       { "item": "145X114_incendiary", "prob": 1, "charges": [ 1, 15 ] },
 	  { "item": "snipex_alligator", "prob": 1, "charges": [ 0, 5 ] }
     ]

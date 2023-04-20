@@ -235,7 +235,7 @@
       },
       { "group": "nested_ak74", "prob": 15 },
 	  {
-        "collection": [ { "item": "tos_30", "prob": 100, "charges": [ 0, 30 ], { "group": "field_tos_30" } ],
+        "collection": [ { "item": "tos_30", "prob": 100, "charges": [ 0, 30 ] } , { "group": "field_tos_30" } ],
         "prob": 20
       }
     ]
