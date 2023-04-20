@@ -8,7 +8,7 @@ CDDA mod to add Ukrainian firearms and some of my own design. Also adds some pro
 
 ## Weapons
 ### Real:
-Snipex Alligator: Firing the massive 145x114mm anti material round, this sniper is no joke.
+Snipex Alligator: Firing the massive 14.5x114mm anti material round, this sniper is no joke.
 
 Fort-221: The Fort-221 is a Ukrainian-made pistol that is similar in appearance to the Walther PPK. It is a compact and reliable firearm that is popular with law enforcement and military units in Ukraine.
 
