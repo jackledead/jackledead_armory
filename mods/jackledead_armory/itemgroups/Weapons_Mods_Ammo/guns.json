@@ -50,6 +50,43 @@
   },
   {
     "type": "item_group",
+    "id": "guns_smg_rare",
+    "//": "Less common SMGs including those only used by police/paramilitary forces.",
+    "//2": "Making the assumption any loaded gun will have additional ammo and mags with it.",
+    "items": [
+      { "group": "nested_tos_30", "prob": 50 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_smg_rare_display",
+    "subtype": "distribution",
+    "//": "Less common full-auto SMGS which are illegal to sell.",
+    "items": [
+      { "item": "tos_30", "prob": 50, "charges-min": 0, "charges-max": 0 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_smg_milspec",
+    "//": "Military specification SMGs only ever found at military sites.",
+    "items": [
+      { "group": "nested_tos_30", "prob": 110 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_smg_display",
+    "subtype": "distribution",
+    "//": "All variations of smgs weighted for rarity, for use in locked gun-safes",
+    "items": [
+      { "group": "guns_smg_obscure", "prob": 20 },
+      { "group": "guns_smg_rare_display", "prob": 40 },
+      { "group": "guns_smg_common_display", "prob": 50 }
+    ]
+  },
+  {
+    "type": "item_group",
     "id": "guns_rifle_common",
     "//": "Rifles commonly owned by citizens and found in many locations.",
     "//2": "Making the assumption any loaded gun will have additional ammo and mags with it.",
@@ -132,7 +169,8 @@
       { "group": "nested_tavor_x95", "prob": 8 },
 	  { "group": "nested_ak47", "prob": 5 },
       { "group": "nested_ak74", "prob": 5 },
-	  { "group": "nested_psl", "prob": 5 }
+	  { "group": "nested_psl", "prob": 5 },
+	  { "group": "nested_snipex_alligator", "prob": 5 }
     ]
   },
   {
@@ -174,7 +212,8 @@
     "items": [
       { "group": "nested_vepr", "prob": 10 },
       { "group": "nested_tavor_x95", "prob": 8 },
-	  { "group": "nested_ak74", "prob": 20 }
+	  { "group": "nested_ak74", "prob": 20 },
+	  { "group": "nested_tos_30", "prob": 20 }
     ]
   },
   {
@@ -194,7 +233,11 @@
         "collection": [ { "item": "zbroyar_z15", "prob": 100, "charges": [ 0, 30 ], "contents-item": "shoulder_strap" }, { "group": "field_ar15" } ],
         "prob": 10
       },
-      { "group": "nested_ak74", "prob": 15 }
+      { "group": "nested_ak74", "prob": 15 },
+	  {
+        "collection": [ { "item": "tos_30", "prob": 100, "charges": [ 0, 30 ], { "group": "field_tos_30" } ],
+        "prob": 20
+      }
     ]
   },
   {
@@ -241,7 +284,8 @@
     "items": [
       { "item": "m3_gepard", "prob": 5, "charges-min": 0, "charges-max": 5 },
       { "item": "ak74", "prob": 30, "charges-min": 0, "charges-max": 30 },
-	  { "item": "vp_scout", "prob": 15, "charges-min": 0, "charges-max": 10 }
+	  { "item": "vp_scout", "prob": 15, "charges-min": 0, "charges-max": 10 },
+	  { "item": "tos_30", "prob": 30, "charges-min": 0, "charges-max": 30 }
     ]
   },
   {

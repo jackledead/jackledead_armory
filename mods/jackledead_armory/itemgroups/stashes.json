@@ -5,7 +5,8 @@
     "subtype": "distribution",
     "//": "a handgun of some kind.",
     "entries": [
-      { "item": "fort_221", "prob": 15 }
+      { "item": "fort_221", "prob": 15 },
+	  { "item": "tos_30", "prob": 10 }
     ]
   },
   {

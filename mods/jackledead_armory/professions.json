@@ -32,5 +32,97 @@
     },
     "traits": [ "LIAR" ],
     "missions": [ "MISSION_MAFIA_BOSS", "MISSION_SOCIAL_BUTTERFLY" ]
+  },
+  {
+    "type": "profession",
+    "id": "black_sea_swat",
+    "name": "Black Sea SWAT Officer",
+    "description": "Armed with your favorite smg and the pistol you had since you were a cadet. As a member of the police force's most elite division, you are more than adequately trained and equipped to survive the brutal onslaught of the apocalypse.  Unfortunately, the chain of command has broken down; your only mission now is to stay alive.",
+    "points": 5,
+    "proficiencies": [ "prof_gunsmithing_basic", "prof_spotting" ],
+    "skills": [
+      { "level": 3, "name": "gun" },
+      { "level": 3, "name": "pistol" },
+      { "level": 3, "name": "smg" },
+      { "level": 2, "name": "swimming" }
+    ],
+    "traits": [ "PROF_SWAT" ],
+    "items": {
+      "both": {
+        "items": [
+          "socks",
+          "police_belt",
+          "tac_helmet",
+          "boots_combat",
+          "gloves_tactical",
+          "badge_swat",
+          "wristwatch",
+          "pants_cargo",
+          "elbow_pads",
+          "knee_pads"
+        ],
+        "entries": [
+          { "group": "swat_ballistic_vest_pristine" },
+          { "group": "charged_two_way_radio" },
+          { "item": "sheriffshirt", "variant": "swat_shirt" },
+          { "item": "fort221_mag", "ammo-item": "9x18mm", "charges": 8 },
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "grenadebandolier", "contents-item": [ "flashbang", "flashbang" ] },
+          { "item": "fort_221", "ammo-item": "9x18mm", "charges": 8, "container-item": "holster" },
+          {
+            "item": "tos_30",
+            "ammo-item": "9x18mm",
+            "charges": 30,
+            "contents-item": [ "shoulder_strap", "rail_laser_sight" ]
+          }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boy_shorts" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "black_sea_sniper_police",
+    "name": "Black Sea Police Recon-Rifleman",
+    "description": "Equipped with an experiemental folding rifle of high caliber, you're ready to waste some infected. Your training will serve you well.",
+    "points": 5,
+    "proficiencies": [ "prof_gunsmithing_basic", "prof_spotting" ],
+    "skills": [
+      { "level": 5, "name": "gun" },
+      { "level": 4, "name": "rifle" },
+      { "level": 1, "name": "pistol" },
+      { "level": 1, "name": "swimming" }
+    ],
+    "traits": [ "PROF_POLICE" ],
+    "items": {
+      "both": {
+        "items": [
+          "socks",
+          "pants_army",
+          "police_belt",
+          "sweatshirt",
+          "sneakers",
+          "gloves_tactical",
+          "hat_ball",
+          "badge_deputy",
+          "wristwatch",
+          "tacvest",
+		  "knife_folding"
+        ],
+        "entries": [
+          { "group": "charged_two_way_radio" },
+          { "item": "glasses_bal", "custom-flags": [ "no_auto_equip" ] },
+          { "group": "charged_powered_earmuffs" },
+          { "item": "fort_221", "ammo-item": "9x18mm", "charges": 8, "container-item": "holster" },
+          { "item": "legpouch_large", "contents-item": "fort221_mag", "charges": 8 },
+          { "item": "pslmag10", "charges": 10 },
+          { "item": "vp_scout", "ammo-item": "762_54R", "charges": 10, "contents-item": [ "shoulder_strap", "rifle_scope" ] },
+          { "item": "sheriffshirt", "variant": "sheriff" }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "bra", "boy_shorts" ]
+    }
   }
 ]

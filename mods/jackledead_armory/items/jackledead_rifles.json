@@ -267,5 +267,18 @@
     "default_mods": [ "bipod", "rifle_scope", "muzzle_brake" ],
     "flags": [ "NEVER_JAMS" ],
     "pocket_data": [ { "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "m3gepardmag" ] } ]
-  }
+  },
+  {
+  "id": "snipex_alligator",
+  "copy-from": "tac50",
+  "type": "GUN",
+  "name": { "str": "Snipex Alligator" },
+  "description": "A long-range anti-materiel and anti-personnel sniper rifle made by Snipex, chambered in the powerful 14.5x114mm anti-material round. This bolt-action rifle is capable of defeating light vehicles, radar installations, and crew-served weapons at extreme distances.",
+  "price": 1100000,
+  "price_postapoc": 15000,
+  "ammo": [ "145x114" ],
+  "default_mods": [ "recoil_stock", "bipod", "rifle_scope", "muzzle_brake" ],
+  "flags": [ "NEVER_JAMS" ],
+  "pocket_data": [ { "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "alligator_mag" ] } ]
+}
 ]

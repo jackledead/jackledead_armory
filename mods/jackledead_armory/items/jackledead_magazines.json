@@ -23,7 +23,7 @@
   {
     "id": "fort221_mag",
     "copy-from": "ppkmag",
-	"type": "MAGAZINE",
+    "type": "MAGAZINE",
     "name": { "str": "Fort-221 8-round magazine" },
     "description": "A standard 8-round steel box magazine for the Fort-221 pistol.",
     "ammo_type": [ "9x18" ],
@@ -47,5 +47,31 @@
     "reload_time": 90,
     "flags": [ "MAG_BULKY" ],
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "50": 5 } } ]
+  },
+  {
+    "id": "tos_30_mag",
+    "type": "MAGAZINE",
+    "name": { "str": "Tos 30 Magazine" },
+    "description": "A detachable box magazine for the Tos 30 police submachine gun, holding up to 30 rounds of 9x18mm ammunition.",
+    "weight": "180 g",
+    "volume": "240 ml",
+    "price": 2000,
+    "price_postapoc": 500,
+    "material": [ "steel" ],
+    "symbol": "c",
+    "color": "light_gray",
+    "ammo_type": [ "9x18" ],
+    "reload_time": 40,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "9x18": 30 } } ]
+  },
+  {
+    "id": "alligator_mag",
+    "copy-from": "m3gepardmag",
+    "name": { "str": "Snipex Alligator 5-round magazine" },
+    "description": "A 5-round box magazine for the Snipex Alligator rifle, chambered in the powerful 14.5x114mm anti-material round.",
+    "price": 10000,
+    "price_postapoc": 250,
+    "ammo_type": [ "145x114" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "145x114": 5 } } ]
   }
 ]

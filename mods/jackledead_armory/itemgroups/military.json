@@ -56,7 +56,13 @@
       { "item": "belt762r", "prob": 2 },
       { "item": "drum762r", "prob": 2 },
       { "item": "fort221_mag", "prob": 8 },
-      { "item": "m3gepardmag", "prob": 2 }
+      { "item": "m3gepardmag", "prob": 2 },
+	  { "item": "tos_30", "prob": 6 },
+      { "item": "tos_30_mag", "prob": 8 },
+      { "item": "alligator_mag", "prob": 2 }, 
+	  { "item": "145x114", "prob": 2 },
+      { "item": "145X114_incendiary", "prob": 1 },
+	  { "item": "snipex_alligator", "prob": 2 }
     ]
   },
   {
@@ -79,7 +85,11 @@
       { "item": "762R_tracer", "prob": 5, "charges": [ 1, 50 ] },
       { "item": "belt762r", "prob": 8, "charges": [ 0, 200 ] },
       { "item": "drum762r", "prob": 10, "charges": [ 1, 50 ] },
-      { "item": "m3gepardmag", "prob": 3, "charges": [ 1, 5 ] }
+      { "item": "m3gepardmag", "prob": 3, "charges": [ 1, 5 ] },
+	  { "item": "alligator_mag", "prob": 3, "charges": [ 1, 5 ] }, 
+	  { "item": "145x114", "prob": 2, "charges": [ 1, 25 ] },
+      { "item": "145X114_incendiary", "prob": 1, "charges": [ 1, 25 ] }
+	  { "item": "snipex_alligator", "prob": 5, "charges": [ 0, 5 ] }
     ]
   },
   {
@@ -92,9 +102,8 @@
       { "item": "m240", "prob": 1, "charges": [ 0, 200 ] },
       { "item": "m3_gepard", "prob": 1, "charges": [ 0, 5 ] },
       { "item": "762R_tracer", "prob": 1, "charges": [ 1, 50 ] },
-      { "item": "belt762r", "prob": 1, "charges": [ 0, 200 ] },
-      { "item": "drum762r", "prob": 1, "charges": [ 1, 50 ] },
-      { "item": "m3gepardmag", "prob": 1, "charges": [ 1, 5 ] },
+      { "item": "belt762r", "prob": 1, "charges": [ 1, 200 ] },
+      { "item": "drum762r", "prob": 1, "charges": [ 0, 50 ] },
       { "item": "m3gepardmag", "prob": 1, "charges": [ 1, 5 ] },
 	  { "item": "vepr", "prob": 2, "charges": [ 0, 30 ], "contents-item": "acog_scope" },
       {
@@ -103,7 +112,11 @@
         "charges": [ 0, 30 ],
         "contents-item": "acog_scope"
       },
-	  { "item": "fort_221", "prob": 3, "charges": [ 0, 8 ] }
+	  { "item": "fort_221", "prob": 3, "charges": [ 0, 8 ] },
+	  { "item": "alligator_mag", "prob": 1, "charges": [ 0, 5 ] }, 
+	  { "item": "145x114", "prob": 1, "charges": [ 1, 15 ] },
+      { "item": "145X114_incendiary", "prob": 1, "charges": [ 1, 15 ] },
+	  { "item": "snipex_alligator", "prob": 1, "charges": [ 0, 5 ] }
     ]
   }
 ]

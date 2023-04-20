@@ -23,6 +23,8 @@ UKM: The UKM is a Ukrainian-made heavy machine gun that has been widely used by 
 ### Fictional:
 VP Scout: The VP Scout is a compact and lightweight rifle designed for reconnaissance and stealth missions. It features a bullpup configuration and a folding stock, allowing for easy storage and transportation. The gun is chambered in the powerful 7.62x54r cartridge, making it effective at long ranges while still remaining compact.
 
+Tos 30 SMG: A lightweight Eastern European submachine gun intended for internal security and police units, chambered in 9x18mm Makarov.
+
 ### Existing:
 Made makarovs, mosins, ak74 more common.
 
@@ -30,9 +32,14 @@ Made makarovs, mosins, ak74 more common.
 
 Black Sea Mafia Boss: Start with AK74, Fort 221, cigarettes, lighter, cell phone, blazer, dress shirt, pants. I'm sure he's a nice guy. A little OP, statted at 8 points but really meant to be used for roleplay and fun.
 
+Black Sea Swat: Start with Tos 30 and Fort 221.
+
+Black Sea Police Sniper: Start with a scoped VP Scout and a Fort 221
+
 ## Suggested Tileset
 #### ASCII/RETRODAYS: Simple means more imagination to fill your mind.
 #### UNDEAD PEOPLE TILESET: [github.com/Theawesomeboophis/UndeadPeopleTileset](https://github.com/Theawesomeboophis/UndeadPeopleTileset) Looks great with the guns from jackledead armory, is very visible and fun. Great mods compatibility.
+#### Ultica: Realistic.
 
 ## Suggested Mods for use with this mod
 #### [Jackledead Infected Github](https://github.com/jackledead/jackledead_infected) for that fast running infected zombie  apocalypse feel.

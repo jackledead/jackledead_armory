@@ -42,5 +42,27 @@
         "prob": 60
       }
     ]
+  },
+  {
+    "id": "field_tos_30",
+    "type": "item_group",
+    "//": "this is a distribution for ammo and magazines an active combatant would have immediately on hand. Most should be expended.",
+    "//2": "usually takes the form of 100% chance for first mag, 70% for second, 50% for third with reducing chances of them being mostly expended.",
+    "//3": "this group is for the tos_30",
+    "subtype": "collection",
+    "entries": [
+      {
+        "distribution": [ { "item": "tos_30_mag", "charges": 30, "prob": 50 }, { "item": "tos_30_mag", "charges": [ 0, 5 ], "prob": 50 } ],
+        "prob": 100
+      },
+      {
+        "distribution": [ { "item": "tos_30_mag", "charges": 30, "prob": 30 }, { "item": "tos_30_mag", "charges": [ 0, 5 ], "prob": 70 } ],
+        "prob": 80
+      },
+      {
+        "distribution": [ { "item": "tos_30_mag", "charges": 30, "prob": 30 }, { "item": "tos_30_mag", "charges": [ 0, 5 ], "prob": 70 } ],
+        "prob": 60
+      }
+    ]
   }
 ]
