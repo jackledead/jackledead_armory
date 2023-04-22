@@ -59,13 +59,14 @@
           "wristwatch",
           "pants_cargo",
           "elbow_pads",
-          "knee_pads"
+          "knee_pads",
+		  "knife_folding"
         ],
         "entries": [
           { "group": "swat_ballistic_vest_pristine" },
           { "group": "charged_two_way_radio" },
           { "item": "sheriffshirt", "variant": "swat_shirt" },
-          { "item": "fort221_mag", "ammo-item": "9x18mm", "charges": 8 },
+          { "item": "fort221_mag", "ammo-item": "9x18mm", "charges": 8, "count": 2 },
           { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
           { "item": "grenadebandolier", "contents-item": [ "flashbang", "flashbang" ] },
           { "item": "fort_221", "ammo-item": "9x18mm", "charges": 8, "container-item": "holster" },
@@ -108,15 +109,16 @@
           "badge_deputy",
           "wristwatch",
           "tacvest",
-		  "knife_folding"
+		  "knife_folding",
+		  "legpouch_large"
         ],
         "entries": [
           { "group": "charged_two_way_radio" },
           { "item": "glasses_bal", "custom-flags": [ "no_auto_equip" ] },
           { "group": "charged_powered_earmuffs" },
           { "item": "fort_221", "ammo-item": "9x18mm", "charges": 8, "container-item": "holster" },
-          { "item": "legpouch_large", "contents-item": "fort221_mag", "charges": 8 },
-          { "item": "pslmag10", "charges": 10 },
+          { "item": "fort221_mag", "ammo-item": "9x18mm", "charges": 8, "count": 2 },
+          { "item": "pslmag10", "charges": 10, "count": 2 },
           { "item": "vp_scout", "ammo-item": "762_54R", "charges": 10, "contents-item": [ "shoulder_strap", "rifle_scope" ] },
           { "item": "sheriffshirt", "variant": "sheriff" }
         ]
