@@ -1,2 +1,5 @@
-professions
+TODO:
+
+profession for each gun
+new pistol new shotgun
 

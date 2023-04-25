@@ -12,7 +12,6 @@
     "price": 50000,
     "price_postapoc": 6000,
     "to_hit": -2,
-    "bashing": 9,
     "material": [ "steel", "plastic" ],
     "color": "dark_gray",
     "ammo": [ "762R" ],
@@ -38,7 +37,8 @@
       [ "underbarrel", 1 ],
       [ "sling", 1 ],
       [ "stock", 1 ]
-    ]
+    ],
+	"melee_damage": { "bash": 10 }
   },
   {
     "id": "ukm_2000",
@@ -53,7 +53,6 @@
     "price": 950000,
     "price_postapoc": 10000,
     "to_hit": -3,
-    "bashing": 14,
     "material": [ "steel", "wood" ],
     "symbol": "{",
     "color": "brown",
@@ -78,7 +77,8 @@
       [ "stock", 1 ],
       [ "stock accessory", 2 ]
     ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "pslmag5", "pslmag10", "belt762r", "drum762r" ] } ]
+    "pocket_data": [ { "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "pslmag5", "pslmag10", "belt762r", "drum762r" ] } ],
+	"melee_damage": { "bash": 13 }
   },
   {
     "id": "vepr",
@@ -93,7 +93,6 @@
     "price": 450000,
     "price_postapoc": 5000,
     "to_hit": -1,
-    "bashing": 12,
     "material": [ "steel", "wood" ],
     "color": "brown",
     "ammo": [ "762" ],
@@ -116,7 +115,8 @@
       [ "stock accessory", 2 ],
       [ "underbarrel mount", 1 ]
     ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "akmag30", "akmag10", "akmag20", "akmag40", "akdrum75" ] } ]
+    "pocket_data": [ { "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "akmag30", "akmag10", "akmag20", "akmag40", "akdrum75" ] } ],
+	"melee_damage": { "bash": 11 }
   },
   {
     "id": "tavor_x95",
@@ -132,7 +132,6 @@
     "price": 185000,
     "price_postapoc": 7500,
     "to_hit": -2,
-    "bashing": 12,
     "material": [ "steel", "plastic" ],
     "symbol": "{",
     "color": "dark_gray",
@@ -179,7 +178,8 @@
           "survivor223mag"
         ]
       }
-    ]
+    ],
+	"melee_damage": { "bash": 12 }
   },
   {
     "id": "zbroyar_z15",
@@ -194,7 +194,6 @@
     "price": 220000,
     "price_postapoc": 9000,
     "to_hit": -3,
-    "bashing": 12,
     "material": [ "steel" ],
     "symbol": "{",
     "color": "light_gray",
@@ -240,7 +239,8 @@
           "survivor223mag"
         ]
       }
-    ]
+    ],
+	"melee_damage": { "bash": 11 }
   },
   {
     "id": "m3_gepard",
@@ -255,7 +255,6 @@
     "price": 220000,
     "price_postapoc": 15000,
     "to_hit": -3,
-    "bashing": 13,
     "material": [ "steel" ],
     "ammo": [ "50" ],
     "range": 200,
@@ -266,7 +265,8 @@
     "reload": 600,
     "default_mods": [ "bipod", "rifle_scope", "muzzle_brake" ],
     "flags": [ "NEVER_JAMS" ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "m3gepardmag" ] } ]
+    "pocket_data": [ { "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "m3gepardmag" ] } ],
+	"melee_damage": { "bash": 14 }
   },
   {
   "id": "snipex_alligator",
