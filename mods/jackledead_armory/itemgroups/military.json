@@ -3,10 +3,7 @@
     "type": "item_group",
     "id": "military_standard_assault_rifles",
     "subtype": "distribution",
-    "entries": [
-      { "item": "vepr", "prob": 40, "charges": [ 0, 30 ] },
-      { "item": "tavor_x95", "prob": 8, "charges": [ 0, 30 ] }
-    ]
+    "entries": [ { "item": "vepr", "prob": 40, "charges": [ 0, 30 ] }, { "item": "tavor_x95", "prob": 8, "charges": [ 0, 30 ] } ]
   },
   {
     "type": "item_group",
@@ -14,18 +11,25 @@
     "subtype": "distribution",
     "entries": [
       { "item": "vepr", "prob": 35, "charges": [ 0, 30 ], "contents-item": "acog_scope" },
-      {
-        "item": "tavor_x95",
-        "prob": 10,
-        "charges": [ 0, 30 ],
-        "contents-item": "acog_scope"
-      }    ]
+      { "item": "tavor_x95", "prob": 10, "charges": [ 0, 30 ], "contents-item": "acog_scope" }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "military_standard_shotguns",
+    "subtype": "distribution",
+    "entries": [ { "item": "tos_84", "prob": 30, "charges": [ 0, 30 ] } ]
   },
   {
     "type": "item_group",
     "id": "military_standard_sniper_rifles",
     "subtype": "distribution",
-    "entries": [ { "item": "m3_gepard", "prob": 1, "charges": [ 0, 5 ] }, { "item": "vp_scout", "prob": 30, "charges": [ 0, 10 ] }, { "item": "snipex_alligator", "prob": 2, "charges": [ 0, 5 ] } ]
+    "entries": [
+      { "item": "zbroyar_z15", "prob": 15, "charges": [ 0, 30 ] },
+      { "item": "m3_gepard", "prob": 1, "charges": [ 0, 5 ] },
+      { "item": "vp_scout", "prob": 30, "charges": [ 0, 10 ] },
+      { "item": "snipex_alligator", "prob": 2, "charges": [ 0, 5 ] }
+    ]
   },
   {
     "type": "item_group",
@@ -37,9 +41,7 @@
     "type": "item_group",
     "id": "military_standard_pistols",
     "subtype": "distribution",
-    "entries": [
-      { "item": "fort_221", "prob": 20, "charges": [ 0, 8 ] }
-    ]
+    "entries": [ { "item": "fort_221", "prob": 20, "charges": [ 0, 8 ] }, { "item": "fort_14", "prob": 15, "charges": [ 0, 14 ] } ]
   },
   {
     "type": "item_group",
@@ -57,12 +59,17 @@
       { "item": "drum762r", "prob": 2 },
       { "item": "fort221_mag", "prob": 8 },
       { "item": "m3gepardmag", "prob": 2 },
-	  { "item": "tos_30", "prob": 6 },
+      { "item": "tos_30", "prob": 6 },
       { "item": "tos_30_mag", "prob": 8 },
-      { "item": "alligator_mag", "prob": 2 }, 
-	  { "item": "145x114mm", "prob": 2 },
+      { "item": "alligator_mag", "prob": 2 },
+      { "item": "145x114mm", "prob": 2 },
       { "item": "145X114_incendiary", "prob": 1 },
-	  { "item": "snipex_alligator", "prob": 2 }
+      { "item": "snipex_alligator", "prob": 2 },
+      { "item": "fort14_mag", "prob": 6 },
+      { "item": "fort_14", "prob": 8 },
+      { "item": "tos_84", "prob": 5 },
+      { "item": "saiga10mag", "prob": 4 },
+      { "item": "saiga30mag", "prob": 4 }
     ]
   },
   {
@@ -71,7 +78,9 @@
     "subtype": "distribution",
     "entries": [
       { "item": "fort221_mag", "prob": 5 },
-      { "item": "fort_221", "prob": 6 }
+      { "item": "fort_221", "prob": 6 },
+      { "item": "fort14_mag", "prob": 5 },
+      { "item": "fort_14", "prob": 6 }
     ]
   },
   {
@@ -86,10 +95,10 @@
       { "item": "belt762r", "prob": 8, "charges": [ 0, 200 ] },
       { "item": "drum762r", "prob": 10, "charges": [ 1, 50 ] },
       { "item": "m3gepardmag", "prob": 3, "charges": [ 1, 5 ] },
-	  { "item": "alligator_mag", "prob": 3, "charges": [ 1, 5 ] }, 
-	  { "item": "145x114mm", "prob": 2, "charges": [ 1, 25 ] },
+      { "item": "alligator_mag", "prob": 3, "charges": [ 1, 5 ] },
+      { "item": "145x114mm", "prob": 2, "charges": [ 1, 25 ] },
       { "item": "145X114_incendiary", "prob": 1, "charges": [ 1, 25 ] },
-	  { "item": "snipex_alligator", "prob": 5, "charges": [ 0, 5 ] }
+      { "item": "snipex_alligator", "prob": 5, "charges": [ 0, 5 ] }
     ]
   },
   {
@@ -105,18 +114,15 @@
       { "item": "belt762r", "prob": 1, "charges": [ 1, 200 ] },
       { "item": "drum762r", "prob": 1, "charges": [ 0, 50 ] },
       { "item": "m3gepardmag", "prob": 1, "charges": [ 1, 5 ] },
-	  { "item": "vepr", "prob": 2, "charges": [ 0, 30 ], "contents-item": "acog_scope" },
-      {
-        "item": "tavor_x95",
-        "prob": 1,
-        "charges": [ 0, 30 ],
-        "contents-item": "acog_scope"
-      },
-	  { "item": "fort_221", "prob": 3, "charges": [ 0, 8 ] },
-	  { "item": "alligator_mag", "prob": 1, "charges": [ 0, 5 ] }, 
-	  { "item": "145x114mm", "prob": 1, "charges": [ 1, 15 ] },
+      { "item": "vepr", "prob": 2, "charges": [ 0, 30 ], "contents-item": "acog_scope" },
+      { "item": "tavor_x95", "prob": 1, "charges": [ 0, 30 ], "contents-item": "acog_scope" },
+      { "item": "fort_221", "prob": 3, "charges": [ 0, 8 ] },
+      { "item": "alligator_mag", "prob": 1, "charges": [ 0, 5 ] },
+      { "item": "145x114mm", "prob": 1, "charges": [ 1, 15 ] },
       { "item": "145X114_incendiary", "prob": 1, "charges": [ 1, 15 ] },
-	  { "item": "snipex_alligator", "prob": 1, "charges": [ 0, 5 ] }
+      { "item": "snipex_alligator", "prob": 1, "charges": [ 0, 5 ] },
+      { "item": "fort_14", "prob": 3, "charges": [ 0, 14 ] },
+      { "item": "tos_84", "prob": 2, "charges": [ 0, 30 ] }
     ]
   }
 ]

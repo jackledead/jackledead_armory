@@ -22,8 +22,8 @@
           { "item": "ak74", "custom-flags": [ "auto_wield" ], "ammo-item": "545", "charges": 30 },
           { "item": "ak74mag", "ammo-item": "545", "charges": 30, "count": 1 },
           { "item": "cig", "container-item": "blazer" },
-          { "item": "fort_221", "ammo-item": "9x18mm", "container-item": "holster", "charges": 8 },
-          { "item": "fort221_mag", "ammo-item": "9x18mm", "charges": 8, "count": 2 },
+          { "item": "fort_221", "ammo-item": "9x18mmfmj", "container-item": "holster", "charges": 8 },
+          { "item": "fort221_mag", "ammo-item": "9x18mmfmj", "charges": 8, "count": 2 },
           { "item": "knife_folding", "container-item": "pants" }
         ]
       },
@@ -60,16 +60,16 @@
           "pants_cargo",
           "elbow_pads",
           "knee_pads",
-		  "knife_folding"
+          "knife_folding"
         ],
         "entries": [
           { "group": "swat_ballistic_vest_pristine" },
           { "group": "charged_two_way_radio" },
           { "item": "sheriffshirt", "variant": "swat_shirt" },
-          { "item": "fort221_mag", "ammo-item": "9x18mm", "charges": 8, "count": 2 },
+          { "item": "fort221_mag", "ammo-item": "9x18mmfmj", "charges": 8, "count": 2 },
           { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
           { "item": "grenadebandolier", "contents-item": [ "flashbang", "flashbang" ] },
-          { "item": "fort_221", "ammo-item": "9x18mm", "charges": 8, "container-item": "holster" },
+          { "item": "fort_221", "ammo-item": "9x18mmfmj", "charges": 8, "container-item": "holster" },
           {
             "item": "tos_30",
             "ammo-item": "9x18mm",
@@ -109,22 +109,192 @@
           "badge_deputy",
           "wristwatch",
           "tacvest",
-		  "knife_folding",
-		  "legpouch_large"
+          "knife_folding",
+          "legpouch_large"
         ],
         "entries": [
           { "group": "charged_two_way_radio" },
           { "item": "glasses_bal", "custom-flags": [ "no_auto_equip" ] },
           { "group": "charged_powered_earmuffs" },
-          { "item": "fort_221", "ammo-item": "9x18mm", "charges": 8, "container-item": "holster" },
-          { "item": "fort221_mag", "ammo-item": "9x18mm", "charges": 8, "count": 2 },
+          { "item": "fort_221", "ammo-item": "9x18mmfmj", "charges": 8, "container-item": "holster" },
+          { "item": "fort221_mag", "ammo-item": "9x18mmfmj", "charges": 8, "count": 2 },
           { "item": "pslmag10", "charges": 10, "count": 2 },
-          { "item": "vp_scout", "ammo-item": "762_54R", "charges": 10, "contents-item": [ "shoulder_strap", "rifle_scope" ] },
+          {
+            "item": "vp_scout",
+            "ammo-item": "762_54R",
+            "charges": 10,
+            "contents-item": [ "shoulder_strap", "rifle_scope" ]
+          },
           { "item": "sheriffshirt", "variant": "sheriff" }
         ]
       },
       "male": [ "boxer_shorts" ],
       "female": [ "bra", "boy_shorts" ]
     }
+  },
+  {
+    "type": "profession",
+    "id": "black_sea_swat_heavy",
+    "name": "Black Sea SWAT CQC Specialist",
+    "description": "You came here for training but everything has changed. As a member of the police force's most elite division, you were given special training and became an expert in close-quarters combat. However, in the aftermath of the apocalypse, the rule of law has collapsed, and you must now rely on your skills and instincts to survive in a world filled with danger and uncertainty. Your training will be put to the test as you navigate through the ruins of civilization, facing the constant threat of violence and chaos at every turn.",
+    "points": 5,
+    "skills": [
+      { "level": 3, "name": "gun" },
+      { "level": 3, "name": "shotgun" },
+      { "level": 1, "name": "pistol" },
+      { "level": 1, "name": "melee" },
+      { "level": 1, "name": "bashing" },
+      { "level": 2, "name": "swimming" }
+    ],
+    "traits": [ "PROF_SWAT" ],
+    "proficiencies": [ "prof_spotting" ],
+    "items": {
+      "both": {
+        "items": [
+          "socks",
+          "tac_fullhelmet",
+          "boots_combat",
+          "gloves_tactical",
+          "badge_swat",
+          "wristwatch",
+          "pants_cargo",
+          "elbow_pads",
+          "knee_pads",
+          "knife_folding",
+          "legpouch_large"
+        ],
+        "entries": [
+          { "group": "swat_ballistic_vest_pristine" },
+          { "group": "charged_two_way_radio" },
+          { "item": "sheriffshirt", "variant": "swat_shirt" },
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "fort14_mag", "ammo-item": "9x18mmfmj", "charges": 14, "count": 2 },
+          { "item": "fort_14", "ammo-item": "9x18mmfmj", "charges": 14, "container-item": "holster" },
+          { "item": "baton-extended", "container-item": "police_belt" },
+          { "item": "tos_84", "ammo-item": "shot_00", "charges": 30, "contents-item": [ "shoulder_strap" ] }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boy_shorts" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "ukrainian_park_ranger",
+    "name": "Ukrainian Park Ranger",
+    "description": "Armed with a Z-15 rifle and Fort 221 pistol. Your days of patrolling the park and protecting people and wildlife from each other have taught you many useful skills.  After finding a gruesome scene at a campsite and getting no response when you radioed for help, you stockpiled as many supplies as possible and set out in your pickup looking for answers.",
+    "points": 9,
+    "skills": [
+      { "level": 3, "name": "gun" },
+      { "level": 1, "name": "pistol" },
+      { "level": 3, "name": "driving" },
+      { "level": 2, "name": "firstaid" },
+      { "level": 1, "name": "fabrication" },
+      { "level": 2, "name": "swimming" },
+      { "level": 2, "name": "survival" }
+    ],
+    "vehicle": "pickup",
+    "items": {
+      "both": {
+        "items": [
+          "boots_hiking",
+          "balclava",
+          "diving_watch",
+          "e_tool",
+          "hammer",
+          "knife_folding",
+          "multitool",
+          "pants_army",
+          "police_belt",
+          "rollmat",
+          "socks",
+          "travelpack",
+          "vest",
+          "water_clean",
+          "whistle_multitool"
+        ],
+        "entries": [
+          { "group": "charged_smart_phone" },
+          { "group": "charged_flashlight" },
+          { "group": "charged_two_way_radio" },
+          { "group": "full_1st_aid" },
+          { "item": "black_pen", "charges": 100 },
+          { "item": "coat_rain", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "file" },
+          { "item": "legpouch_large", "contents-group": "ranger_mags" },
+          { "item": "lighter", "charges": 100 },
+          { "item": "fort_221", "ammo-item": "9x18mm", "charges": 8, "container-item": "holster" },
+          { "item": "fort221_mag", "ammo-item": "9x18mm", "charges": 8, "count": 2 },
+          { "item": "paper", "charges": 20, "container-item": "leather_journal" },
+          { "item": "permanent_marker", "charges": 500 },
+          { "item": "roadmap" },
+          { "item": "sm_extinguisher", "charges": 10 },
+          { "item": "trailmap" },
+          { "item": "sheriffshirt", "variant": "sheriff" },
+          { "item": "zbroyar_z15", "ammo-item": "223", "charges": 30, "contents-item": [ "shoulder_strap" ] }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "bra", "boy_shorts" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "ukrainian_cop",
+    "name": "Ukrainian Police Officer",
+    "description": "You came here for international police training. Now everyone is gone.",
+    "points": 2,
+    "skills": [ { "level": 3, "name": "gun" }, { "level": 3, "name": "pistol" }, { "level": 1, "name": "swimming" } ],
+    "traits": [ "PROF_POLICE" ],
+    "proficiencies": [ "prof_spotting" ],
+    "items": {
+      "both": {
+        "items": [ "pants_army", "socks", "badge_deputy", "police_belt", "boots", "whistle", "wristwatch", "legpouch_large" ],
+        "entries": [
+          { "group": "charged_smart_phone" },
+          { "group": "charged_two_way_radio" },
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "fort_221", "ammo-item": "9x18mmfmj", "charges": 8, "container-item": "holster" },
+          { "item": "fort221_mag", "ammo-item": "9x18mmfmj", "charges": 8, "count": 3 },
+          { "item": "sheriffshirt", "variant": "sheriff" }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "bra", "boy_shorts" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "ukrainian_rifle_hunter",
+    "name": "Ukrainian Rifle Hunter",
+    "description": "Armed with Zbroyar Z-15 rifle and backup mag. Ever since you were a child you loved hunting, and you fancy yourself a crack shot.  Why, if the world ended, there's nothing you'd want at your side more than your trusty rifle.  So, when it did, you made sure to bring it along.",
+    "points": 2,
+    "skills": [ { "level": 1, "name": "gun" }, { "level": 1, "name": "rifle" } ],
+    "items": {
+      "both": {
+        "items": [
+          "army_top",
+          "knit_scarf",
+          "socks",
+          "boots_steel",
+          "pants_cargo",
+          "jacket_flannel",
+          "hat_hunting",
+          "wristwatch",
+          "back_holster"
+        ],
+        "entries": [
+          { "group": "charged_smart_phone" },
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "zbroyar_z15", "ammo-item": "223", "charges": 30, "contents-item": [ "shoulder_strap" ] },
+		  { "item": "stanag30", "ammo-item": "223", "charges": 30 },
+          { "item": "sheath", "contents-item": "knife_hunting" }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boxer_shorts" ]
+    },
+    "missions": [ "MISSION_HUNTER" ]
   }
 ]

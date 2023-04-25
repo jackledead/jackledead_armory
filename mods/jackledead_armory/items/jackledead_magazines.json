@@ -74,5 +74,15 @@
     "price_postapoc": 250,
     "ammo_type": [ "145x114" ],
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "145x114": 5 } } ]
+  },
+  {
+    "id": "fort14_mag",
+    "copy-from": "m1911mag",
+    "type": "MAGAZINE",
+    "name": { "str": "Fort-14TP 14-round magazine" },
+    "description": "A standard 14-round steel box magazine for the Fort-14TP pistol.",
+    "ammo_type": [ "9x18" ],
+    "price": 2000,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "9x18": 14 } } ]
   }
 ]

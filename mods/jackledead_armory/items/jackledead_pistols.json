@@ -24,5 +24,31 @@
     "weapon_category": [ "AUTOMATIC_PISTOLS" ],
     "pocket_data": [ { "magazine_well": "150 ml", "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "fort221_mag" ] } ],
 	"melee_damage": { "bash": 7 }
+  },
+  {
+    "id": "fort_14",
+    "copy-from": "pistol_base",
+    "looks_like": "m1911",
+    "type": "GUN",
+    "name": { "str": "Fort-14TP pistol" },
+    "description": "A reliable and combat-ready 9x18mm pistol produced in Ukraine. The Fort-14TP is set to be adopted by all branches of Ukrainian Armed Forces",
+    "weight": "920 g",
+    "volume": "430 ml",
+    "longest_side": "160 mm",
+    "price": 45000,
+    "price_postapoc": 2600,
+    "to_hit": -1,
+    "material": [ "steel", "plastic" ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": [ "9x18" ],
+    "ranged_damage": { "damage_type": "bullet", "amount": -1 },
+    "dispersion": 400,
+    "durability": 6,
+    "min_cycle_recoil": 400,
+    "flags": [ "ALLOWS_BODY_BLOCK" ],
+    "weapon_category": [ "AUTOMATIC_PISTOLS" ],
+    "pocket_data": [ { "magazine_well": "150 ml", "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "fort14_mag" ] } ],
+	"melee_damage": { "bash": 9 }
   }
 ]

@@ -103,7 +103,8 @@
     "//": "Less common rifle ammo including that only used by police/paramilitary forces.",
     "subtype": "collection",
     "entries": [
-      { "item": "762R_tracer", "prob": 2 }
+      { "item": "762R_tracer", "prob": 2 },
+	  { "item": "145x114mm", "prob": 1 }
     ]
   },
   {
@@ -112,7 +113,9 @@
     "//": "Military specification rifle ammo found at military sites.",
     "subtype": "distribution",
     "entries": [
-      { "item": "762R_tracer", "prob": 5 }
+      { "item": "762R_tracer", "prob": 5 },
+	  { "item": "145x114mm", "prob": 2 },
+	  { "item": "145X114_incendiary", "prob": 1 }
     ]
   },
   {

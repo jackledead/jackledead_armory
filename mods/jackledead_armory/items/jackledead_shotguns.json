@@ -1,0 +1,36 @@
+[
+  {
+    "id": "tos_84",
+    "copy-from": "saiga_12",
+    "looks_like": "saiga_12",
+    "type": "GUN",
+    "name": { "str": "Tos 84" },
+    "description": "The Tos 84 is a semi-automatic shotgun designed in the same style as the AK series of rifles and manufactured for the Ukrainian SWAT. It features a lightweight construction, making it easy to carry and maneuver in tight spaces. With a default folding stock, the Tos 84 is even more compact and can be stored and transported with ease. It feeds from detachable magazines, making reloading quick and efficient, with 10 and 30-round magazines available. The Tos 84 is a reliable and powerful weapon for close-quarters combat.",
+    "weight": "2950 g",
+    "volume": "3064 ml",
+    "longest_side": "1030 mm",
+    "price": 189000,
+    "price_postapoc": 4500,
+    "to_hit": -1,
+    "material": [ "steel", "plastic" ],
+    "dispersion": 395,
+    "durability": 7,
+    "min_cycle_recoil": 1250,
+    "barrel_volume": "81 ml",
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "sling", 1 ],
+      [ "stock mount", 1 ],
+      [ "mechanism", 4 ],
+      [ "barrel", 1 ],
+      [ "brass catcher", 1 ],
+      [ "grip mount", 1 ],
+      [ "rail mount", 1 ],
+      [ "sights mount", 1 ],
+      [ "underbarrel mount", 1 ]
+    ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "saiga10mag", "saiga30mag" ] } ],
+    "built_in_mods": [ "high_end_folding_stock" ],
+    "melee_damage": { "bash": 12 }
+  }
+]
