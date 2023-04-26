@@ -22,10 +22,14 @@ Gepard M3: The Gepard is a Ukrainian-made anti-materiel rifle that is designed t
 
 UKM: The UKM is a Ukrainian-made heavy machine gun that has been widely used by the Ukrainian Armed Forces and other military units in Ukraine. It is known for its reliability and versatility.
 
+Fort 14TP pistol: 14 round 9x18mm usually loaded with fmjs. Set to be the new pistol of the UAF.
+
 ### Fictional:
 VP Scout: The VP Scout is a compact and lightweight rifle designed for reconnaissance and stealth missions. It features a bullpup configuration and a folding stock, allowing for easy storage and transportation. The gun is chambered in the powerful 7.62x54r cartridge, making it effective at long ranges while still remaining compact.
 
 Tos 30 SMG: A lightweight Eastern European submachine gun intended for internal security and police units, chambered in 9x18mm Makarov.
+
+Tos 84 semi-automatic shotgun: Akin to a saiga. Used by close quarters swat. 
 
 ### Existing:
 Made makarovs, mosins, ak74 more common.
@@ -37,6 +41,14 @@ Black Sea Mafia Boss: Start with AK74, Fort 221, cigarettes, lighter, cell phone
 Black Sea Swat: Start with Tos 30 and Fort 221.
 
 Black Sea Police Sniper: Start with a scoped VP Scout and a Fort 221
+
+Black Sea CQC Specialist Swat: Start with Tos 84 shotgun and Fort 14 pistol.
+
+Ukrainian Rifle Hunter: Start with Zbroyar Z-15 semi auto stanag-accepting rifle. 1+1 mags.
+
+Ukrainian Park Ranger: Start with Zbroyar Z-15 and Fort-221 pistol. Extra ammo. Heavy loudout like base game. Pickup truck.
+
+Ukrainian Police Officer: Start with Fort-221 pistol and mags.
 
 ## Suggested Tileset
 #### ASCII/RETRODAYS: Simple means more imagination to fill your mind.
