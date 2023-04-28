@@ -125,7 +125,8 @@
         { "item": "762_54R", "prob": 20, "charges": [ 1, 30 ] },
         { "item": "545", "prob": 20, "charges": [ 1, 30 ] },
         { "item": "762_m43", "prob": 25, "charges": [ 1, 30 ] },
-        { "item": "9x18mm", "prob": 40, "charges": [ 1, 40 ] }
+        { "item": "9x18mm", "prob": 40, "charges": [ 1, 40 ] },
+		{ "item": "9x18mmfmj", "prob": 45, "charges": [ 1, 40 ] }
       ]
     }
   }
