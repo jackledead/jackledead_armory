@@ -1,5 +1,5 @@
 # jackledead_armory
-CDDA mod to add Ukrainian firearms and some of my own design. Also adds some proffesions to make the weapons more accessible. Aimed to be used alongside my upcoming apocalypse mod. 
+CDDA mod to add Ukrainian firearms and some of my own design. Also adds some proffesions to make the weapons more accessible. 
 
 ## How to install:
 1. Click the green button in the top and download as a zip
@@ -20,14 +20,14 @@ Zbroyar Z-15: The Zbroyar Z-15 is a precision rifle that is made in Ukraine. It 
 
 Gepard M3: The Gepard is a Ukrainian-made anti-materiel rifle that is designed to penetrate armor at long ranges. It is a powerful and accurate firearm that is used by Ukrainian military units.
 
-UKM: The UKM is a Ukrainian-made heavy machine gun that has been widely used by the Ukrainian Armed Forces and other military units in Ukraine. It is known for its reliability and versatility.
+UKM 2000: The UKM is a Ukrainian-made heavy machine gun that has been widely used by the Ukrainian Armed Forces and other military units in Ukraine. It is known for its reliability and versatility.
 
 Fort 14TP pistol: 14 round 9x18mm usually loaded with fmjs. Set to be the new pistol of the UAF.
 
 ### Fictional:
-VP Scout: The VP Scout is a compact and lightweight rifle designed for reconnaissance and stealth missions. It features a bullpup configuration and a folding stock, allowing for easy storage and transportation. The gun is chambered in the powerful 7.62x54r cartridge, making it effective at long ranges while still remaining compact.
+VP Scout rifle: The VP Scout is a compact and lightweight rifle designed for reconnaissance and stealth missions. It features a bullpup configuration and a folding stock, allowing for easy storage and transportation. The gun is chambered in the powerful 7.62x54r cartridge, making it effective at long ranges while still remaining compact.
 
-Tos 30 SMG: A lightweight Eastern European submachine gun intended for internal security and police units, chambered in 9x18mm Makarov.
+Tos 30 submachine gun: A lightweight Eastern European submachine gun intended for internal security and police units, chambered in 9x18mm Makarov.
 
 Tos 84 semi-automatic shotgun: Akin to a saiga. Used by close quarters swat. 
 
@@ -38,9 +38,9 @@ Made makarovs, mosins, ak74 more common.
 
 Black Sea Mafia Boss: Start with AK74, Fort 221, cigarettes, lighter, cell phone, blazer, dress shirt, pants. I'm sure he's a nice guy. A little OP, statted at 8 points but really meant to be used for roleplay and fun.
 
-Black Sea Swat: Start with Tos 30 and Fort 221.
+Black Sea Swat Officer: Start with Tos 30 and Fort 221.
 
-Black Sea Police Sniper: Start with a scoped VP Scout and a Fort 221
+Black Sea Police Recon-Rifleman: Start with a scoped VP Scout and a Fort 221
 
 Black Sea CQC Specialist Swat: Start with Tos 84 shotgun and Fort 14 pistol.
 
@@ -50,13 +50,23 @@ Ukrainian Park Ranger: Start with Zbroyar Z-15 and Fort-221 pistol. Extra ammo. 
 
 Ukrainian Police Officer: Start with Fort-221 pistol and mags.
 
+Ukrainian Rifleman: Armed with Vepr rifle and Fort 14 pistol.
+
+Ukrainian Automatic Rifleman: Armed with UKM 2000 machinegun and Fort 14 pistol.
+
+Ukrainian Special Forces Rifleman: Armed with suppressed sighted Tavor x95 rifle and Fort 14 pistol.
+
+Ukrainian Anti-Material Sniper: Armed with Gepard M3 .50 cal sniper and fort 14 pistol.
+
+Ukrainian Special Anti-Material Sniper: Armed with the massive Snipex Alligator chambered in 14.5x114mm, and the Forst 14 pistol.
+
 ## Suggested Tileset
 #### ASCII/RETRODAYS: Simple means more imagination to fill your mind.
 #### UNDEAD PEOPLE TILESET: [github.com/Theawesomeboophis/UndeadPeopleTileset](https://github.com/Theawesomeboophis/UndeadPeopleTileset) Looks great with the guns from jackledead armory, is very visible and fun. Great mods compatibility.
 #### Ultica: Realistic.
 
 ## Suggested Mods for use with this mod
-#### [Jackledead Infected Github](https://github.com/jackledead/jackledead_infected) for that fast running infected zombie  apocalypse feel.
+#### [Jackledead Infected Mod Github](https://github.com/jackledead/jackledead_infected) for that fast running infected zombie  apocalypse feel.
 
 ## Additional Mods you may be interested in
 #### My repo of the exclusions mods anthology by Kenan [CDDA-CBN-Jackledead-NoMods-Collection](https://github.com/jackledead/CDDA-CBN-Jackledead-NoMods-Collection)

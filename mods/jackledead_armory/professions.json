@@ -1,5 +1,32 @@
 [
   {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "army_mags_tos30",
+    "entries": [
+      { "item": "tos_30_mag", "ammo-item": "9x18mmfmj", "charges": 30 },
+      { "item": "tos_30_mag", "ammo-item": "9x18mmfmj", "charges": 30 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "army_mags_vepr",
+    "entries": [
+      { "item": "akmag30", "ammo-item": "762_m43", "charges": 30 },
+      { "item": "akmag30", "ammo-item": "762_m43", "charges": 30 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "army_mags_fort14",
+    "entries": [
+      { "item": "fort14_mag", "ammo-item": "9x18mmfmj", "charges": 14 },
+      { "item": "fort14_mag", "ammo-item": "9x18mmfmj", "charges": 14 }
+    ]
+  },
+  {
     "type": "profession",
     "id": "black_sea_mafia_boss",
     "name": "Black Sea Mafia Boss",
@@ -232,7 +259,8 @@
           { "item": "sm_extinguisher", "charges": 10 },
           { "item": "trailmap" },
           { "item": "sheriffshirt", "variant": "sheriff" },
-          { "item": "zbroyar_z15", "ammo-item": "223", "charges": 30, "contents-item": [ "shoulder_strap" ] }
+          { "item": "zbroyar_z15", "ammo-item": "223", "charges": 30, "contents-item": [ "shoulder_strap" ] },
+		  { "item": "stanag30", "ammo-item": "223", "charges": 30 }
         ]
       },
       "male": [ "boxer_shorts" ],
@@ -296,5 +324,326 @@
       "female": [ "sports_bra", "boxer_shorts" ]
     },
     "missions": [ "MISSION_HUNTER" ]
+  },
+  {
+    "type": "profession",
+    "id": "black_sea_specops",
+    "name": "Black Sea Special Operator",
+    "description": "Armed with suppressed Tos 30 submachine gun and Fort 14TP pistol. You were the best of the best, the military's finest.  That's why you're still alive, even after all your comrades fell to the undead.  As far as you can tell, military command abandoned you in this hellhole when you missed the emergency evac.",
+    "points": 8,
+    "proficiencies": [ "prof_gunsmithing_basic", "prof_traps", "prof_disarming", "prof_spotting" ],
+    "skills": [
+      { "level": 6, "name": "gun" },
+      { "level": 6, "name": "smg" },
+      { "level": 6, "name": "rifle" },
+      { "level": 4, "name": "cutting" },
+      { "level": 4, "name": "melee" },
+      { "level": 3, "name": "dodge" },
+      { "level": 3, "name": "traps" },
+      { "level": 3, "name": "firstaid" },
+      { "level": 3, "name": "swimming" },
+      { "level": 4, "name": "survival" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "wetsuit",
+          "pants_army",
+          "wetsuit_hood",
+          "tac_helmet",
+          "wetsuit_gloves",
+          "gloves_tactical",
+          "socks",
+          "boots_combat",
+          "dive_bag",
+          "diving_watch",
+		  "chestrig"
+        ],
+        "entries": [
+          { "group": "charged_two_way_radio" },
+          { "item": "water_clean", "container-item": "canteen" },
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "glasses_bal", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "knife_combat", "container-item": "sheath" },
+		  { "item": "fort14_mag", "ammo-item": "9x18mmfmj", "charges": 14, "count": 2 },
+          { "item": "fort_14", "ammo-item": "9x18mmfmj", "charges": 14, "container-item": "holster" },
+          {
+            "item": "tos_30",
+            "ammo-item": "9x18mmfmj",
+            "charges": 30,
+            "contents-item": [ "shoulder_strap", "suppressor", "holo_sight" ]
+          },
+		  { "item": "tos_30_mag", "ammo-item": "9x18mmfmj", "charges": 30, "count": 2 }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boxer_shorts" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "ukrainian_rifleman",
+    "name": "Ukrainian Rifleman",
+    "description": "Armed with Vepr assault rifle and Fort 14TP pistol. When you were young, you dreamed of being a soldier.  War is hell and hell is war, but you never thought it would be this bad.",
+    "points": 6,
+    "proficiencies": [ "prof_gunsmithing_basic", "prof_spotting" ],
+    "skills": [
+      { "level": 3, "name": "gun" },
+      { "level": 3, "name": "rifle" },
+      { "level": 2, "name": "melee" },
+      { "level": 2, "name": "stabbing" },
+      { "level": 2, "name": "dodge" },
+      { "level": 2, "name": "survival" },
+      { "level": 2, "name": "firstaid" },
+      { "level": 2, "name": "swimming" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "pants_army",
+          "undershirt",
+          "combat_shirt",
+          "helmet_army",
+          "mask_ski",
+          "gloves_liner",
+          "gloves_tactical",
+          "socks",
+          "boots_combat",
+          "wristwatch",
+          "molle_pack"
+        ],
+        "entries": [
+          { "group": "charged_two_way_radio" },
+          { "group": "us_ballistic_vest_pristine" },
+          { "item": "water_clean", "container-item": "canteen" },
+          { "item": "legpouch_large", "contents-group": "army_mags_vepr" },
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "knife_combat", "container-item": "sheath" },
+		  { "item": "fort14_mag", "ammo-item": "9x18mmfmj", "charges": 14 },
+          { "item": "fort_14", "ammo-item": "9x18mmfmj", "charges": 14, "container-item": "holster" },
+          {
+            "item": "vepr",
+            "ammo-item": "762_m43",
+            "charges": 30,
+            "contents-item": [ "shoulder_strap", "holo_sight" ]
+          }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boxer_shorts" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "ukrainian_mil_auto_rifleman",
+    "name": "Ukrainian Automatic Rifleman",
+    "description": "Armed with UKM 2000 machine gun and Fort 14TP pistol. You were trusted with a big-ass, belt-fed machine gun and plenty of ammo to lay down suppressing fire for your team.  Now that it's going to be much harder to resupply, you should probably be more selective with the ol' spray-and-pray.",
+    "points": 5,
+    "proficiencies": [ "prof_gunsmithing_basic" ],
+    "skills": [
+      { "level": 2, "name": "gun" },
+      { "level": 1, "name": "rifle" },
+      { "level": 2, "name": "melee" },
+      { "level": 1, "name": "stabbing" },
+      { "level": 1, "name": "dodge" },
+      { "level": 1, "name": "firstaid" },
+      { "level": 1, "name": "survival" },
+      { "level": 1, "name": "swimming" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "pants_army",
+          "undershirt",
+          "combat_shirt",
+          "helmet_army",
+          "mask_ski",
+          "gloves_liner",
+          "gloves_tactical",
+          "socks",
+          "boots_combat",
+          "wristwatch",
+          "molle_pack"
+        ],
+        "entries": [
+          { "group": "charged_two_way_radio" },
+          { "group": "us_ballistic_vest_pristine" },
+          { "item": "water_clean", "container-item": "canteen" },
+          {
+            "item": "ukm_2000",
+            "ammo-item": "762_54R",
+            "charges": 200,
+            "contents-item": [ "shoulder_strap", "holo_sight", "bipod" ]
+          },
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "knife_combat", "container-item": "sheath" },
+          { "item": "fort14_mag", "ammo-item": "9x18mmfmj", "charges": 14 },
+          { "item": "fort_14", "ammo-item": "9x18mmfmj", "charges": 14, "container-item": "holster" }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boxer_shorts" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "ukrainian_special_rifleman",
+    "name": "Ukrainian Special Forces Rifleman",
+    "description": "Armed with Tavor x95 rifle w/ ACOG scope and suppressor, and Fort 14TP pistol. When you were young, you dreamed of being a soldier.  War is hell and hell is war, but you never thought it would be this bad.",
+    "points": 8,
+    "proficiencies": [ "prof_gunsmithing_basic", "prof_spotting" ],
+    "skills": [
+      { "level": 4, "name": "gun" },
+      { "level": 5, "name": "rifle" },
+      { "level": 4, "name": "melee" },
+      { "level": 3, "name": "stabbing" },
+      { "level": 3, "name": "dodge" },
+      { "level": 2, "name": "survival" },
+      { "level": 2, "name": "firstaid" },
+      { "level": 2, "name": "swimming" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "pants_army",
+          "undershirt",
+          "combat_shirt",
+          "helmet_army",
+          "mask_ski",
+          "gloves_liner",
+          "gloves_tactical",
+          "socks",
+          "boots_combat",
+          "wristwatch",
+          "molle_pack"
+        ],
+        "entries": [
+          { "group": "charged_two_way_radio" },
+          { "group": "us_ballistic_vest_pristine" },
+          { "item": "water_clean", "container-item": "canteen" },
+          { "item": "legpouch_large", "contents-group": "army_mags_m4" },
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "knife_combat", "container-item": "sheath" },
+		  { "item": "fort14_mag", "ammo-item": "9x18mmfmj", "charges": 14 },
+          { "item": "fort_14", "ammo-item": "9x18mmfmj", "charges": 14, "container-item": "holster" },
+          {
+            "item": "tavor_x95",
+            "ammo-item": "556",
+            "charges": 30,
+            "contents-item": [ "shoulder_strap", "suppressor", "acog_scope" ]
+          }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boxer_shorts" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "ukrainian_mil_sniper",
+    "name": "Ukrainian Anti-Material Sniper",
+    "description": "Armed with Gepard m3 .50 caliber anti-material rifle and Fort 14TP pistol. You're a crack shot with a rifle, and the farther you can stay away from zombies, the better.  The only thing stopping you is limited ammo, so you should try to find a place to restock sooner or later.",
+    "points": 7,
+    "proficiencies": [ "prof_gunsmithing_basic" ],
+    "skills": [
+      { "level": 5, "name": "gun" },
+      { "level": 4, "name": "rifle" },
+      { "level": 2, "name": "melee" },
+      { "level": 1, "name": "stabbing" },
+      { "level": 1, "name": "dodge" },
+      { "level": 1, "name": "firstaid" },
+      { "level": 2, "name": "survival" },
+      { "level": 1, "name": "swimming" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "pants_army",
+          "undershirt",
+          "combat_shirt",
+          "helmet_army",
+          "mask_ski",
+          "gloves_liner",
+          "gloves_tactical",
+          "socks",
+          "boots_combat",
+          "wristwatch",
+          "molle_pack",
+          "cloak"
+        ],
+        "entries": [
+          { "group": "charged_two_way_radio" },
+          { "group": "us_ballistic_vest_pristine" },
+          { "item": "water_clean", "container-item": "canteen" },
+          {
+            "item": "m3_gepard",
+            "ammo-item": "50bmg",
+            "charges": 5,
+            "contents-item": [ "shoulder_strap" ]
+          },
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "knife_combat", "container-item": "sheath" },
+          { "item": "fort_14", "ammo-item": "9x18mmfmj", "container-item": "holster", "charges": 14 },
+          { "item": "legpouch_large", "contents-group": "army_mags_fort14" },
+		  { "item": "m3gepardmag", "ammo-item": "50bmg", "charges": 5 }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boxer_shorts" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "ukrainian_special_mil_sniper",
+    "name": "Ukrainian Special Anti-Material Sniper",
+    "description": "Armed with the giant Snipex Alligator and Fort 14TP pistol. You're a crack shot with a rifle, and the farther you can stay away from zombies, the better.  The only thing stopping you is limited ammo, so you should try to find a place to restock sooner or later.",
+    "points": 9,
+    "proficiencies": [ "prof_gunsmithing_basic" ],
+    "skills": [
+      { "level": 5, "name": "gun" },
+      { "level": 5, "name": "rifle" },
+      { "level": 3, "name": "melee" },
+      { "level": 1, "name": "stabbing" },
+      { "level": 1, "name": "dodge" },
+      { "level": 1, "name": "firstaid" },
+      { "level": 2, "name": "survival" },
+      { "level": 2, "name": "swimming" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "pants_army",
+          "undershirt",
+          "combat_shirt",
+          "helmet_army",
+          "mask_ski",
+          "gloves_liner",
+          "gloves_tactical",
+          "socks",
+          "boots_combat",
+          "wristwatch",
+          "molle_pack",
+          "cloak"
+        ],
+        "entries": [
+          { "group": "charged_two_way_radio" },
+          { "group": "us_ballistic_vest_pristine" },
+          { "item": "water_clean", "container-item": "canteen" },
+          {
+            "item": "snipex_alligator",
+            "ammo-item": "145x114mm",
+            "charges": 5,
+            "contents-item": [ "shoulder_strap" ]
+          },
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "knife_combat", "container-item": "sheath" },
+          { "item": "fort_14", "ammo-item": "9x18mmfmj", "container-item": "holster", "charges": 14 },
+          { "item": "legpouch_large", "contents-group": "army_mags_fort14" },
+		  { "item": "alligator_mag", "ammo-item": "145x114mm", "charges": 5 }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boxer_shorts" ]
+    }
   }
 ]

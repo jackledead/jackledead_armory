@@ -1,5 +1,10 @@
 TODO:
+Make sure gepard anti material profession starts with gun mods
+test new professions
+
 
 profession for each gun
+
+Done:
 new pistol new shotgun
 
