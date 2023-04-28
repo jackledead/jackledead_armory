@@ -115,5 +115,31 @@
       { "item": "m3gepardmag", "prob": 40 },
       { "group": "on_hand_50" }
     ]
+  },
+  {
+    "id": "nested_fort_14",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "fort_14" },
+      { "item": "fort14_mag" },
+      { "item": "fort14_mag", "prob": 50 },
+      { "group": "on_hand_9x18" }
+    ]
+  },
+  {
+    "id": "nested_tos_84",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "tos_84" },
+      { "item": "saiga10mag" },
+      { "item": "saiga30mag", "prob": 50 },
+      { "group": "on_hand_shot" }
+    ]
   }
 ]

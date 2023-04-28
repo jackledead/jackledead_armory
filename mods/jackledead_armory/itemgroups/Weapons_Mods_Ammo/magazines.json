@@ -2,57 +2,73 @@
   {
     "type": "item_group",
     "id": "mags_milspec",
+    "copy-from": "mags_milspec",
     "//": "Current military specification magazines.",
-    "items": [
-      [ "akmag30", 15 ],
-      [ "ak74mag", 5 ],
-	  [ "pslmag5", 5 ],
-      [ "pslmag10", 6 ],
-      [ "fort221_mag", 10 ],
-      [ "drum762r", 4 ],
-      [ "belt762r", 2 ]
-    ]
+    "extend": {
+      "items": [
+        [ "akmag30", 15 ],
+        [ "ak74mag", 5 ],
+        [ "pslmag5", 5 ],
+        [ "pslmag10", 6 ],
+        [ "fort221_mag", 10 ],
+        [ "drum762r", 4 ],
+        [ "belt762r", 2 ],
+        [ "fort14_mag", 10 ],
+        [ "saiga30mag", 5 ],
+        [ "saiga10mag", 8 ]
+      ]
+    }
   },
   {
     "type": "item_group",
     "id": "mags_cop",
+    "copy-from": "mags_cop",
     "//": "Standard issue police magazines.",
-    "items": [
-      { "item": "fort221_mag", "prob": 40, "charges": [ 0, 8 ] },
-      { "item": "ak74mag", "prob": 15, "charges": [ 0, 30 ] },
-      { "item": "akmag30", "prob": 10, "charges": [ 0, 30 ] }
-    ]
+    "extend": {
+      "items": [
+        { "item": "fort221_mag", "prob": 40, "charges": [ 0, 8 ] },
+        { "item": "ak74mag", "prob": 15, "charges": [ 0, 30 ] },
+        { "item": "akmag30", "prob": 10, "charges": [ 0, 30 ] },
+        { "item": "fort14_mag", "prob": 30, "charges": [ 0, 14 ] }
+      ]
+    }
   },
   {
     "type": "item_group",
     "id": "mags_swat",
+    "copy-from": "mags_swat",
     "//": "Magazines issued to paramilitary forces in addition to standard police issue.",
-    "items": [
-      { "group": "mags_cop", "prob": 60 },
-      { "item": "pslmag5", "prob": 15, "charges": [ 0, 5 ] },
-      { "item": "pslmag10", "prob": 10, "charges": [ 0, 10 ] },
-      { "item": "akmag40", "prob": 5, "charges": [ 0, 40 ] }
-    ]
+    "extend": {
+      "items": [
+        { "group": "mags_cop", "prob": 60 },
+        { "item": "pslmag5", "prob": 15, "charges": [ 0, 5 ] },
+        { "item": "pslmag10", "prob": 10, "charges": [ 0, 10 ] },
+        { "item": "akmag40", "prob": 5, "charges": [ 0, 40 ] },
+        { "item": "saiga30mag", "prob": 10, "charges": [ 0, 30 ] },
+        { "item": "saiga10mag", "prob": 15, "charges": [ 0, 10 ] }
+      ]
+    }
   },
   {
     "type": "item_group",
     "id": "mags_pistol_common",
+    "copy-from": "mags_pistol_common",
     "//": "Factory specification pistol magazines commonly owned by citizens.",
-    "items": [
-      [ "fort221_mag", 25 ]
-    ]
+    "extend": { "items": [ [ "fort221_mag", 25 ], [ "fort14_mag", 25 ] ] }
   },
   {
     "type": "item_group",
     "id": "mags_rifle_rare",
+    "copy-from": "mags_rifle_rare",
     "//": "Aftermarket or otherwise uncommon rifle magazines excluding milspec.",
-    "items": [
-      [ "ak74mag", 10 ],
-	  [ "pslmag5", 10 ],
-      [ "pslmag10", 10 ],
-      [ "fort221_mag", 15 ],
-      [ "drum762r", 8 ],
-      [ "belt762r", 5 ]
-    ]
+    "extend": {
+      "items": [
+        [ "ak74mag", 10 ],
+        [ "pslmag5", 10 ],
+        [ "pslmag10", 10 ],
+        [ "fort221_mag", 15 ],
+        [ "drum762r", 8 ]
+      ]
+    }
   }
 ]

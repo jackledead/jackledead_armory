@@ -2,132 +2,131 @@
   {
     "type": "item_group",
     "id": "ammo_pistol_common",
-    "//": "Pistol ammo commonly owned by citizens and found in many locations.",
+    "copy-from": "ammo_pistol_common",
     "subtype": "distribution",
-    "entries": [
-	  { "item": "9x18mm", "prob": 75, "charges": [ 1, 50 ] },
-      { "item": "9x18mmfmj", "prob": 55, "charges": [ 1, 40 ] },
-      { "item": "9x18mmP2", "prob": 55, "charges": [ 1, 25 ] }
-    ]
+    "extend": {
+      "entries": [
+        { "item": "9x18mm", "prob": 75, "charges": [ 1, 50 ] },
+        { "item": "9x18mmfmj", "prob": 55, "charges": [ 1, 40 ] },
+        { "item": "9x18mmP2", "prob": 55, "charges": [ 1, 25 ] }
+      ]
+    }
   },
   {
     "type": "item_group",
     "id": "ammo_pistol_common_collection",
+    "copy-from": "ammo_pistol_common_collection",
     "//": "Pistol ammo commonly owned by citizens and found in many locations.",
     "subtype": "collection",
-    "entries": [
-      { "item": "9x18mm", "prob": 15 },
-      { "item": "9x18mmfmj", "prob": 10 },
-      { "item": "9x18mmP2", "prob": 5 }
-    ]
+    "extend": {
+      "entries": [ { "item": "9x18mm", "prob": 15 }, { "item": "9x18mmfmj", "prob": 10 }, { "item": "9x18mmP2", "prob": 5 } ]
+    }
   },
   {
     "type": "item_group",
     "id": "ammo_pistol_common_loose",
+    "copy-from": "ammo_pistol_common_loose",
     "//": "Loose pistol ammo commonly owned by citizens and found in many locations.",
     "subtype": "collection",
-    "entries": [
-      { "item": "9x18mm", "prob": 10 },
-      { "item": "9x18mmfmj", "prob": 5 },
-      { "item": "9x18mmP2", "prob": 5 }
-    ]
+    "extend": {
+      "entries": [ { "item": "9x18mm", "prob": 10 }, { "item": "9x18mmfmj", "prob": 5 }, { "item": "9x18mmP2", "prob": 5 } ]
+    }
   },
   {
     "type": "item_group",
     "id": "ammo_pistol_milspec",
+    "copy-from": "ammo_pistol_milspec",
     "//": "Military specification pistol ammo found at military sites.",
     "subtype": "distribution",
-    "entries": [ { "item": "9x18mmfmj", "prob": 30 } ]
+    "extend": { "entries": [ { "item": "9x18mmfmj", "prob": 30 } ] }
   },
   {
     "type": "item_group",
     "id": "ammo_pistol_obscure",
+    "copy-from": "ammo_pistol_obscure",
     "//": "Imported or otherwise very obscure pistol ammo.",
     "subtype": "distribution",
-    "entries": [
-      { "item": "9x18mm", "prob": 75 },
-      { "item": "9x18mmfmj", "prob": 55 },
-      { "item": "9x18mmP2", "prob": 55 }
-    ]
+    "extend": {
+      "entries": [ { "item": "9x18mm", "prob": 75 }, { "item": "9x18mmfmj", "prob": 55 }, { "item": "9x18mmP2", "prob": 55 } ]
+    }
   },
   {
     "type": "item_group",
     "id": "ammo_pistol_obscure_collection",
+    "copy-from": "ammo_pistol_obscure_collection",
     "//": "Imported or otherwise very obscure pistol ammo.",
     "subtype": "collection",
-    "entries": [
-      { "item": "9x18mm", "prob": 75 },
-      { "item": "9x18mmfmj", "prob": 45 },
-      { "item": "9x18mmP2", "prob": 25 }
-    ]
+    "extend": {
+      "entries": [ { "item": "9x18mm", "prob": 75 }, { "item": "9x18mmfmj", "prob": 45 }, { "item": "9x18mmP2", "prob": 25 } ]
+    }
   },
   {
     "type": "item_group",
     "id": "ammo_rifle_common",
+    "copy-from": "ammo_rifle_common",
     "//": "Rifle ammo commonly owned by citizens and found in many locations.",
     "subtype": "distribution",
-    "entries": [
-      { "item": "762_54R", "prob": 25, "charges": [ 1, 20 ] }
-    ]
+    "extend": { "entries": [ { "item": "762_54R", "prob": 25, "charges": [ 1, 20 ] } ] }
   },
   {
     "type": "item_group",
     "id": "ammo_rifle_common_collection",
+    "copy-from": "ammo_rifle_common_collection",
     "//": "Rifle ammo commonly owned by citizens and found in many locations.",
     "subtype": "collection",
-    "entries": [
-      { "item": "762_54R", "prob": 35 }
-    ]
+    "extend": { "entries": [ { "item": "762_54R", "prob": 35 } ] }
   },
   {
     "type": "item_group",
     "id": "ammo_rifle_common_loose",
+    "copy-from": "ammo_rifle_common_loose",
     "//": "Loose rifle ammo commonly owned by citizens and found in many locations.",
     "subtype": "collection",
-    "entries": [
-      { "item": "762_54R", "prob": 20, "charges": [ 0, 5 ] }
-    ]
+    "extend": { "entries": [ { "item": "762_54R", "prob": 20, "charges": [ 0, 5 ] } ] }
   },
   {
     "type": "item_group",
     "id": "ammo_rifle_rare",
+    "copy-from": "ammo_rifle_rare",
     "//": "Less common rifle ammo including that only used by police/paramilitary forces.",
-    "subtype": "distribution",
-    "entries": [
-      { "item": "762R_tracer", "prob": 2 }
-    ]
+	"subtype": "distribution",
+	"extend": { "entries": [ { "item": "762R_tracer", "prob": 2 } ] }
   },
   {
     "type": "item_group",
     "id": "ammo_rifle_rare_collection",
+    "copy-from": "ammo_rifle_rare_collection",
     "//": "Less common rifle ammo including that only used by police/paramilitary forces.",
     "subtype": "collection",
-    "entries": [
-      { "item": "762R_tracer", "prob": 2 },
-	  { "item": "145x114mm", "prob": 1 }
-    ]
+    "extend": { "entries": [ { "item": "762R_tracer", "prob": 2 }, { "item": "145x114mm", "prob": 1 } ] }
   },
   {
     "type": "item_group",
     "id": "ammo_rifle_milspec",
+    "copy-from": "ammo_rifle_milspec",
     "//": "Military specification rifle ammo found at military sites.",
     "subtype": "distribution",
-    "entries": [
-      { "item": "762R_tracer", "prob": 5 },
-	  { "item": "145x114mm", "prob": 2 },
-	  { "item": "145X114_incendiary", "prob": 1 }
-    ]
+    "extend": {
+      "entries": [
+        { "item": "762R_tracer", "prob": 5 },
+        { "item": "145x114mm", "prob": 2 },
+        { "item": "145X114_incendiary", "prob": 1 }
+      ]
+    }
   },
   {
     "type": "item_group",
     "id": "ammo_cop",
+    "copy-from": "ammo_cop",
     "//": "Ammo for police issue firearms.",
     "subtype": "distribution",
-    "entries": [
-      { "item": "762_54R", "prob": 20, "charges": [ 1, 30 ] },
-	  { "item": "545", "prob": 20, "charges": [ 1, 30 ] },
-      { "item": "762_m43", "prob": 25, "charges": [ 1, 30 ] },
-      { "item": "9x18mm", "prob": 40, "charges": [ 1, 40 ] }
-    ]
+    "extend": {
+      "entries": [
+        { "item": "762_54R", "prob": 20, "charges": [ 1, 30 ] },
+        { "item": "545", "prob": 20, "charges": [ 1, 30 ] },
+        { "item": "762_m43", "prob": 25, "charges": [ 1, 30 ] },
+        { "item": "9x18mm", "prob": 40, "charges": [ 1, 40 ] }
+      ]
+    }
   }
 ]

@@ -2,302 +2,363 @@
   {
     "type": "item_group",
     "id": "guns_pistol_common",
+    "copy-from": "guns_pistol_common",
     "//": "Pistols that are reasonably prolific amongst civilians, commonly owned and reliably obtainable by citizens and that are found in many locations.",
     "//2": "Making the assumption any loaded gun will have additional ammo and mags with it.",
-    "items": [
-      { "group": "nested_fort_221", "prob": 40 }
-    ]
+    "extend": { "items": [ { "group": "nested_fort_221", "prob": 40 } ] }
   },
   {
     "type": "item_group",
     "subtype": "distribution",
     "id": "guns_pistol_common_display",
+    "copy-from": "guns_pistol_common_display",
     "//": "Empty and reasonably common pistols found exclusively in gun stores.",
-    "items": [
-      { "item": "fort_221", "prob": 40, "charges-min": 0, "charges-max": 0 }
-    ]
+    "extend": {
+      "items": [
+        { "item": "fort_221", "prob": 40, "charges-min": 0, "charges-max": 0 },
+        { "item": "fort_14", "prob": 30, "charges-min": 0, "charges-max": 0 }
+      ]
+    }
   },
   {
     "type": "item_group",
     "id": "guns_pistol_rare",
+    "copy-from": "guns_pistol_rare",
     "//": "Less common or prolific pistols that are still normally acquirable by civilians or that may need an NFA permit, i.e. integrally supressed or stocked handguns. This includes those weapons used by police and paramilitary forces, and older handguns which are no longer in production but that are still reasonably common to find.",
     "//2": "Making the assumption any loaded gun will have additional ammo and mags with it.",
-    "items": [
-      { "group": "nested_makarov", "prob": 25 },
-      { "group": "nested_tokarev", "prob": 25 },
-      { "group": "nested_walther_ppk", "prob": 25 }
-    ]
+    "extend": {
+      "items": [
+        { "group": "nested_makarov", "prob": 25 },
+        { "group": "nested_tokarev", "prob": 25 },
+        { "group": "nested_walther_ppk", "prob": 25 },
+        { "group": "nested_fort_14", "prob": 30 }
+      ]
+    }
   },
   {
     "type": "item_group",
     "subtype": "distribution",
     "id": "guns_pistol_rare_display",
+    "copy-from": "guns_pistol_rare_display",
     "//": "Empty uncommon pistols found exclusively at gun stores.",
-    "items": [
-      { "item": "makarov", "prob": 15, "charges-min": 0, "charges-max": 0 },
-      { "item": "tokarev", "prob": 10, "charges-min": 0, "charges-max": 0 },
-      { "item": "walther_ppk", "prob": 10, "charges-min": 0, "charges-max": 0 }
-    ]
+    "extend": {
+      "items": [
+        { "item": "makarov", "prob": 15, "charges-min": 0, "charges-max": 0 },
+        { "item": "tokarev", "prob": 10, "charges-min": 0, "charges-max": 0 },
+        { "item": "walther_ppk", "prob": 10, "charges-min": 0, "charges-max": 0 }
+      ]
+    }
   },
   {
     "type": "item_group",
     "id": "guns_pistol_milspec",
+    "copy-from": "guns_pistol_milspec",
     "//": "US military specification pistols only ever found at military sites. These weapons must be pistols that are still in current inventory, and are still being issued in some capacity to American personnel.",
     "//2": "Making the assumption any loaded gun will have additional ammo and mags with it.",
-    "items": [
-      { "group": "nested_fort_221", "prob": 60 }
-    ]
+    "extend": { "items": [ { "group": "nested_fort_221", "prob": 50 }, { "group": "nested_fort_14", "prob": 60 } ] }
   },
   {
     "type": "item_group",
     "id": "guns_smg_rare",
+    "copy-from": "guns_smg_rare",
     "//": "Less common SMGs including those only used by police/paramilitary forces.",
     "//2": "Making the assumption any loaded gun will have additional ammo and mags with it.",
-    "items": [
-      { "group": "nested_tos_30", "prob": 50 }
-    ]
+    "extend": { "items": [ { "group": "nested_tos_30", "prob": 50 } ] }
   },
   {
     "type": "item_group",
     "id": "guns_smg_rare_display",
+    "copy-from": "guns_smg_rare_display",
     "subtype": "distribution",
     "//": "Less common full-auto SMGS which are illegal to sell.",
-    "items": [
-      { "item": "tos_30", "prob": 50, "charges-min": 0, "charges-max": 0 }
-    ]
+    "extend": { "items": [ { "item": "tos_30", "prob": 50, "charges-min": 0, "charges-max": 0 } ] }
   },
   {
     "type": "item_group",
     "id": "guns_smg_milspec",
+    "copy-from": "guns_smg_milspec",
     "//": "Military specification SMGs only ever found at military sites.",
-    "items": [
-      { "group": "nested_tos_30", "prob": 110 }
-    ]
-  },
-  {
-    "type": "item_group",
-    "id": "guns_smg_display",
-    "subtype": "distribution",
-    "//": "All variations of smgs weighted for rarity, for use in locked gun-safes",
-    "items": [
-      { "group": "guns_smg_obscure", "prob": 20 },
-      { "group": "guns_smg_rare_display", "prob": 40 },
-      { "group": "guns_smg_common_display", "prob": 50 }
-    ]
+    "extend": { "items": [ { "group": "nested_tos_30", "prob": 110 } ] }
   },
   {
     "type": "item_group",
     "id": "guns_rifle_common",
+    "copy-from": "guns_rifle_common",
     "//": "Rifles commonly owned by citizens and found in many locations.",
     "//2": "Making the assumption any loaded gun will have additional ammo and mags with it.",
-    "items": [
-      { "group": "nested_vp_scout", "prob": 2 },
-      { "group": "nested_vepr", "prob": 1 },
-      { "group": "nested_tavor_x95", "prob": 1 },
-      { "group": "nested_zbroyar_z15", "prob": 6 },
-      { "group": "nested_mosin44", "prob": 3 },
-      { "group": "nested_mosin91_30", "prob": 4 }
-    ]
+    "extend": {
+      "items": [
+        { "group": "nested_vp_scout", "prob": 2 },
+        { "group": "nested_vepr", "prob": 1 },
+        { "group": "nested_tavor_x95", "prob": 1 },
+        { "group": "nested_zbroyar_z15", "prob": 6 },
+        { "group": "nested_mosin44", "prob": 3 },
+        { "group": "nested_mosin91_30", "prob": 4 }
+      ]
+    }
   },
   {
     "type": "item_group",
     "id": "guns_rifle_common_worn",
+    "copy-from": "guns_rifle_common_worn",
     "//": "Rifles commonly owned by citizens and found in many locations.",
     "//2": "This is for worn items so ammo should be handled elsewhere so that mods can be added directly.",
-    "items": [
-      { "item": "vp_scout", "prob": 2, "charges-min": 0, "charges-max": 10 },
-      { "item": "vepr", "prob": 2, "charges-min": 0, "charges-max": 20 },
-      { "item": "tavor_x95", "prob": 1, "charges-min": 0, "charges-max": 30 },
-      { "item": "zbroyar_z15", "prob": 18, "charges-min": 0, "charges-max": 20 }
-    ]
+    "extend": {
+      "items": [
+        { "item": "vp_scout", "prob": 2, "charges-min": 0, "charges-max": 10 },
+        { "item": "vepr", "prob": 2, "charges-min": 0, "charges-max": 20 },
+        { "item": "tavor_x95", "prob": 1, "charges-min": 0, "charges-max": 30 },
+        { "item": "zbroyar_z15", "prob": 18, "charges-min": 0, "charges-max": 20 }
+      ]
+    }
   },
   {
     "type": "item_group",
     "subtype": "distribution",
     "id": "guns_rifle_common_display",
+    "copy-from": "guns_rifle_common_display",
     "//": "Empty rifles commonly found in gun stores.",
-    "items": [
-      { "item": "vp_scout", "prob": 2, "charges-min": 0, "charges-max": 0 },
-      { "item": "vepr", "prob": 2, "charges-min": 0, "charges-max": 0 },
-      { "item": "tavor_x95", "prob": 1, "charges-min": 0, "charges-max": 0 },
-      { "item": "zbroyar_z15", "prob": 10, "charges-min": 0, "charges-max": 0 }
-    ]
+    "extend": {
+      "items": [
+        { "item": "vp_scout", "prob": 2, "charges-min": 0, "charges-max": 0 },
+        { "item": "vepr", "prob": 2, "charges-min": 0, "charges-max": 0 },
+        { "item": "tavor_x95", "prob": 1, "charges-min": 0, "charges-max": 0 },
+        { "item": "zbroyar_z15", "prob": 10, "charges-min": 0, "charges-max": 0 }
+      ]
+    }
   },
   {
     "type": "item_group",
     "id": "guns_rifle_rare",
+    "copy-from": "guns_rifle_rare",
     "//": "Less common rifles including those only used by police/paramilitary forces.",
     "//2": "Making the assumption any loaded gun will have additional ammo and mags with it.",
-    "items": [
-      { "group": "nested_vp_scout", "prob": 5 },
-      { "group": "nested_vepr", "prob": 2 },
-      { "group": "nested_tavor_x95", "prob": 2 },
-      { "group": "nested_zbroyar_z15", "prob": 4 }
-    ]
+    "extend": {
+      "items": [
+        { "group": "nested_vp_scout", "prob": 5 },
+        { "group": "nested_vepr", "prob": 2 },
+        { "group": "nested_tavor_x95", "prob": 2 },
+        { "group": "nested_zbroyar_z15", "prob": 4 }
+      ]
+    }
   },
   {
     "type": "item_group",
     "subtype": "distribution",
     "id": "guns_rifle_rare_display",
+    "copy-from": "guns_rifle_rare_display",
     "//": "Less common rifles found exclusively in gun stores.",
-    "items": [
-      { "item": "vp_scout", "prob": 2, "charges-min": 0, "charges-max": 0 },
-      { "item": "vepr", "prob": 2, "charges-min": 0, "charges-max": 0 },
-      { "item": "tavor_x95", "prob": 1, "charges-min": 0, "charges-max": 0 },
-      { "item": "zbroyar_z15", "prob": 3, "charges-min": 0, "charges-max": 0 }
-    ]
+    "extend": {
+      "items": [
+        { "item": "vp_scout", "prob": 2, "charges-min": 0, "charges-max": 0 },
+        { "item": "vepr", "prob": 2, "charges-min": 0, "charges-max": 0 },
+        { "item": "tavor_x95", "prob": 1, "charges-min": 0, "charges-max": 0 },
+        { "item": "zbroyar_z15", "prob": 3, "charges-min": 0, "charges-max": 0 }
+      ]
+    }
   },
   {
     "type": "item_group",
     "subtype": "distribution",
     "id": "guns_rifle_hunting_display",
+    "copy-from": "guns_rifle_hunting_display",
     "//": "Empty civilian hunting rifles found within hunting supply stores and other related locations.",
-    "items": [
-      { "item": "zbroyar_z15", "prob": 40, "charges-min": 0, "charges-max": 0 }
-    ]
+    "extend": { "items": [ { "item": "zbroyar_z15", "prob": 40, "charges-min": 0, "charges-max": 0 } ] }
   },
   {
     "type": "item_group",
     "id": "guns_rifle_milspec",
+    "copy-from": "guns_rifle_milspec",
     "//": "Military specification rifles only ever found at military sites.",
     "//2": "Making the assumption any loaded gun will have additional ammo and mags with it.",
-    "items": [
-      { "group": "nested_m3_gepard", "prob": 5 },
-      { "group": "nested_ukm_2000", "prob": 5 },
-      { "group": "nested_vp_scout", "prob": 5 },
-      { "group": "nested_vepr", "prob": 10 },
-      { "group": "nested_tavor_x95", "prob": 8 },
-	  { "group": "nested_ak47", "prob": 5 },
-      { "group": "nested_ak74", "prob": 5 },
-	  { "group": "nested_psl", "prob": 5 },
-	  { "group": "nested_snipex_alligator", "prob": 5 }
-    ]
+    "extend": {
+      "items": [
+        { "group": "nested_m3_gepard", "prob": 5 },
+        { "group": "nested_ukm_2000", "prob": 5 },
+        { "group": "nested_vp_scout", "prob": 5 },
+        { "group": "nested_vepr", "prob": 10 },
+        { "group": "nested_tavor_x95", "prob": 8 },
+        { "group": "nested_ak47", "prob": 5 },
+        { "group": "nested_ak74", "prob": 5 },
+        { "group": "nested_psl", "prob": 5 },
+        { "group": "nested_snipex_alligator", "prob": 5 }
+      ]
+    }
   },
   {
     "type": "item_group",
     "id": "guns_rifle_obscure",
+    "copy-from": "guns_rifle_obscure",
     "subtype": "distribution",
     "//": "Imported or otherwise very obscure rifles.",
     "//2": "Making the assumption any loaded gun will have additional ammo and mags with it.",
-    "items": [
-      { "group": "nested_ak47", "prob": 100 },
-      { "group": "nested_ak74", "prob": 60 },
-      { "group": "nested_vp_scout", "prob": 5 }
-    ]
+    "extend": {
+      "items": [
+        { "group": "nested_ak47", "prob": 100 },
+        { "group": "nested_ak74", "prob": 60 },
+        { "group": "nested_vp_scout", "prob": 5 }
+      ]
+    }
   },
   {
     "type": "item_group",
     "id": "guns_rifle_obscure_display",
+    "copy-from": "guns_rifle_obscure_display",
     "//": "Imported or otherwise very obscure rifles, unloaded for storage in gunstore and unavailable for sale",
     "subtype": "distribution",
-    "items": [
-      { "item": "vp_scout", "prob": 10, "charges-min": 0, "charges-max": 0 },
-      { "item": "vepr", "prob": 30, "charges-min": 0, "charges-max": 0 },
-      { "item": "tavor_x95", "prob": 15, "charges-min": 0, "charges-max": 0 }
-    ]
+	"extend": {
+      
+      "items": [
+        { "item": "vp_scout", "prob": 10, "charges-min": 0, "charges-max": 0 },
+        { "item": "vepr", "prob": 30, "charges-min": 0, "charges-max": 0 },
+        { "item": "tavor_x95", "prob": 15, "charges-min": 0, "charges-max": 0 }
+      ]
+    }
   },
   {
     "type": "item_group",
     "id": "longguns_cop",
-    "items": [
-      { "item": "vepr", "prob": 20, "charges": [ 0, 30 ], "contents-item": "shoulder_strap" },
-      { "item": "zbroyar_z15", "prob": 20, "charges": [ 0, 20 ], "contents-item": "shoulder_strap" },
-      { "item": "tavor_x95", "prob": 5, "charges": [ 0, 30 ], "contents-item": "shoulder_strap" }
-    ]
+    "copy-from": "longguns_cop",
+    "extend": {
+      "items": [
+        { "item": "vepr", "prob": 20, "charges": [ 0, 30 ], "contents-item": "shoulder_strap" },
+        { "item": "zbroyar_z15", "prob": 20, "charges": [ 0, 20 ], "contents-item": "shoulder_strap" },
+        { "item": "tavor_x95", "prob": 5, "charges": [ 0, 30 ], "contents-item": "shoulder_strap" }
+      ]
+    }
   },
   {
     "type": "item_group",
     "id": "longguns_cop_loaded",
+    "copy-from": "longguns_cop_loaded",
     "//": "loaded in the back of a trunk or something",
-    "items": [
-      { "group": "nested_vepr", "prob": 10 },
-      { "group": "nested_tavor_x95", "prob": 8 },
-	  { "group": "nested_ak74", "prob": 20 },
-	  { "group": "nested_tos_30", "prob": 20 }
-    ]
+    "extend": {
+      "items": [
+        { "group": "nested_vepr", "prob": 10 },
+        { "group": "nested_tavor_x95", "prob": 8 },
+        { "group": "nested_ak74", "prob": 20 },
+        { "group": "nested_tos_30", "prob": 20 }
+      ]
+    }
   },
   {
     "type": "item_group",
     "id": "longguns_cop_in_field",
+    "copy-from": "longguns_cop_in_field",
     "//": "gun plus potential expended magazines",
-    "items": [
-      {
-        "collection": [ { "item": "vepr", "prob": 100, "charges": [ 0, 30 ], "contents-item": "shoulder_strap" }, { "group": "field_vepr" } ],
-        "prob": 20
-      },
-	  {
-        "collection": [ { "item": "tavor_x95", "prob": 100, "charges": [ 0, 30 ], "contents-item": "shoulder_strap" }, { "group": "field_ar15" } ],
-        "prob": 10
-      },
-	  {
-        "collection": [ { "item": "zbroyar_z15", "prob": 100, "charges": [ 0, 30 ], "contents-item": "shoulder_strap" }, { "group": "field_ar15" } ],
-        "prob": 10
-      },
-      { "group": "nested_ak74", "prob": 15 },
-	  {
-        "collection": [ { "item": "tos_30", "prob": 100, "charges": [ 0, 30 ] } , { "group": "field_tos_30" } ],
-        "prob": 20
-      }
-    ]
+    "extend": {
+      "items": [
+        {
+          "collection": [ { "item": "vepr", "prob": 100, "charges": [ 0, 30 ], "contents-item": "shoulder_strap" }, { "group": "field_vepr" } ],
+          "prob": 20
+        },
+        {
+          "collection": [
+            { "item": "tavor_x95", "prob": 100, "charges": [ 0, 30 ], "contents-item": "shoulder_strap" },
+            { "group": "field_ar15" }
+          ],
+          "prob": 10
+        },
+        {
+          "collection": [
+            { "item": "zbroyar_z15", "prob": 100, "charges": [ 0, 30 ], "contents-item": "shoulder_strap" },
+            { "group": "field_ar15" }
+          ],
+          "prob": 10
+        },
+        { "group": "nested_ak74", "prob": 15 },
+        {
+          "collection": [ { "item": "tos_30", "prob": 100, "charges": [ 0, 30 ] }, { "group": "field_tos_30" } ],
+          "prob": 20
+        }
+      ]
+    }
   },
   {
     "type": "item_group",
     "id": "longguns_cop_in_field_no_gun",
+    "copy-from": "longguns_cop_in_field_no_gun",
     "//": "guns lost but still have mags",
-    "items": [
-      { "group": "field_vepr", "prob": 20 }
-    ]
+    "extend": { "items": [ { "group": "field_vepr", "prob": 20 } ] }
   },
   {
     "type": "item_group",
     "id": "sidearms_cop",
-    "items": [
-      { "item": "fort_221", "prob": 30, "charges": [ 0, 8 ] }
-    ]
+    "copy-from": "sidearms_cop",
+    "extend": {
+      "items": [ { "item": "fort_221", "prob": 30, "charges": [ 0, 8 ] }, { "item": "fort_14", "prob": 30, "charges": [ 0, 14 ] } ]
+    }
   },
   {
     "type": "item_group",
     "id": "sidearms_cop_in_field",
+    "copy-from": "sidearms_cop_in_field",
     "//": "gun plus potential expended magazines",
-    "items": [
-      { "collection": [ { "item": "fort_221", "prob": 100, "charges": [ 0, 8 ] }, { "group": "field_fort_221" } ], "prob": 40 }
-    ]
+    "extend": {
+      "items": [
+        {
+          "collection": [ { "item": "fort_221", "prob": 100, "charges": [ 0, 8 ] }, { "group": "field_fort_221" } ],
+          "prob": 40
+        },
+        {
+          "collection": [ { "item": "fort_14", "prob": 100, "charges": [ 0, 14 ] }, { "group": "field_fort_14" } ],
+          "prob": 40
+        }
+      ]
+    }
   },
   {
     "type": "item_group",
     "id": "sidearms_cop_in_field_no_gun",
+    "copy-from": "sidearms_cop_in_field_no_gun",
     "//": "guns lost but still have mags",
-    "items": [
-      { "group": "field_fort_221", "prob": 35 }
-    ]
-  },
-  {
-    "type": "item_group",
-    "id": "guns_cop",
-    "//": "Police issue weapons of all types",
-    "items": [ { "group": "longguns_cop", "prob": 20 }, { "group": "sidearms_cop", "prob": 80 } ]
+    "extend": { "items": [ { "group": "field_fort_221", "prob": 35 }, { "group": "field_fort_14", "prob": 35 } ] }
   },
   {
     "type": "item_group",
     "id": "guns_swat",
+    "copy-from": "guns_swat",
     "//": "Guns issued to paramilitary forces in addition to standard police issue.",
-    "items": [
-      { "item": "m3_gepard", "prob": 5, "charges-min": 0, "charges-max": 5 },
-      { "item": "ak74", "prob": 30, "charges-min": 0, "charges-max": 30 },
-	  { "item": "vp_scout", "prob": 15, "charges-min": 0, "charges-max": 10 },
-	  { "item": "tos_30", "prob": 30, "charges-min": 0, "charges-max": 30 }
-    ]
+    "extend": {
+      "items": [
+        { "item": "m3_gepard", "prob": 5, "charges-min": 0, "charges-max": 5 },
+        { "item": "ak74", "prob": 25, "charges-min": 0, "charges-max": 30 },
+        { "item": "vp_scout", "prob": 15, "charges-min": 0, "charges-max": 10 },
+        { "item": "tos_30", "prob": 30, "charges-min": 0, "charges-max": 30 },
+        { "item": "tos_84", "prob": 15, "charges-min": 0, "charges-max": 30 },
+        { "item": "fort_14", "prob": 15, "charges-min": 0, "charges-max": 14 }
+      ]
+    }
   },
   {
     "type": "item_group",
     "id": "guns_survival",
+    "copy-from": "guns_survival",
     "//": "Guns typically carried by survivors, either improvised or thematically appropriate.",
-    "items": [
-      { "item": "vepr", "prob": 13, "charges-min": 0, "charges-max": 30 },
-      { "item": "ak74", "prob": 2, "charges-min": 0, "charges-max": 30 },
-      { "item": "vp_scout", "prob": 5, "charges-min": 0, "charges-max": 10 },
-      { "item": "zbroyar_z15", "prob": 15, "charges-min": 0, "charges-max": 20 },
-      { "item": "mosin44", "variant": "mosin44", "prob": 8, "charges-min": 0, "charges-max": 5 }
-     ]
+    "extend": {
+      "items": [
+        { "item": "vepr", "prob": 13, "charges-min": 0, "charges-max": 30 },
+        { "item": "ak74", "prob": 2, "charges-min": 0, "charges-max": 30 },
+        { "item": "vp_scout", "prob": 5, "charges-min": 0, "charges-max": 10 },
+        { "item": "zbroyar_z15", "prob": 15, "charges-min": 0, "charges-max": 20 },
+        { "item": "mosin44", "variant": "mosin44", "prob": 8, "charges-min": 0, "charges-max": 5 }
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "guns_shotgun_milspec",
+    "copy-from": "guns_shotgun_milspec",
+    "//": "Military shotguns currently in service.",
+    "//2": "Making the assumption any loaded gun will have additional ammo and mags with it.",
+    "extend": { "items": [ { "group": "nested_tos_84", "prob": 40 } ] }
+  },
+  {
+    "type": "item_group",
+    "id": "guns_shotgun_obscure",
+    "copy-from": "guns_shotgun_obscure",
+    "//": "Imported or otherwise very obscure shotguns.",
+    "//2": "Making the assumption any loaded gun will have additional ammo and mags with it.",
+    "extend": { "items": [ { "group": "nested_tos_84", "prob": 40 } ] }
   }
 ]
