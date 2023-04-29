@@ -238,6 +238,7 @@
           "travelpack",
           "vest",
           "water_clean",
+		  "legpouch_large",
           "whistle_multitool"
         ],
         "entries": [
@@ -249,7 +250,6 @@
           { "item": "coat_rain", "custom-flags": [ "no_auto_equip" ] },
           { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
           { "item": "file" },
-          { "item": "legpouch_large", "contents-group": "ranger_mags" },
           { "item": "lighter", "charges": 100 },
           { "item": "fort_221", "ammo-item": "9x18mm", "charges": 8, "container-item": "holster" },
           { "item": "fort221_mag", "ammo-item": "9x18mm", "charges": 8, "count": 2 },
