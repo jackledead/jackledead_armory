@@ -645,5 +645,76 @@
       "male": [ "boxer_shorts" ],
       "female": [ "sports_bra", "boxer_shorts" ]
     }
+  },
+  {
+    "type": "profession",
+    "id": "jackledead_survivor_A",
+    "name": "Survivor (Kickass)",
+    "description": "Armed, padded, ready to fight to the last breath.",
+    "points": 11,
+    "skills": [
+      { "level": 4, "name": "gun" },
+      { "level": 2, "name": "pistol" },
+	  { "level": 2, "name": "rifle" },
+      { "level": 3, "name": "driving" },
+      { "level": 3, "name": "firstaid" },
+      { "level": 3, "name": "fabrication" },
+      { "level": 2, "name": "swimming" },
+      { "level": 2, "name": "survival" },
+	  { "level": 3, "name": "mechanics" },
+	  { "level": 2, "name": "cooking" },
+	  { "level": 2, "name": "tailor" }
+    ],
+    "vehicle": "car_hybrid_rack",
+    "items": {
+      "both": {
+        "items": [
+          "crowbar",
+		  "boots_hiking",
+          "balclava",
+          "diving_watch",
+          "multitool",
+          "pants_cargo",
+          "police_belt",
+          "socks",
+          "duffelbag",
+          "vest",
+		  "legpouch_large",
+		  "dress_shirt",
+		  "jacket_flannel",
+		  "cig",
+          "elbow_pads",
+		  "knee_pads",
+		  "weed",
+		  "rolling_paper",
+		  "hammer"
+        ],
+        "entries": [
+          { "group": "charged_smart_phone" },
+          { "group": "charged_flashlight" },
+		  { "group": "charged_mp3" },
+          { "group": "full_1st_aid" },
+		  { "item": "water_clean", "container-item": "canteen" },
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+		  { "item": "glasses_safety", "custom-flags": [ "no_auto_equip" ] },
+		  { "item": "sunglasses", "custom-flags": [ "no_auto_equip" ] },
+		  { "item": "mask_dust", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "lighter", "charges": 100 },
+          { "item": "fort_14", "ammo-item": "9x18mmfmj", "charges": 14, "container-item": "holster" },
+          { "item": "fort14_mag", "ammo-item": "9x18mmfmj", "charges": 14, "count": 2 },
+		  { "item": "9x18mmfmj" },
+          { "item": "paper", "charges": 20, "container-item": "leather_journal" },
+          { "item": "permanent_marker", "charges": 500 },
+          { "item": "survivormap" },
+		  { "item": "knife_combat", "container-item": "sheath" },
+          { "item": "ak74", "ammo-item": "545", "charges": 30, "contents-item": [ "shoulder_strap", "suppressor", "acog_scope" ] },
+		  { "item": "ak74mag", "ammo-item": "545", "charges": 30, "count": 2 },
+		  { "item": "545" },
+		  { "item": "wrench" }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "bra", "boy_shorts" ]
+    }
   }
 ]
