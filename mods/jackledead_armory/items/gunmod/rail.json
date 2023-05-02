@@ -1,0 +1,26 @@
+[
+  {
+    "id": "offset_rail_laser",
+    "type": "GUNMOD",
+    "name": { "str": "offset rail laser" },
+    "description": "A visible-light laser mounted on a 45° offset rail, allowing for quick target acquisition and improved accuracy.",
+    "weight": "120 g",
+    "volume": "250 ml",
+    "integral_volume": "0 ml",
+    "price": 8000,
+    "price_postapoc": 1500,
+    "install_time": "5 m",
+	"sight_dispersion": 5,
+    "field_of_view": 600,
+    "material": [ "steel", "plastic" ],
+    "symbol": ":",
+    "color": "light_green",
+    "location": "rail",
+    "mod_targets": [ "smg", "rifle", "shotgun" ],
+    "min_skills": [ [ "gun", 2 ] ],
+	"handling_modifier": 1,
+    "aim_speed_modifier": 14,
+    "add_mod": [ [ "sights", 1 ] ],
+	"flags": [ "LASER_SIGHT" ]
+  }
+]

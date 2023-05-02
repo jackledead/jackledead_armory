@@ -1,0 +1,208 @@
+[
+  {
+    "type": "item_group",
+    "id": "gunmod_common",
+    "copy-from": "gunmod_common",
+    "//": "Common gunmods typically owned by citizens and found in many locations.",
+    "extend": {
+      "items": [
+        [ "hair_trigger", 15 ],
+        [ "double_action_trigger", 10 ],
+        [ "small_muzzle_brake", 10 ],
+        [ "heavy_grip", 20 ],
+        [ "light_stock_grip", 30 ],
+        [ "classic_handguard", 30 ],
+        [ "lightweight_handguard", 20 ],
+        [ "grip_heavy", 30 ],
+        [ "grip_light", 20 ],
+        [ "grip_ergonomic", 10 ],
+        [ "red_laser_sight", 10 ],
+        [ "green_laser_sight", 10 ],
+        [ "blue_laser_sight", 10 ],
+        [ "yellow_laser_sight", 10 ],
+        [ "purple_laser_sight", 10 ],
+        [ "combat_knife_bayonet", 5 ],
+        [ "gold_iron_sights", 5 ],
+        [ "blue_pistol_scope", 8 ],
+        [ "red_pistol_scope", 8 ],
+        [ "green_pistol_scope", 8 ],
+        [ "compact_pistol_scope", 8 ],
+        [ "enhanced_pistol_scope", 8 ],
+        [ "green_dot_sight", 10 ],
+        [ "compact_red_dot_sight", 10 ],
+        [ "orange_dot_sight", 10 ],
+        [ "lightweight_dot_sight", 10 ],
+        [ "purple_dot_sight", 10 ],
+        [ "long_range_rifle_scope", 10 ],
+        [ "offset_rail_laser", 10 ],
+        [ "hunting_rifle_scope", 30 ],
+        [ "tactical_shotgun_scope", 10 ],
+        [ "magnified_red_dot", 10 ],
+        [ "heavy_long_choke", 25 ],
+        [ "short_light_choke", 25 ]
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "gunmod_rare",
+    "copy-from": "gunmod_rare",
+    "//": "Less common gunmods including those only used by police/paramilitary forces.",
+    "extend": {
+      "items": [
+        [ "heavy_muzzle_brake", 20 ],
+        [ "long_suppressor", 30 ],
+        [ "short_suppressor", 40 ],
+        [ "two_stage_trigger", 50 ],
+        [ "tactical_grip", 20 ],
+        [ "offset_rail_laser", 5 ],
+        [ "tactical_handguard", 30 ],
+        [ "compact_holo_sight", 40 ],
+        [ "tactical_holo_sight", 30 ],
+        [ "green_holo_sight", 40 ],
+        [ "enhanced_pistol_scope", 30 ],
+        [ "tactical_rifle_scope", 30 ],
+        [ "green_holo", 20 ],
+        [ "holo_magnifier_2", 10 ]
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "gunmod_milspec",
+    "copy-from": "gunmod_milspec",
+    "//": "Military specification gunmods found only at military sites.",
+    "extend": {
+      "items": [ [ "long_range_acog", 80 ], [ "tactical_holo_sight", 80 ], [ "combat_knife_bayonet", 30 ], [ "holo_magnifier_4", 20 ] ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "sights_all",
+    "copy-from": "sights_all",
+    "//": "All aftermarket sights.",
+    "extend": {
+      "items": [
+        [ "compact_holo_sight", 10 ],
+        [ "tactical_holo_sight", 10 ],
+        [ "gold_iron_sights", 10 ],
+        [ "green_holo_sight", 10 ],
+        [ "rail_laser_sight", 6 ],
+        [ "blue_pistol_scope", 5 ],
+        [ "red_pistol_scope", 5 ],
+        [ "green_pistol_scope", 5 ],
+        [ "compact_pistol_scope", 5 ],
+        [ "enhanced_pistol_scope", 5 ],
+        [ "green_dot_sight", 10 ],
+        [ "compact_red_dot_sight", 10 ],
+        [ "lightweight_dot_sight", 20 ],
+        [ "orange_dot_sight", 20 ],
+        [ "purple_dot_sight", 20 ],
+        [ "long_range_rifle_scope", 10 ],
+        [ "tactical_rifle_scope", 10 ],
+        [ "hunting_rifle_scope", 10 ],
+        [ "tactical_shotgun_scope", 10 ],
+        [ "magnified_red_dot", 10 ],
+        [ "green_holo", 10 ],
+        [ "long_range_acog", 10 ]
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "sights_pistol",
+    "copy-from": "sights_pistol",
+    "//": "Aftermarket sights that are for pistols.",
+    "extend": {
+      "items": [
+        [ "gold_iron_sights", 10 ],
+        [ "blue_pistol_scope", 5 ],
+        [ "red_pistol_scope", 5 ],
+        [ "green_pistol_scope", 5 ],
+        [ "compact_pistol_scope", 5 ],
+        [ "enhanced_pistol_scope", 5 ],
+        [ "green_dot_sight", 10 ],
+        [ "compact_red_dot_sight", 10 ],
+        [ "lightweight_dot_sight", 20 ],
+        [ "orange_dot_sight", 20 ],
+        [ "purple_dot_sight", 20 ]
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "sights_SMG",
+    "copy-from": "sights_SMG",
+    "//": "Aftermarket sights that are for SMG's.",
+    "extend": {
+      "items": [
+        [ "gold_iron_sights", 10 ],
+        [ "blue_pistol_scope", 5 ],
+        [ "red_pistol_scope", 5 ],
+        [ "green_pistol_scope", 5 ],
+        [ "compact_pistol_scope", 5 ],
+        [ "enhanced_pistol_scope", 5 ],
+        [ "green_dot_sight", 10 ],
+        [ "compact_red_dot_sight", 10 ],
+        [ "lightweight_dot_sight", 20 ],
+        [ "orange_dot_sight", 20 ],
+        [ "purple_dot_sight", 20 ],
+        [ "magnified_red_dot", 10 ],
+        [ "green_holo_sight", 10 ],
+        [ "tactical_holo_sight", 10 ],
+        [ "compact_holo_sight", 10 ]
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "sights_rifle",
+    "//": "Aftermarket sights that are for rifles.",
+    "extend": {
+      "items": [
+        [ "gold_iron_sights", 10 ],
+        [ "green_dot_sight", 10 ],
+        [ "compact_red_dot_sight", 10 ],
+        [ "lightweight_dot_sight", 20 ],
+        [ "orange_dot_sight", 20 ],
+        [ "purple_dot_sight", 20 ],
+        [ "magnified_red_dot", 10 ],
+        [ "green_holo_sight", 10 ],
+        [ "tactical_holo_sight", 10 ],
+        [ "compact_holo_sight", 10 ],
+        [ "long_range_rifle_scope", 10 ],
+        [ "tactical_rifle_scope", 10 ],
+        [ "hunting_rifle_scope", 10 ],
+        [ "long_range_acog", 10 ]
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "sights_shotgun",
+    "copy-from": "sights_shotgun",
+    "//": "Aftermarket sights that are for shotguns.",
+    "extend": {
+      "items": [
+        [ "gold_iron_sights", 10 ],
+        [ "green_dot_sight", 10 ],
+        [ "compact_red_dot_sight", 10 ],
+        [ "lightweight_dot_sight", 20 ],
+        [ "orange_dot_sight", 20 ],
+        [ "purple_dot_sight", 20 ],
+        [ "magnified_red_dot", 10 ],
+        [ "green_holo_sight", 10 ],
+        [ "tactical_holo_sight", 10 ],
+        [ "compact_holo_sight", 10 ],
+        [ "tactical_shotgun_scope", 10 ]
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "sights_launcher",
+    "copy-from": "sights_launcher",
+    "//": "Aftermarket sights that are for launchers.",
+    "extend": { "items": [ [ "gold_iron_sights", 10 ] ] }
+  }
+]
