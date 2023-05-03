@@ -32,7 +32,7 @@ Tos 30 submachine gun: A lightweight Eastern European submachine gun intended fo
 Tos 84 semi-automatic shotgun: Akin to a saiga. Used by close quarters swat. 
 
 ### Existing:
-Made makarovs, mosins, ak74 more common.
+Made makarovs, mosins more common.
 
 ## Gun Mods:
 
@@ -132,7 +132,7 @@ holo_magnifier_4
 
 ## Professions:
 
-Black Sea Mafia Boss: Start with AK74, Fort 221, cigarettes, lighter, cell phone, blazer, dress shirt, pants. I'm sure he's a nice guy. A little OP, statted at 8 points but really meant to be used for roleplay and fun.
+Black Sea Mafia Boss: Start with Vepr, Fort 221, cigarettes, lighter, cell phone, blazer, dress shirt, pants. I'm sure he's a nice guy. A little OP, statted at 8 points but really meant to be used for roleplay and fun.
 
 Black Sea Swat Officer: Start with Tos 30 and Fort 221.
 
@@ -155,6 +155,8 @@ Ukrainian Special Forces Rifleman: Armed with suppressed sighted Tavor x95 rifle
 Ukrainian Anti-Material Sniper: Armed with Gepard M3 .50 cal sniper and fort 14 pistol.
 
 Ukrainian Special Anti-Material Sniper: Armed with the massive Snipex Alligator chambered in 14.5x114mm, and the Forst 14 pistol.
+
+Survivor (Kickass): Locked and loaded, ready for the apocalypse. Starts with hybrid car, Vepr and Fort 14, multitool and other goodies.
 
 ## Suggested Tileset
 #### ASCII/RETRODAYS: Simple means more imagination to fill your mind.
