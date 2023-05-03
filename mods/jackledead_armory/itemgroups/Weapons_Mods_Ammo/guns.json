@@ -136,9 +136,9 @@
     "extend": {
       "items": [
         { "group": "nested_vp_scout", "prob": 5 },
-        { "group": "nested_vepr", "prob": 2 },
+        { "group": "nested_vepr", "prob": 5 },
         { "group": "nested_tavor_x95", "prob": 2 },
-        { "group": "nested_zbroyar_z15", "prob": 4 }
+        { "group": "nested_zbroyar_z15", "prob": 8 }
       ]
     }
   },
@@ -151,7 +151,7 @@
     "extend": {
       "items": [
         { "item": "vp_scout", "prob": 2, "charges-min": 0, "charges-max": 0 },
-        { "item": "vepr", "prob": 2, "charges-min": 0, "charges-max": 0 },
+        { "item": "vepr", "prob": 3, "charges-min": 0, "charges-max": 0 },
         { "item": "tavor_x95", "prob": 1, "charges-min": 0, "charges-max": 0 },
         { "item": "zbroyar_z15", "prob": 3, "charges-min": 0, "charges-max": 0 }
       ]
@@ -194,9 +194,9 @@
     "//2": "Making the assumption any loaded gun will have additional ammo and mags with it.",
     "extend": {
       "items": [
-        { "group": "nested_ak47", "prob": 100 },
-        { "group": "nested_ak74", "prob": 60 },
-        { "group": "nested_vp_scout", "prob": 5 }
+        { "group": "nested_ak47", "prob": 50 },
+        { "group": "nested_ak74", "prob": 50 },
+        { "group": "nested_vp_scout", "prob": 10 }
       ]
     }
   },
@@ -209,7 +209,7 @@
 	"extend": {
       
       "items": [
-        { "item": "vp_scout", "prob": 10, "charges-min": 0, "charges-max": 0 },
+        { "item": "vp_scout", "prob": 15, "charges-min": 0, "charges-max": 0 },
         { "item": "vepr", "prob": 30, "charges-min": 0, "charges-max": 0 },
         { "item": "tavor_x95", "prob": 15, "charges-min": 0, "charges-max": 0 }
       ]
@@ -234,10 +234,10 @@
     "//": "loaded in the back of a trunk or something",
     "extend": {
       "items": [
-        { "group": "nested_vepr", "prob": 10 },
+        { "group": "nested_vepr", "prob": 15 },
         { "group": "nested_tavor_x95", "prob": 8 },
-        { "group": "nested_ak74", "prob": 20 },
-        { "group": "nested_tos_30", "prob": 20 }
+        { "group": "nested_ak74", "prob": 5 },
+        { "group": "nested_tos_30", "prob": 25 }
       ]
     }
   },
@@ -266,7 +266,6 @@
           ],
           "prob": 10
         },
-        { "group": "nested_ak74", "prob": 15 },
         {
           "collection": [ { "item": "tos_30", "prob": 100, "charges": [ 0, 30 ] }, { "group": "field_tos_30" } ],
           "prob": 20
@@ -321,8 +320,8 @@
     "//": "Guns issued to paramilitary forces in addition to standard police issue.",
     "extend": {
       "items": [
-        { "item": "m3_gepard", "prob": 5, "charges-min": 0, "charges-max": 5 },
-        { "item": "ak74", "prob": 25, "charges-min": 0, "charges-max": 30 },
+        { "item": "m3_gepard", "prob": 3, "charges-min": 0, "charges-max": 5 },
+        { "item": "vepr", "prob": 25, "charges-min": 0, "charges-max": 30 },
         { "item": "vp_scout", "prob": 15, "charges-min": 0, "charges-max": 10 },
         { "item": "tos_30", "prob": 30, "charges-min": 0, "charges-max": 30 },
         { "item": "tos_84", "prob": 15, "charges-min": 0, "charges-max": 30 },
@@ -341,7 +340,7 @@
         { "item": "ak74", "prob": 2, "charges-min": 0, "charges-max": 30 },
         { "item": "vp_scout", "prob": 5, "charges-min": 0, "charges-max": 10 },
         { "item": "zbroyar_z15", "prob": 15, "charges-min": 0, "charges-max": 20 },
-        { "item": "mosin44", "variant": "mosin44", "prob": 8, "charges-min": 0, "charges-max": 5 }
+        { "item": "mosin44", "variant": "mosin44", "prob": 10, "charges-min": 0, "charges-max": 5 }
       ]
     }
   },

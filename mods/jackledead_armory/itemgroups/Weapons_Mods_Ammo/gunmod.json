@@ -50,7 +50,8 @@
     "//": "Less common gunmods including those only used by police/paramilitary forces.",
     "extend": {
       "items": [
-        [ "heavy_muzzle_brake", 20 ],
+        [ "standard_knife_bayonet", 15 ],
+		[ "heavy_muzzle_brake", 20 ],
         [ "long_suppressor", 30 ],
         [ "short_suppressor", 40 ],
         [ "two_stage_trigger", 50 ],
@@ -73,7 +74,7 @@
     "copy-from": "gunmod_milspec",
     "//": "Military specification gunmods found only at military sites.",
     "extend": {
-      "items": [ [ "long_range_acog", 80 ], [ "tactical_holo_sight", 80 ], [ "combat_knife_bayonet", 30 ], [ "holo_magnifier_4", 20 ] ]
+      "items": [ [ "long_range_acog", 80 ], [ "tactical_holo_sight", 80 ], [ "standard_knife_bayonet", 15 ], [ "holo_magnifier_4", 20 ] ]
     }
   },
   {

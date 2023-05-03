@@ -1,4 +1,9 @@
 TODO:
+
+add z-10 762x51 nato rifle
+
+Pretty much done:
+
 Make sure gepard anti material profession starts with gun mods
 test new professions
 

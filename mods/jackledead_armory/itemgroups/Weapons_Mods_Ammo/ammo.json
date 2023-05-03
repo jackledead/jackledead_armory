@@ -90,7 +90,7 @@
     "copy-from": "ammo_rifle_rare",
     "//": "Less common rifle ammo including that only used by police/paramilitary forces.",
 	"subtype": "distribution",
-	"extend": { "entries": [ { "item": "762R_tracer", "prob": 2 } ] }
+	"extend": { "entries": [ { "item": "762R_tracer", "prob": 2 }, { "item": "545", "prob": 15 } ] }
   },
   {
     "type": "item_group",
@@ -110,7 +110,8 @@
       "entries": [
         { "item": "762R_tracer", "prob": 5 },
         { "item": "145x114mm", "prob": 2 },
-        { "item": "145X114_incendiary", "prob": 1 }
+        { "item": "145X114_incendiary", "prob": 1 },
+		{ "item": "545", "prob": 20 }
       ]
     }
   },
@@ -123,8 +124,7 @@
     "extend": {
       "entries": [
         { "item": "762_54R", "prob": 20, "charges": [ 1, 30 ] },
-        { "item": "545", "prob": 20, "charges": [ 1, 30 ] },
-        { "item": "762_m43", "prob": 25, "charges": [ 1, 30 ] },
+        { "item": "545", "prob": 25, "charges": [ 1, 30 ] },
         { "item": "9x18mm", "prob": 40, "charges": [ 1, 40 ] },
 		{ "item": "9x18mmfmj", "prob": 45, "charges": [ 1, 40 ] }
       ]

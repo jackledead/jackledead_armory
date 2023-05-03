@@ -10,8 +10,8 @@
     "price": 8000,
     "price_postapoc": 1500,
     "install_time": "5 m",
-	"sight_dispersion": 5,
-    "field_of_view": 600,
+	"sight_dispersion": 30,
+    "field_of_view": 3000,
     "material": [ "steel", "plastic" ],
     "symbol": ":",
     "color": "light_green",
@@ -19,7 +19,7 @@
     "mod_targets": [ "smg", "rifle", "shotgun" ],
     "min_skills": [ [ "gun", 2 ] ],
 	"handling_modifier": 1,
-    "aim_speed_modifier": 14,
+    "aim_speed_modifier": 15,
     "add_mod": [ [ "sights", 1 ] ],
 	"flags": [ "LASER_SIGHT" ]
   }

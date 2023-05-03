@@ -2,6 +2,12 @@
   {
     "type": "item_group",
     "subtype": "collection",
+    "id": "tac_grip_fort_14",
+    "entries": [ { "item": "fort_14", "ammo-item": "9x18mmfmj", "charges": 14, "contents-item": [ "tactical_grip" ] } ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
     "id": "army_mags_tos30",
     "entries": [
       { "item": "tos_30_mag", "ammo-item": "9x18mmfmj", "charges": 30 },
@@ -13,8 +19,8 @@
     "subtype": "collection",
     "id": "army_mags_vepr",
     "entries": [
-      { "item": "akmag30", "ammo-item": "762_m43", "charges": 30 },
-      { "item": "akmag30", "ammo-item": "762_m43", "charges": 30 }
+      { "item": "vepr_mag30", "ammo-item": "545", "charges": 30 },
+      { "item": "vepr_mag30", "ammo-item": "545", "charges": 30 }
     ]
   },
   {
@@ -46,8 +52,8 @@
         "entries": [
           { "group": "charged_cell_phone" },
           { "group": "charged_ref_lighter", "container-item": "dress_shirt" },
-          { "item": "ak74", "custom-flags": [ "auto_wield" ], "ammo-item": "545", "charges": 30 },
-          { "item": "ak74mag", "ammo-item": "545", "charges": 30, "count": 1 },
+          { "item": "vepr", "custom-flags": [ "auto_wield" ], "ammo-item": "545", "charges": 30 },
+          { "item": "vepr_mag30", "ammo-item": "545", "charges": 30, "count": 1 },
           { "item": "cig", "container-item": "blazer" },
           { "item": "fort_221", "ammo-item": "9x18mmfmj", "container-item": "holster", "charges": 8 },
           { "item": "fort221_mag", "ammo-item": "9x18mmfmj", "charges": 8, "count": 2 },
@@ -101,7 +107,7 @@
             "item": "tos_30",
             "ammo-item": "9x18mm",
             "charges": 30,
-            "contents-item": [ "shoulder_strap", "rail_laser_sight" ]
+            "contents-item": [ "shoulder_strap", "blue_laser_sight", "orange_dot_sight" ]
           }
         ]
       },
@@ -198,7 +204,12 @@
           { "item": "fort14_mag", "ammo-item": "9x18mmfmj", "charges": 14, "count": 2 },
           { "item": "fort_14", "ammo-item": "9x18mmfmj", "charges": 14, "container-item": "holster" },
           { "item": "baton-extended", "container-item": "police_belt" },
-          { "item": "tos_84", "ammo-item": "shot_00", "charges": 30, "contents-item": [ "shoulder_strap" ] }
+          {
+            "item": "tos_84",
+            "ammo-item": "shot_00",
+            "charges": 30,
+            "contents-item": [ "shoulder_strap", "green_dot_sight", "grip_heavy" ]
+          }
         ]
       },
       "male": [ "boxer_shorts" ],
@@ -238,7 +249,7 @@
           "travelpack",
           "vest",
           "water_clean",
-		  "legpouch_large",
+          "legpouch_large",
           "whistle_multitool"
         ],
         "entries": [
@@ -260,7 +271,7 @@
           { "item": "trailmap" },
           { "item": "sheriffshirt", "variant": "sheriff" },
           { "item": "zbroyar_z15", "ammo-item": "223", "charges": 30, "contents-item": [ "shoulder_strap" ] },
-		  { "item": "stanag30", "ammo-item": "223", "charges": 30 }
+          { "item": "stanag30", "ammo-item": "223", "charges": 30 }
         ]
       },
       "male": [ "boxer_shorts" ],
@@ -278,7 +289,17 @@
     "proficiencies": [ "prof_spotting" ],
     "items": {
       "both": {
-        "items": [ "pants_army", "socks", "badge_deputy", "police_belt", "boots", "whistle", "wristwatch", "legpouch_large" ],
+        "items": [
+          "pants_army",
+          "socks",
+          "badge_deputy",
+          "police_belt",
+          "boots",
+          "whistle",
+          "wristwatch",
+          "legpouch_large",
+          "knife_folding"
+        ],
         "entries": [
           { "group": "charged_smart_phone" },
           { "group": "charged_two_way_radio" },
@@ -297,7 +318,7 @@
     "id": "ukrainian_rifle_hunter",
     "name": "Ukrainian Rifle Hunter",
     "description": "Armed with Zbroyar Z-15 rifle and backup mag. Ever since you were a child you loved hunting, and you fancy yourself a crack shot.  Why, if the world ended, there's nothing you'd want at your side more than your trusty rifle.  So, when it did, you made sure to bring it along.",
-    "points": 2,
+    "points": 3,
     "skills": [ { "level": 1, "name": "gun" }, { "level": 1, "name": "rifle" } ],
     "items": {
       "both": {
@@ -315,8 +336,13 @@
         "entries": [
           { "group": "charged_smart_phone" },
           { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
-          { "item": "zbroyar_z15", "ammo-item": "223", "charges": 30, "contents-item": [ "shoulder_strap" ] },
-		  { "item": "stanag30", "ammo-item": "223", "charges": 30 },
+          {
+            "item": "zbroyar_z15",
+            "ammo-item": "223",
+            "charges": 30,
+            "contents-item": [ "shoulder_strap", "grip_light" ]
+          },
+          { "item": "stanag30", "ammo-item": "223", "charges": 30 },
           { "item": "sheath", "contents-item": "knife_hunting" }
         ]
       },
@@ -330,19 +356,20 @@
     "id": "black_sea_specops",
     "name": "Black Sea Special Operator",
     "description": "Armed with suppressed Tos 30 submachine gun and Fort 14TP pistol. You were the best of the best, the military's finest.  That's why you're still alive, even after all your comrades fell to the undead.  As far as you can tell, military command abandoned you in this hellhole when you missed the emergency evac.",
-    "points": 8,
+    "points": 9,
     "proficiencies": [ "prof_gunsmithing_basic", "prof_traps", "prof_disarming", "prof_spotting" ],
     "skills": [
-      { "level": 6, "name": "gun" },
-      { "level": 6, "name": "smg" },
-      { "level": 6, "name": "rifle" },
-      { "level": 4, "name": "cutting" },
-      { "level": 4, "name": "melee" },
+      { "level": 4, "name": "gun" },
+      { "level": 4, "name": "smg" },
+	  { "level": 2, "name": "pistol" },
+      { "level": 2, "name": "rifle" },
+      { "level": 2, "name": "stabbing" },
+      { "level": 3, "name": "melee" },
       { "level": 3, "name": "dodge" },
-      { "level": 3, "name": "traps" },
+      { "level": 2, "name": "traps" },
       { "level": 3, "name": "firstaid" },
       { "level": 3, "name": "swimming" },
-      { "level": 4, "name": "survival" }
+      { "level": 3, "name": "survival" }
     ],
     "items": {
       "both": {
@@ -357,23 +384,23 @@
           "boots_combat",
           "dive_bag",
           "diving_watch",
-		  "chestrig"
+          "chestrig"
         ],
         "entries": [
           { "group": "charged_two_way_radio" },
+		  { "group": "tac_grip_fort_14", "container-item": "holster" },
           { "item": "water_clean", "container-item": "canteen" },
           { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
           { "item": "glasses_bal", "custom-flags": [ "no_auto_equip" ] },
           { "item": "knife_combat", "container-item": "sheath" },
-		  { "item": "fort14_mag", "ammo-item": "9x18mmfmj", "charges": 14, "count": 2 },
-          { "item": "fort_14", "ammo-item": "9x18mmfmj", "charges": 14, "container-item": "holster" },
+          { "item": "fort14_mag", "ammo-item": "9x18mmfmj", "charges": 14, "count": 2 },
           {
             "item": "tos_30",
             "ammo-item": "9x18mmfmj",
             "charges": 30,
-            "contents-item": [ "shoulder_strap", "suppressor", "holo_sight" ]
+            "contents-item": [ "shoulder_strap", "short_suppressor", "green_holo_sight" ]
           },
-		  { "item": "tos_30_mag", "ammo-item": "9x18mmfmj", "charges": 30, "count": 2 }
+          { "item": "tos_30_mag", "ammo-item": "9x18mmfmj", "charges": 30, "count": 2 }
         ]
       },
       "male": [ "boxer_shorts" ],
@@ -419,13 +446,13 @@
           { "item": "legpouch_large", "contents-group": "army_mags_vepr" },
           { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
           { "item": "knife_combat", "container-item": "sheath" },
-		  { "item": "fort14_mag", "ammo-item": "9x18mmfmj", "charges": 14 },
+          { "item": "fort14_mag", "ammo-item": "9x18mmfmj", "charges": 14 },
           { "item": "fort_14", "ammo-item": "9x18mmfmj", "charges": 14, "container-item": "holster" },
           {
             "item": "vepr",
-            "ammo-item": "762_m43",
+            "ammo-item": "545",
             "charges": 30,
-            "contents-item": [ "shoulder_strap", "holo_sight" ]
+            "contents-item": [ "shoulder_strap", "green_holo_sight", "sights_mount", "underbarrel_mount" ]
           }
         ]
       },
@@ -438,11 +465,11 @@
     "id": "ukrainian_mil_auto_rifleman",
     "name": "Ukrainian Automatic Rifleman",
     "description": "Armed with UKM 2000 machine gun and Fort 14TP pistol. You were trusted with a big-ass, belt-fed machine gun and plenty of ammo to lay down suppressing fire for your team.  Now that it's going to be much harder to resupply, you should probably be more selective with the ol' spray-and-pray.",
-    "points": 5,
+    "points": 7,
     "proficiencies": [ "prof_gunsmithing_basic" ],
     "skills": [
       { "level": 2, "name": "gun" },
-      { "level": 1, "name": "rifle" },
+      { "level": 2, "name": "rifle" },
       { "level": 2, "name": "melee" },
       { "level": 1, "name": "stabbing" },
       { "level": 1, "name": "dodge" },
@@ -473,7 +500,7 @@
             "item": "ukm_2000",
             "ammo-item": "762_54R",
             "charges": 200,
-            "contents-item": [ "shoulder_strap", "holo_sight", "bipod" ]
+            "contents-item": [ "shoulder_strap", "green_holo", "bipod" ]
           },
           { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
           { "item": "knife_combat", "container-item": "sheath" },
@@ -490,11 +517,12 @@
     "id": "ukrainian_special_rifleman",
     "name": "Ukrainian Special Forces Rifleman",
     "description": "Armed with Tavor x95 rifle w/ ACOG scope and suppressor, and Fort 14TP pistol. When you were young, you dreamed of being a soldier.  War is hell and hell is war, but you never thought it would be this bad.",
-    "points": 8,
+    "points": 9,
     "proficiencies": [ "prof_gunsmithing_basic", "prof_spotting" ],
     "skills": [
       { "level": 4, "name": "gun" },
-      { "level": 5, "name": "rifle" },
+      { "level": 4, "name": "rifle" },
+	  { "level": 2, "name": "pistol" },
       { "level": 4, "name": "melee" },
       { "level": 3, "name": "stabbing" },
       { "level": 3, "name": "dodge" },
@@ -524,13 +552,13 @@
           { "item": "legpouch_large", "contents-group": "army_mags_m4" },
           { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
           { "item": "knife_combat", "container-item": "sheath" },
-		  { "item": "fort14_mag", "ammo-item": "9x18mmfmj", "charges": 14 },
+          { "item": "fort14_mag", "ammo-item": "9x18mmfmj", "charges": 14 },
           { "item": "fort_14", "ammo-item": "9x18mmfmj", "charges": 14, "container-item": "holster" },
           {
             "item": "tavor_x95",
             "ammo-item": "556",
             "charges": 30,
-            "contents-item": [ "shoulder_strap", "suppressor", "acog_scope" ]
+            "contents-item": [ "shoulder_strap", "short_suppressor", "long_range_acog" ]
           }
         ]
       },
@@ -543,7 +571,7 @@
     "id": "ukrainian_mil_sniper",
     "name": "Ukrainian Anti-Material Sniper",
     "description": "Armed with Gepard m3 .50 caliber anti-material rifle and Fort 14TP pistol. You're a crack shot with a rifle, and the farther you can stay away from zombies, the better.  The only thing stopping you is limited ammo, so you should try to find a place to restock sooner or later.",
-    "points": 7,
+    "points": 8,
     "proficiencies": [ "prof_gunsmithing_basic" ],
     "skills": [
       { "level": 5, "name": "gun" },
@@ -575,17 +603,12 @@
           { "group": "charged_two_way_radio" },
           { "group": "us_ballistic_vest_pristine" },
           { "item": "water_clean", "container-item": "canteen" },
-          {
-            "item": "m3_gepard",
-            "ammo-item": "50bmg",
-            "charges": 5,
-            "contents-item": [ "shoulder_strap" ]
-          },
+          { "item": "m3_gepard", "ammo-item": "50bmg", "charges": 5, "contents-item": [ "shoulder_strap" ] },
           { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
           { "item": "knife_combat", "container-item": "sheath" },
           { "item": "fort_14", "ammo-item": "9x18mmfmj", "container-item": "holster", "charges": 14 },
           { "item": "legpouch_large", "contents-group": "army_mags_fort14" },
-		  { "item": "m3gepardmag", "ammo-item": "50bmg", "charges": 5 }
+          { "item": "m3gepardmag", "ammo-item": "50bmg", "charges": 5 }
         ]
       },
       "male": [ "boxer_shorts" ],
@@ -639,7 +662,7 @@
           { "item": "knife_combat", "container-item": "sheath" },
           { "item": "fort_14", "ammo-item": "9x18mmfmj", "container-item": "holster", "charges": 14 },
           { "item": "legpouch_large", "contents-group": "army_mags_fort14" },
-		  { "item": "alligator_mag", "ammo-item": "145x114mm", "charges": 5 }
+          { "item": "alligator_mag", "ammo-item": "145x114mm", "charges": 5 }
         ]
       },
       "male": [ "boxer_shorts" ],
@@ -655,22 +678,22 @@
     "skills": [
       { "level": 4, "name": "gun" },
       { "level": 2, "name": "pistol" },
-	  { "level": 2, "name": "rifle" },
+      { "level": 2, "name": "rifle" },
       { "level": 3, "name": "driving" },
       { "level": 3, "name": "firstaid" },
       { "level": 3, "name": "fabrication" },
       { "level": 2, "name": "swimming" },
       { "level": 2, "name": "survival" },
-	  { "level": 3, "name": "mechanics" },
-	  { "level": 2, "name": "cooking" },
-	  { "level": 2, "name": "tailor" }
+      { "level": 3, "name": "mechanics" },
+      { "level": 2, "name": "cooking" },
+      { "level": 2, "name": "tailor" }
     ],
     "vehicle": "car_hybrid_rack",
     "items": {
       "both": {
         "items": [
           "crowbar",
-		  "boots_hiking",
+          "boots_hiking",
           "balclava",
           "diving_watch",
           "multitool",
@@ -679,38 +702,118 @@
           "socks",
           "duffelbag",
           "vest",
-		  "legpouch_large",
-		  "dress_shirt",
-		  "jacket_flannel",
-		  "cig",
+          "legpouch_large",
+          "dress_shirt",
+          "jacket_flannel",
+          "cig",
           "elbow_pads",
-		  "knee_pads",
-		  "weed",
-		  "rolling_paper",
-		  "hammer"
+          "knee_pads",
+          "weed",
+          "rolling_paper",
+          "hammer"
         ],
         "entries": [
           { "group": "charged_smart_phone" },
           { "group": "charged_flashlight" },
-		  { "group": "charged_mp3" },
+          { "group": "charged_mp3" },
           { "group": "full_1st_aid" },
-		  { "item": "water_clean", "container-item": "canteen" },
+          { "item": "water_clean", "container-item": "canteen" },
           { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
-		  { "item": "glasses_safety", "custom-flags": [ "no_auto_equip" ] },
-		  { "item": "sunglasses", "custom-flags": [ "no_auto_equip" ] },
-		  { "item": "mask_dust", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "glasses_safety", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "sunglasses", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "mask_dust", "custom-flags": [ "no_auto_equip" ] },
           { "item": "lighter", "charges": 100 },
           { "item": "fort_14", "ammo-item": "9x18mmfmj", "charges": 14, "container-item": "holster" },
           { "item": "fort14_mag", "ammo-item": "9x18mmfmj", "charges": 14, "count": 2 },
-		  { "item": "9x18mmfmj" },
+          { "item": "9x18mmfmj" },
           { "item": "paper", "charges": 20, "container-item": "leather_journal" },
           { "item": "permanent_marker", "charges": 500 },
           { "item": "survivormap" },
-		  { "item": "knife_combat", "container-item": "sheath" },
-          { "item": "ak74", "ammo-item": "545", "charges": 30, "contents-item": [ "shoulder_strap", "suppressor", "acog_scope" ] },
-		  { "item": "ak74mag", "ammo-item": "545", "charges": 30, "count": 2 },
-		  { "item": "545" },
-		  { "item": "wrench" }
+          { "item": "knife_combat", "container-item": "sheath" },
+          {
+            "item": "vepr",
+            "ammo-item": "545",
+            "charges": 30,
+            "contents-item": [ "shoulder_strap", "short_suppressor", "magnified_red_dot" ]
+          },
+          { "item": "vepr_mag30", "ammo-item": "545", "charges": 30, "count": 2 },
+          { "item": "545" },
+          { "item": "wrench" }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "bra", "boy_shorts" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "jackledead_gunmod_nut",
+    "name": "Gun-Mod Nut",
+    "description": "You've always loved customizing your firearms. When the Cataclsym struck, you grabbed your stuff and headed out. Unfortunately, you forgot your gun. Fortunately you know where the gun stores are.",
+    "points": 9,
+    "proficiencies": [ "prof_gunsmithing_basic", "prof_handloading" ],
+    "skills": [
+      { "level": 4, "name": "gun" },
+      { "level": 2, "name": "pistol" },
+      { "level": 2, "name": "rifle" },
+      { "level": 2, "name": "smg" },
+      { "level": 2, "name": "shotgun" },
+      { "level": 3, "name": "fabrication" },
+      { "level": 3, "name": "mechanics" },
+      { "level": 2, "name": "electronics" },
+      { "level": 1, "name": "tailor" },
+      { "level": 1, "name": "melee" },
+      { "level": 1, "name": "stabbing" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "duct_tape",
+          "sneakers_steel",
+          "wristwatch",
+          "pants_cargo",
+          "socks",
+          "backpack_leather",
+          "apron_leather",
+          "tshirt",
+          "gloves_work",
+          "jacket_light",
+          "hat_boonie",
+          "gold_iron_sights",
+          "compact_holo_sight",
+          "purple_dot_sight",
+          "compact_pistol_scope",
+          "hunting_rifle_scope",
+          "hair_trigger",
+          "light_stock_grip",
+          "small_muzzle_brake",
+          "lightweight_handguard",
+          "grip_ergonomic",
+          "green_laser_sight",
+          "yellow_laser_sight",
+          "heavy_long_choke",
+          "offset_rail_laser",
+          "sights_mount",
+          "underbarrel_mount",
+          "short_suppressor",
+          "brass_catcher",
+          "adjustable_stock",
+          "barrel_ported",
+          "bipod"
+        ],
+        "entries": [
+          { "group": "charged_smart_phone" },
+		  { "group": "charged_mp3" },
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "glasses_safety", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "mask_dust", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "shoulder_strap", "custom-flags": [ "no_auto_equip" ] },
+		  { "item": "small_repairkit", "charges": 300 },
+          { "item": "lighter", "charges": 60 },
+          { "item": "permanent_marker", "charges": 200 },
+          { "item": "survivormap" },
+          { "item": "rag", "count": 5 },
+          { "item": "standard_knife_bayonet", "custom-flags": [ "auto_wield" ] }
         ]
       },
       "male": [ "boxer_shorts" ],

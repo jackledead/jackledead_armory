@@ -53,6 +53,7 @@
     "price": 8000,
     "material": [ "steel", "plastic" ],
     "handling_modifier": 8,
+	"dispersion_modifier": -2,
 	"weight_multiplier": 1.01
   },
   {
@@ -118,20 +119,24 @@
     "color": "pink"
   },
   {
-    "id": "combat_knife_bayonet",
+    "id": "standard_knife_bayonet",
     "copy-from": "knife_combat",
     "type": "GUNMOD",
-    "name": { "str": "combat knife bayonet" },
-    "description": "A bayonet modification that can be attached to the underbarrel of certain firearms. It combines the utility of a combat knife with the reach of a rifle.",
-    "gunmod_data": {
+    "name": { "str": "standard knife bayonet" },
+    "description": "A bayonet modification that can be attached to the underbarrel of certain firearms. It combines the utility of a survival knife with the reach of a rifle.",
+    "weight": "500 g",
+    "volume": "450 ml",
+    "longest_side": "25 cm",
+    "price": 9000,
+    "price_postapoc": 1050,
+	"gunmod_data": {
       "location": "underbarrel",
       "mod_targets": [ "shotgun", "rifle", "smg", "crossbow" ],
       "mode_modifier": [ [ "REACH", "bayonet", 2, [ "MELEE", "REACH_ATTACK" ] ] ],
-      "install_time": "30 s",
-	  "weight_multiplier": 1.01
+      "install_time": "5 s"
     },
-    "qualities": [ [ "CUT", 2 ], [ "CUT_FINE", 1 ], [ "BUTCHER", 10 ] ],
-    "melee_damage": { "bash": 4, "stab": 25 },
+    "qualities": [ [ "CUT", 2 ], [ "CUT_FINE", 1 ], [ "BUTCHER", 11 ] ],
+    "melee_damage": { "bash": 4, "stab": 21 },
     "extend": { "flags": [ "PUMP_RAIL_COMPATIBLE" ] }
   }
 ]

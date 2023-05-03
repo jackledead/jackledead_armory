@@ -228,7 +228,8 @@
     "price_postapoc": 1100,
     "color": "light_gray",
     "sight_dispersion": 0,
-    "aim_speed_modifier": 0,
+    "aim_speed_modifier": -2,
+	"dispersion_modifier": -2,
     "field_of_view": 180,
     "min_skills": [ [ "weapon", 3 ], [ "gun", 3 ] ]
   },
@@ -245,7 +246,7 @@
     "color": "black",
     "sight_dispersion": 0,
     "field_of_view": 360,
-    "aim_speed_modifier": -1,
+    "aim_speed_modifier": 2,
     "min_skills": [ [ "weapon", 2 ], [ "gun", 4 ] ]
   },
   {
@@ -288,7 +289,6 @@
   {
     "id": "magnified_red_dot",
     "type": "GUNMOD",
-    "//": "based on the Vortex Crossfire Red Dot",
     "name": { "str": "magnified red dot sight" },
     "description": "A 3x magnified red dot sight with a wide field of view and crisp, clear sight picture. The reticle is illuminated for easy use in low light situations.",
     "weight": "360 g",
@@ -302,7 +302,7 @@
     "mod_targets": [ "smg", "rifle", "shotgun" ],
     "install_time": "5 m",
     "sight_dispersion": 20,
-    "field_of_view": 360,
+    "field_of_view": 720,
     "aim_speed_modifier": 10,
     "min_skills": [ [ "weapon", 2 ], [ "gun", 3 ] ],
     "flags": [ "DISABLE_SIGHTS", "ZOOM" ]
@@ -310,8 +310,7 @@
   {
     "id": "green_holo",
     "type": "GUNMOD",
-    "//": "based on the EOTECH EXPS3",
-    "name": { "str": "green holographic sight" },
+    "name": { "str": "tuned green holographic sight" },
     "description": "A compact holographic sight with a green reticle for improved visibility in low light conditions. The sight picture is clear and the reticle is easily visible against any background.",
     "weight": "260 g",
     "volume": "100 ml",
@@ -323,11 +322,11 @@
     "location": "sights",
     "mod_targets": [ "smg", "rifle", "shotgun" ],
     "install_time": "5 m",
-    "sight_dispersion": 20,
+    "sight_dispersion": 18,
     "field_of_view": 720,
     "aim_speed_modifier": 6,
     "min_skills": [ [ "weapon", 2 ], [ "gun", 3 ] ],
-    "flags": [ "DISABLE_SIGHTS", "ZOOM" ]
+    "flags": [ "DISABLE_SIGHTS" ]
   },
   {
     "id": "long_range_acog",

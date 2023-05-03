@@ -10,8 +10,8 @@
     "id": "military_standard_assault_rifles_sighted",
     "subtype": "distribution",
     "entries": [
-      { "item": "vepr", "prob": 35, "charges": [ 0, 30 ], "contents-item": "acog_scope" },
-      { "item": "tavor_x95", "prob": 10, "charges": [ 0, 30 ], "contents-item": "acog_scope" }
+      { "item": "vepr", "prob": 35, "charges": [ 0, 30 ], "contents-item": [ "sights_mount", "green_holo_sight" ] },
+      { "item": "tavor_x95", "prob": 10, "charges": [ 0, 30 ], "contents-item": "long_range_acog" }
     ]
   },
   {
@@ -26,8 +26,8 @@
     "subtype": "distribution",
     "entries": [
       { "item": "zbroyar_z15", "prob": 15, "charges": [ 0, 30 ] },
-      { "item": "m3_gepard", "prob": 1, "charges": [ 0, 5 ] },
-      { "item": "vp_scout", "prob": 30, "charges": [ 0, 10 ] },
+      { "item": "m3_gepard", "prob": 2, "charges": [ 0, 5 ] },
+      { "item": "vp_scout", "prob": 20, "charges": [ 0, 10 ], "contents-item": [ "tactical_rifle_scope" ] },
       { "item": "snipex_alligator", "prob": 2, "charges": [ 0, 5 ] }
     ]
   },
@@ -70,6 +70,8 @@
       { "item": "tos_84", "prob": 5 },
       { "item": "saiga10mag", "prob": 4 },
       { "item": "saiga30mag", "prob": 4 },
+	  { "item": "vepr_mag30", "prob": 8 },
+	  { "item": "545", "prob": 5 },
       { "item": "hair_trigger", "prob": 1 },
       { "item": "small_muzzle_brake", "prob": 1 },
       { "item": "heavy_grip", "prob": 1 },
@@ -160,8 +162,8 @@
       { "item": "belt762r", "prob": 1, "charges": [ 1, 200 ] },
       { "item": "drum762r", "prob": 1, "charges": [ 0, 50 ] },
       { "item": "m3gepardmag", "prob": 1, "charges": [ 1, 5 ] },
-      { "item": "vepr", "prob": 2, "charges": [ 0, 30 ], "contents-item": "acog_scope" },
-      { "item": "tavor_x95", "prob": 1, "charges": [ 0, 30 ], "contents-item": "acog_scope" },
+      { "item": "vepr", "prob": 2, "charges": [ 0, 30 ] },
+      { "item": "tavor_x95", "prob": 1, "charges": [ 0, 30 ], "contents-item": "long_range_acog" },
       { "item": "fort_221", "prob": 3, "charges": [ 0, 8 ] },
       { "item": "alligator_mag", "prob": 1, "charges": [ 0, 5 ] },
       { "item": "145x114mm", "prob": 1, "charges": [ 1, 15 ] },

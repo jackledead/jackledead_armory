@@ -6,8 +6,7 @@
     "//": "a handgun of some kind.",
     "entries": [
       { "item": "fort_221", "prob": 15 },
-	  { "item": "fort_14", "prob": 15 },
-	  { "item": "tos_30", "prob": 10 }
+	  { "item": "fort_14", "prob": 15 }
     ]
   },
   {
@@ -17,9 +16,10 @@
     "//": "a long weapon of some kind.",
     "entries": [
       { "item": "vp_scout", "prob": 20 },
-      { "item": "vepr", "prob": 8 },
+      { "item": "vepr", "prob": 10 },
       { "item": "zbroyar_z15", "prob": 15 },
-	  { "item": "tos_84", "prob": 8 }
+	  { "item": "tos_84", "prob": 8 },
+	  { "item": "tos_30", "prob": 10 }
     ]
   }
 ]
