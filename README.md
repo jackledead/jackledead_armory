@@ -1,5 +1,5 @@
 # jackledead_armory
-CDDA mod to add Ukrainian firearms and some of my own design. Also adds some professions to make the weapons more accessible. 
+CDDA/Bright-Nights mod to add Ukrainian firearms and some of my own design. Includes 46+ gun mods. Also adds professions to make the weapons and mods more accessible.
 
 ## How to install:
 1. Click the green button in the top and download as a zip
