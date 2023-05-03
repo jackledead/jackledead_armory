@@ -86,7 +86,7 @@
       { "item": "blue_laser_sight", "prob": 1 },
       { "item": "yellow_laser_sight", "prob": 1 },
       { "item": "purple_laser_sight", "prob": 1 },
-      { "item": "combat_knife_bayonet", "prob": 2 },
+      { "item": "standard_knife_bayonet", "prob": 2 },
       { "item": "blue_pistol_scope", "prob": 1 },
       { "item": "red_pistol_scope", "prob": 1 },
       { "item": "green_pistol_scope", "prob": 1 },
