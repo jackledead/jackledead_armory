@@ -31,7 +31,7 @@
     "looks_like": "m1911",
     "type": "GUN",
     "name": { "str": "Fort-14TP pistol" },
-    "description": "A reliable and combat-ready 9x18mm pistol produced in Ukraine. The Fort-14TP is set to be adopted by all branches of Ukrainian Armed Forces",
+    "description": "A reliable and combat-ready 9x18mm pistol produced in Ukraine. The Fort-14TP is set to be adopted by all branches of Ukrainian Armed Forces.",
     "weight": "920 g",
     "volume": "430 ml",
     "longest_side": "160 mm",
