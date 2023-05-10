@@ -165,6 +165,7 @@ Survivor (Kickass): Locked and loaded, ready for the apocalypse. Starts with hyb
 
 ## Suggested Mods for use with this mod
 #### [Jackledead Infected Mod Github](https://github.com/jackledead/jackledead_infected) for that fast running infected zombie  apocalypse feel.
+#### [No Hope And Dinos](https://github.com/jackledead/No-Hope-and-Dinos) so you can blow up a T-Rex with an anti-material round from the Snipex Aliigator.
 
 ## Additional Mods you may be interested in
 #### My repo of the exclusions mods anthology by Kenan [CDDA-CBN-Jackledead-NoMods-Collection](https://github.com/jackledead/CDDA-CBN-Jackledead-NoMods-Collection)
