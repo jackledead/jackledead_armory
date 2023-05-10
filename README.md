@@ -1,5 +1,5 @@
 # jackledead_armory
-CDDA mod to add Ukrainian firearms and some of my own design. Includes 46+ gun mods. Also adds professions to make the weapons and mods more accessible.
+CDDA mod to add real world firearms and some of my own design. Includes 46+ gun mods. Also adds professions to make the weapons and mods more accessible.
 
 ## How to install (Latest CDDA Experimental):
 1. Click the green button in the top and download as a zip
