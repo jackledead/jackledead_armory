@@ -16,7 +16,7 @@
     "copy-from": "stanag50",
     "type": "MAGAZINE",
     "name": { "str": "7.62x54R drum magazine" },
-    "description": "A bulky 50-round drum magazine for use with 7.62x54R caliber machine guns, compatible with the PKM.",
+    "description": "A bulky 50-round drum magazine for use with 7.62x54R caliber machine guns.",
     "ammo_type": [ "762R" ],
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "allowed_speedloaders": [  ], "ammo_restriction": { "762R": 50 } } ]
   },
@@ -43,10 +43,10 @@
     "material": [ "steel" ],
     "symbol": "#",
     "color": "dark_gray",
-    "ammo_type": [ "50" ],
+    "ammo_type": [ "145x114" ],
     "reload_time": 90,
     "flags": [ "MAG_BULKY" ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "50": 5 } } ]
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "145x114": 5 } } ]
   },
   {
     "id": "tos_30_mag",
@@ -66,7 +66,7 @@
   },
   {
     "id": "alligator_mag",
-	"type": "MAGAZINE",
+    "type": "MAGAZINE",
     "copy-from": "m3gepardmag",
     "name": { "str": "Snipex Alligator 5-round magazine" },
     "description": "A 5-round box magazine for the Snipex Alligator rifle, chambered in the powerful 14.5x114mm anti-material round.",
@@ -101,5 +101,31 @@
     "ammo_type": [ "545x39" ],
     "flags": [ "MAG_COMPACT" ],
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "545x39": 30 } } ]
+  },
+  {
+    "id": "wist_94_mag",
+    "type": "MAGAZINE",
+    "name": { "str": "WIST-94 16-round magazine" },
+    "description": "A 16-round double stack box magazine for the WIST-94 pistol.",
+    "weight": "85 g",
+    "volume": "200 ml",
+    "price": 2999,
+    "price_postapoc": 50,
+    "material": [ "plastic" ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [ "9mm" ],
+    "reload_time": 130,
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "9mm": 16 } } ]
+  },
+  {
+    "id": "ukm308drum",
+    "copy-from": "drum762r",
+    "type": "MAGAZINE",
+    "name": { "str": ".308 50 round drum magazine" },
+    "description": "A bulky 50-round drum magazine for use with the UKM 2000, compatible with 762.51mm NATO ammunition.",
+    "ammo_type": [ "308" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "allowed_speedloaders": [  ], "ammo_restriction": { "308": 50 } } ]
   }
 ]

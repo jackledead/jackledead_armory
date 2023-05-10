@@ -1,8 +1,21 @@
 TODO:
 
+Make profession for the Tos Akula
+
 add z-10 762x51 nato rifle
+add British guns/professions
 
 Pretty much done:
+Add new guns to itemgroups
+fix item groups for new calibers
+fix looks like for new pistol
+snipex alligator should have better range and damage values, pull from m107a1 maybe
+fix ukm caliber and 
+Add polish pistol for machine gunner
+Rename vp scout, renamed to VP Orel
+rechamber the gepard m3 in 145x114
+make fictional machine gun chambered in 762x54r
+
 
 Make sure gepard anti material profession starts with gun mods
 test new professions

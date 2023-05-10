@@ -14,7 +14,7 @@ Fort-221 pistol: The Fort-221 is a Ukrainian-made pistol that is similar in appe
 
 Vepr: The Vepr is a Ukrainian-made bullpup rifle that is based on the AK-74 design. It is a rugged and reliable firearm that is often used by Ukrainian military and law enforcement units.
 
-Fort-224: While not exclusively Ukrainian, the Fort-224 is manufactured in Ukraine under license from the Israeli company IWI. It is a variant of the Tavor x95. It is a versatile and compact rifle that is used by Ukrainian special forces and other military units.
+Fort-224 rifle: While not exclusively Ukrainian, the Fort-224 is manufactured in Ukraine under license from the Israeli company IWI. It is a variant of the Tavor x95. It is a versatile and compact rifle that is used by Ukrainian special forces and other military units.
 
 Zbroyar Z-15: The Zbroyar Z-15 is a precision rifle that is made in Ukraine. It is designed for long-range shooting and is often used by Ukrainian hunters and sport shooters.
 
@@ -25,7 +25,7 @@ UKM 2000: The UKM is a Polish heavy machine gun that has been widely used by the
 Fort 14TP pistol: 14 round 9x18mm usually loaded with fmjs. Set to be the new pistol of the UAF.
 
 ### Fictional:
-VP Scout rifle: The VP Scout is a compact and lightweight rifle designed for reconnaissance and stealth missions. It features a bullpup configuration and a folding stock, allowing for easy storage and transportation. The gun is chambered in the powerful 7.62x54r cartridge, making it effective at long ranges while still remaining compact.
+VP Orel rifle: The VP Orel is a compact and lightweight rifle designed for reconnaissance and stealth missions. It features a bullpup configuration and a folding stock, allowing for easy storage and transportation. The gun is chambered in the powerful 7.62x54r cartridge, making it effective at long ranges while still remaining compact.
 
 Tos 30 submachine gun: A lightweight Eastern European submachine gun intended for internal security and police units, chambered in 9x18mm Makarov.
 

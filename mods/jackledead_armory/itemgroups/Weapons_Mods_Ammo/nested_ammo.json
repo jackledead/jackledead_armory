@@ -4,7 +4,12 @@
     "type": "item_group",
     "//": "a collection of ammo that would be found with a loaded gun.",
     "subtype": "distribution",
-    "entries": [ { "item": "762R_tracer", "prob": 3, "charges": [ 1, 20 ] } ]
+    "entries": [
+      { "item": "762_54R", "prob": 100, "charges": [ 1, 20 ] },
+      { "item": "762_54R", "prob": 75, "charges": [ 22, 40 ] },
+      { "item": "762_54R", "prob": 30, "charges": [ 44, 80 ] },
+	  { "item": "762R_tracer", "prob": 3, "charges": [ 1, 20 ] }
+    ]
   },
   {
     "id": "on_hand_145x114",

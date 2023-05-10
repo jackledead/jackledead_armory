@@ -181,7 +181,8 @@
         { "group": "nested_ak47", "prob": 5 },
         { "group": "nested_ak74", "prob": 5 },
         { "group": "nested_psl", "prob": 5 },
-        { "group": "nested_snipex_alligator", "prob": 5 }
+        { "group": "nested_snipex_alligator", "prob": 5 },
+        { "group": "nested_tos_akula", "prob": 5 }
       ]
     }
   },
@@ -206,8 +207,7 @@
     "copy-from": "guns_rifle_obscure_display",
     "//": "Imported or otherwise very obscure rifles, unloaded for storage in gunstore and unavailable for sale",
     "subtype": "distribution",
-	"extend": {
-      
+    "extend": {
       "items": [
         { "item": "vp_scout", "prob": 15, "charges-min": 0, "charges-max": 0 },
         { "item": "vepr", "prob": 30, "charges-min": 0, "charges-max": 0 },
@@ -285,7 +285,11 @@
     "id": "sidearms_cop",
     "copy-from": "sidearms_cop",
     "extend": {
-      "items": [ { "item": "fort_221", "prob": 30, "charges": [ 0, 8 ] }, { "item": "fort_14", "prob": 30, "charges": [ 0, 14 ] } ]
+      "items": [
+        { "item": "fort_221", "prob": 30, "charges": [ 0, 8 ] },
+        { "item": "fort_14", "prob": 30, "charges": [ 0, 14 ] },
+        { "item": "wist_94", "prob": 30, "charges": [ 0, 16 ] }
+      ]
     }
   },
   {
@@ -302,6 +306,10 @@
         {
           "collection": [ { "item": "fort_14", "prob": 100, "charges": [ 0, 14 ] }, { "group": "field_fort_14" } ],
           "prob": 40
+        },
+        {
+          "collection": [ { "item": "wist_94", "prob": 100, "charges": [ 0, 16 ] }, { "group": "field_wist_94" } ],
+          "prob": 40
         }
       ]
     }
@@ -311,7 +319,13 @@
     "id": "sidearms_cop_in_field_no_gun",
     "copy-from": "sidearms_cop_in_field_no_gun",
     "//": "guns lost but still have mags",
-    "extend": { "items": [ { "group": "field_fort_221", "prob": 35 }, { "group": "field_fort_14", "prob": 35 } ] }
+    "extend": {
+      "items": [
+        { "group": "field_fort_221", "prob": 35 },
+        { "group": "field_fort_14", "prob": 35 },
+        { "group": "field_wist_94", "prob": 25 }
+      ]
+    }
   },
   {
     "type": "item_group",
@@ -325,7 +339,8 @@
         { "item": "vp_scout", "prob": 15, "charges-min": 0, "charges-max": 10 },
         { "item": "tos_30", "prob": 30, "charges-min": 0, "charges-max": 30 },
         { "item": "tos_84", "prob": 15, "charges-min": 0, "charges-max": 30 },
-        { "item": "fort_14", "prob": 15, "charges-min": 0, "charges-max": 14 }
+        { "item": "fort_14", "prob": 15, "charges-min": 0, "charges-max": 14 },
+        { "item": "wist_94", "prob": 15, "charges-min": 0, "charges-max": 16 }
       ]
     }
   },

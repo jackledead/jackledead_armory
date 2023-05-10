@@ -23,7 +23,7 @@
     "flags": [ "ALLOWS_BODY_BLOCK" ],
     "weapon_category": [ "AUTOMATIC_PISTOLS" ],
     "pocket_data": [ { "magazine_well": "150 ml", "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "fort221_mag" ] } ],
-	"melee_damage": { "bash": 7 }
+    "melee_damage": { "bash": 7 }
   },
   {
     "id": "fort_14",
@@ -49,6 +49,28 @@
     "flags": [ "ALLOWS_BODY_BLOCK" ],
     "weapon_category": [ "AUTOMATIC_PISTOLS" ],
     "pocket_data": [ { "magazine_well": "150 ml", "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "fort14_mag" ] } ],
-	"melee_damage": { "bash": 9 }
+    "melee_damage": { "bash": 9 }
+  },
+  {
+    "id": "wist_94",
+    "copy-from": "pistol_base",
+	"looks_like": "walther_ppk",
+    "type": "GUN",
+    "name": { "str": "WIST-94" },
+    "description": "A semi-automatic pistol manufactured by PREXER Ltd. in Poland. Designed by Wiesław Stark in 1994, it is chambered for the 9×19mm Parabellum cartridge and has a 16-round box magazine.",
+    "weight": "730 g",
+    "volume": "350 ml",
+    "longest_side": "190 mm",
+    "price": 120000,
+    "price_postapoc": 5000,
+    "to_hit": -2,
+    "material": [ "plastic", "steel" ],
+    "color": "dark_gray",
+    "ammo": [ "9mm" ],
+    "dispersion": 460,
+    "durability": 8,
+    "min_cycle_recoil": 500,
+    "pocket_data": [ { "magazine_well": "200 ml", "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "wist_94_mag" ] } ],
+    "melee_damage": { "bash": 8 }
   }
 ]

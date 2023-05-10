@@ -35,13 +35,17 @@
     "type": "item_group",
     "id": "military_standard_lmgs",
     "subtype": "distribution",
-    "entries": [ { "item": "ukm_2000", "prob": 80, "charges": [ 0, 200 ] } ]
+    "entries": [ { "item": "ukm_2000", "prob": 80, "charges": [ 0, 50 ] }, { "item": "tos_akula", "prob": 80, "charges": [ 0, 200 ] } ]
   },
   {
     "type": "item_group",
     "id": "military_standard_pistols",
     "subtype": "distribution",
-    "entries": [ { "item": "fort_221", "prob": 20, "charges": [ 0, 8 ] }, { "item": "fort_14", "prob": 15, "charges": [ 0, 14 ] } ]
+    "entries": [
+      { "item": "fort_221", "prob": 20, "charges": [ 0, 8 ] },
+      { "item": "fort_14", "prob": 15, "charges": [ 0, 14 ] },
+      { "item": "wist_94", "prob": 15, "charges": [ 0, 16 ] }
+    ]
   },
   {
     "type": "item_group",
@@ -50,11 +54,14 @@
     "entries": [
       { "item": "m3_gepard", "prob": 2 },
       { "item": "ukm_2000", "prob": 4 },
-      { "item": "fort_221", "prob": 8 },
+      { "item": "ukm308drum", "prob": 2 },
+      { "item": "fort_221", "prob": 5 },
+      { "item": "fort221_mag", "prob": 4 },
       { "item": "vepr", "prob": 6 },
       { "item": "tavor_x95", "prob": 8 },
       { "item": "vp_scout", "prob": 5 },
       { "item": "762R_tracer", "prob": 2 },
+      { "item": "tos_akula", "prob": 4 },
       { "item": "belt762r", "prob": 2 },
       { "item": "drum762r", "prob": 2 },
       { "item": "fort221_mag", "prob": 8 },
@@ -67,11 +74,13 @@
       { "item": "snipex_alligator", "prob": 2 },
       { "item": "fort14_mag", "prob": 6 },
       { "item": "fort_14", "prob": 8 },
+      { "item": "wist_94_mag", "prob": 5 },
+      { "item": "wist_94", "prob": 6 },
       { "item": "tos_84", "prob": 5 },
       { "item": "saiga10mag", "prob": 4 },
       { "item": "saiga30mag", "prob": 4 },
-	  { "item": "vepr_mag30", "prob": 8 },
-	  { "item": "545", "prob": 5 },
+      { "item": "vepr_mag30", "prob": 8 },
+      { "item": "545", "prob": 5 },
       { "item": "hair_trigger", "prob": 1 },
       { "item": "small_muzzle_brake", "prob": 1 },
       { "item": "heavy_grip", "prob": 1 },
@@ -117,7 +126,7 @@
       { "item": "green_holo", "prob": 1 },
       { "item": "long_range_acog", "prob": 1 },
       { "item": "holo_magnifier_2", "prob": 1 },
-	  { "item": "holo_magnifier_4", "prob": 1 }
+      { "item": "holo_magnifier_4", "prob": 1 }
     ]
   },
   {
@@ -128,7 +137,9 @@
       { "item": "fort221_mag", "prob": 5 },
       { "item": "fort_221", "prob": 6 },
       { "item": "fort14_mag", "prob": 5 },
-      { "item": "fort_14", "prob": 6 }
+      { "item": "fort_14", "prob": 6 },
+      { "item": "wist_94_mag", "prob": 5 },
+      { "item": "wist_94", "prob": 6 }
     ]
   },
   {
@@ -136,15 +147,17 @@
     "id": "mil_hw",
     "subtype": "distribution",
     "entries": [
-      { "item": "ukm_2000", "prob": 30, "charges": [ 0, 200 ] },
+      { "item": "ukm_2000", "prob": 30, "charges": [ 0, 50 ] },
+      { "item": "ukm308drum", "prob": 10, "charges": [ 1, 50 ] },
       { "item": "m240", "prob": 20, "charges": [ 0, 200 ] },
       { "item": "m3_gepard", "prob": 5, "charges": [ 0, 5 ] },
       { "item": "762R_tracer", "prob": 5, "charges": [ 1, 50 ] },
+      { "item": "tos_akula", "prob": 25, "charges": [ 0, 200 ] },
       { "item": "belt762r", "prob": 8, "charges": [ 0, 200 ] },
       { "item": "drum762r", "prob": 10, "charges": [ 1, 50 ] },
       { "item": "m3gepardmag", "prob": 3, "charges": [ 1, 5 ] },
       { "item": "alligator_mag", "prob": 3, "charges": [ 1, 5 ] },
-      { "item": "145x114mm", "prob": 2, "charges": [ 1, 25 ] },
+      { "item": "145x114mm", "prob": 3, "charges": [ 1, 25 ] },
       { "item": "145X114_incendiary", "prob": 1, "charges": [ 1, 25 ] },
       { "item": "snipex_alligator", "prob": 5, "charges": [ 0, 5 ] }
     ]
@@ -156,9 +169,11 @@
     "subtype": "distribution",
     "entries": [
       { "item": "ukm_2000", "prob": 1, "charges": [ 0, 200 ] },
+      { "item": "ukm308drum", "prob": 1, "charges": [ 1, 50 ] },
       { "item": "m240", "prob": 1, "charges": [ 0, 200 ] },
       { "item": "m3_gepard", "prob": 1, "charges": [ 0, 5 ] },
       { "item": "762R_tracer", "prob": 1, "charges": [ 1, 50 ] },
+      { "item": "tos_akula", "prob": 1, "charges": [ 0, 200 ] },
       { "item": "belt762r", "prob": 1, "charges": [ 1, 200 ] },
       { "item": "drum762r", "prob": 1, "charges": [ 0, 50 ] },
       { "item": "m3gepardmag", "prob": 1, "charges": [ 1, 5 ] },

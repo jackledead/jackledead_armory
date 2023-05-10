@@ -498,14 +498,15 @@
           { "item": "water_clean", "container-item": "canteen" },
           {
             "item": "ukm_2000",
-            "ammo-item": "762_54R",
-            "charges": 200,
+            "ammo-item": "762_51",
+            "charges": 50,
             "contents-item": [ "shoulder_strap", "green_holo", "bipod" ]
           },
           { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
           { "item": "knife_combat", "container-item": "sheath" },
-          { "item": "fort14_mag", "ammo-item": "9x18mmfmj", "charges": 14 },
-          { "item": "fort_14", "ammo-item": "9x18mmfmj", "charges": 14, "container-item": "holster" }
+		  { "item": "ukm308drum", "ammo-item": "762_51", "charges": 50 },
+          { "item": "wist_94_mag", "ammo-item": "9mm", "charges": 16 },
+          { "item": "wist_94", "ammo-item": "9mm", "charges": 16, "container-item": "holster" }
         ]
       },
       "male": [ "boxer_shorts" ],
@@ -570,7 +571,7 @@
     "type": "profession",
     "id": "black_sea__mil_sniper",
     "name": "Black Sea Anti-Material Sniper",
-    "description": "Armed with Gepard m3 .50 caliber anti-material rifle and Fort 14TP pistol. You're a crack shot with a rifle, and the farther you can stay away from zombies, the better.  The only thing stopping you is limited ammo, so you should try to find a place to restock sooner or later.",
+    "description": "Armed with Gepard m3 anti-material rifle and Fort 14TP pistol. You're a crack shot with a rifle, and the farther you can stay away from zombies, the better.  The only thing stopping you is limited ammo, so you should try to find a place to restock sooner or later.",
     "points": 8,
     "proficiencies": [ "prof_gunsmithing_basic" ],
     "skills": [
@@ -603,12 +604,12 @@
           { "group": "charged_two_way_radio" },
           { "group": "us_ballistic_vest_pristine" },
           { "item": "water_clean", "container-item": "canteen" },
-          { "item": "m3_gepard", "ammo-item": "50bmg", "charges": 5, "contents-item": [ "shoulder_strap" ] },
+          { "item": "m3_gepard", "ammo-item": "145x114mm", "charges": 5, "contents-item": [ "shoulder_strap" ] },
           { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
           { "item": "knife_combat", "container-item": "sheath" },
           { "item": "fort_14", "ammo-item": "9x18mmfmj", "container-item": "holster", "charges": 14 },
           { "item": "legpouch_large", "contents-group": "army_mags_fort14" },
-          { "item": "m3gepardmag", "ammo-item": "50bmg", "charges": 5 }
+          { "item": "m3gepardmag", "ammo-item": "145x114mm", "charges": 5 }
         ]
       },
       "male": [ "boxer_shorts" ],

@@ -14,7 +14,8 @@
         [ "belt762r", 2 ],
         [ "fort14_mag", 10 ],
         [ "saiga30mag", 5 ],
-        [ "saiga10mag", 8 ]
+        [ "saiga10mag", 8 ],
+		[ "ukm308drum", 4 ]
       ]
     }
   },
@@ -27,7 +28,8 @@
       "items": [
         { "item": "fort221_mag", "prob": 40, "charges": [ 0, 8 ] },
         { "item": "vepr_mag30", "prob": 15, "charges": [ 0, 30 ] },
-        { "item": "fort14_mag", "prob": 30, "charges": [ 0, 14 ] }
+        { "item": "fort14_mag", "prob": 30, "charges": [ 0, 14 ] },
+		{ "item": "wist_94_mag", "prob": 30, "charges": [ 0, 16 ] }
       ]
     }
   },
@@ -51,7 +53,7 @@
     "id": "mags_pistol_common",
     "copy-from": "mags_pistol_common",
     "//": "Factory specification pistol magazines commonly owned by citizens.",
-    "extend": { "items": [ [ "fort221_mag", 25 ], [ "fort14_mag", 25 ] ] }
+    "extend": { "items": [ [ "fort221_mag", 25 ], [ "fort14_mag", 25 ], [ "wist_94_mag", 20 ] ] }
   },
   {
     "type": "item_group",

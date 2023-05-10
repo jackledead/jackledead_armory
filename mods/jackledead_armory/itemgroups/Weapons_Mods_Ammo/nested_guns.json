@@ -28,17 +28,31 @@
     ]
   },
   {
+    "id": "nested_tos_akula",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "tos_akula", "charges-min": 0, "charges-max": 200 },
+      { "item": "drum762r" },
+      { "item": "drum762r", "prob": 35 },
+      { "item": "belt762r", "prob": 25 },
+      { "group": "on_hand_762R" }
+    ]
+  },
+  {
     "id": "nested_ukm_2000",
     "type": "item_group",
     "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
     "subtype": "collection",
     "ammo": 100,
     "entries": [
-      { "item": "ukm_2000", "charges-min": 0, "charges-max": 200 },
-      { "item": "drum762r" },
-      { "item": "drum762r", "prob": 35 },
-      { "item": "belt762r", "prob": 25 },
-      { "group": "on_hand_762R" }
+      { "item": "ukm_2000", "charges-min": 0, "charges-max": 50 },
+      { "item": "ukm308drum" },
+      { "item": "ukm308drum", "prob": 35 },
+      { "item": "ukm308drum", "prob": 25 },
+      { "group": "on_hand_308" }
     ]
   },
   {
