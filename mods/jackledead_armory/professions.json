@@ -462,8 +462,8 @@
   },
   {
     "type": "profession",
-    "id": "ukrainian_mil_auto_rifleman",
-    "name": "Ukrainian Automatic Rifleman",
+    "id": "polish_mil_auto_rifleman",
+    "name": "Polish Automatic Rifleman",
     "description": "Armed with UKM 2000 machine gun and Fort 14TP pistol. You were trusted with a big-ass, belt-fed machine gun and plenty of ammo to lay down suppressing fire for your team.  Now that it's going to be much harder to resupply, you should probably be more selective with the ol' spray-and-pray.",
     "points": 7,
     "proficiencies": [ "prof_gunsmithing_basic" ],
@@ -568,8 +568,8 @@
   },
   {
     "type": "profession",
-    "id": "ukrainian_mil_sniper",
-    "name": "Ukrainian Anti-Material Sniper",
+    "id": "black_sea__mil_sniper",
+    "name": "Black Sea Anti-Material Sniper",
     "description": "Armed with Gepard m3 .50 caliber anti-material rifle and Fort 14TP pistol. You're a crack shot with a rifle, and the farther you can stay away from zombies, the better.  The only thing stopping you is limited ammo, so you should try to find a place to restock sooner or later.",
     "points": 8,
     "proficiencies": [ "prof_gunsmithing_basic" ],

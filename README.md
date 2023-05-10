@@ -140,6 +140,10 @@ Black Sea Police Recon-Rifleman: Start with a scoped VP Scout and a Fort 221
 
 Black Sea CQC Specialist Swat: Start with Tos 84 shotgun and Fort 14 pistol.
 
+Black Sea Anti-Material Sniper: Armed with Gepard M3 .50 cal sniper and fort 14 pistol.
+
+Polish Automatic Rifleman: Armed with UKM 2000 machinegun and Fort 14 pistol.
+
 Ukrainian Rifle Hunter: Start with Zbroyar Z-15 semi auto stanag-accepting rifle. 1+1 mags.
 
 Ukrainian Park Ranger: Start with Zbroyar Z-15 and Fort-221 pistol. Extra ammo. Heavy loudout like base game. Pickup truck.
@@ -148,15 +152,13 @@ Ukrainian Police Officer: Start with Fort-221 pistol and mags.
 
 Ukrainian Rifleman: Armed with Vepr rifle and Fort 14 pistol.
 
-Ukrainian Automatic Rifleman: Armed with UKM 2000 machinegun and Fort 14 pistol.
-
 Ukrainian Special Forces Rifleman: Armed with suppressed sighted Fort-224 rifle and Fort 14 pistol.
-
-Ukrainian Anti-Material Sniper: Armed with Gepard M3 .50 cal sniper and fort 14 pistol.
 
 Ukrainian Special Anti-Material Sniper: Armed with the massive Snipex Alligator chambered in 14.5x114mm, and the Forst 14 pistol.
 
 Survivor (Kickass): Locked and loaded, ready for the apocalypse. Starts with hybrid car, Vepr and Fort 14, multitool and other goodies.
+
+Gun-Mod Nut: starts with 20 gun mods, the skills to install them, a firearm repair kit, but no guns.
 
 ## Suggested Tileset
 #### ASCII/RETRODAYS: Simple means more imagination to fill your mind.
