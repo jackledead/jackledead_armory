@@ -138,7 +138,7 @@ Black Sea Mafia Boss: Start with Vepr, Fort 221, cigarettes, lighter, cell phone
 
 Black Sea Swat Officer: Start with Tos 30 and Fort 221.
 
-Black Sea Police Recon-Rifleman: Start with a scoped VP Scout and a Fort 221
+Black Sea Police Recon-Rifleman: Start with a scoped VP Orel and a Fort 221
 
 Black Sea CQC Specialist Swat: Start with Tos 84 shotgun and Fort 14 pistol.
 
