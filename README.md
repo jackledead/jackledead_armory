@@ -140,7 +140,7 @@ Black Sea Police Recon-Rifleman: Start with a scoped VP Scout and a Fort 221
 
 Black Sea CQC Specialist Swat: Start with Tos 84 shotgun and Fort 14 pistol.
 
-Black Sea Anti-Material Sniper: Armed with Gepard M3 .50 cal sniper and fort 14 pistol.
+Black Sea Anti-Material Sniper: Armed with Gepard M3 anti-material rifle and Fort 14 pistol.
 
 Polish Automatic Rifleman: Armed with UKM 2000 machinegun and Fort 14 pistol.
 
@@ -167,7 +167,7 @@ Gun-Mod Nut: starts with 20 gun mods, the skills to install them, a firearm repa
 
 ## Suggested Mods for use with this mod
 #### [Jackledead Infected Mod Github](https://github.com/jackledead/jackledead_infected) for that fast running infected zombie  apocalypse feel.
-#### [No Hope And Dinos](https://github.com/jackledead/No-Hope-and-Dinos) so you can blow up a T-Rex with an anti-material round from the Snipex Aliigator.
+#### [No Hope And Dinos](https://github.com/jackledead/No-Hope-and-Dinos) so you can blow up a T-Rex with an anti-material round from the Snipex Alligator.
 
 ## Additional Mods you may be interested in
 #### My repo of the exclusions mods anthology by Kenan [CDDA-CBN-Jackledead-NoMods-Collection](https://github.com/jackledead/CDDA-CBN-Jackledead-NoMods-Collection)
