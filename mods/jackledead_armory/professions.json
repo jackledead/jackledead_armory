@@ -569,7 +569,7 @@
   },
   {
     "type": "profession",
-    "id": "black_sea__mil_sniper",
+    "id": "black_sea_mil_sniper",
     "name": "Black Sea Anti-Material Sniper",
     "description": "Armed with Gepard m3 anti-material rifle and Fort 14TP pistol. You're a crack shot with a rifle, and the farther you can stay away from zombies, the better.  The only thing stopping you is limited ammo, so you should try to find a place to restock sooner or later.",
     "points": 8,
