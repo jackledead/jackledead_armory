@@ -144,7 +144,7 @@ Black Sea CQC Specialist Swat: Start with Tos 84 shotgun and Fort 14 pistol.
 
 Black Sea Anti-Material Sniper: Armed with Gepard M3 anti-material rifle and Fort 14 pistol.
 
-Polish Automatic Rifleman: Armed with UKM 2000 machinegun and Fort 14 pistol.
+Polish Automatic Rifleman: Armed with UKM 2000 machinegun and Wist 94 pistol.
 
 Ukrainian Rifle Hunter: Start with Zbroyar Z-15 semi auto stanag-accepting rifle. 1+1 mags.
 
