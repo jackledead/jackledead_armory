@@ -10,7 +10,7 @@ CDDA mod to add real world firearms and some of my own design. Includes 46+ gun 
 ### Real:
 Snipex Alligator: Firing the massive 14.5x114mm anti material round, this sniper is no joke. Place of origin: Ukraine
 
-Fort-221 pistol: The Fort-221 is a Ukrainian-made pistol that is similar in appearance to the Walther PPK. It is a compact and reliable firearm that is popular with law enforcement and military units in Ukraine.
+Fort-12 pistol: Ukrainian pistol to supplement the Makarov in service.
 
 Vepr: The Vepr is a Ukrainian-made bullpup rifle that is based on the AK-74 design. It is a rugged and reliable firearm that is often used by Ukrainian military and law enforcement units.
 
