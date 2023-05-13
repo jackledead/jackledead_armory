@@ -1,15 +1,29 @@
 [
   {
-    "id": "nested_fort_221",
+    "id": "nested_vp_sova",
     "type": "item_group",
     "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
     "subtype": "collection",
     "ammo": 100,
     "entries": [
-      { "item": "fort_221" },
-      { "item": "fort221_mag" },
-      { "item": "fort221_mag", "prob": 50 },
-	  { "item": "fort221_mag", "prob": 50 },
+      { "item": "vp_sova" },
+      { "item": "vp_sova_mag" },
+      { "item": "vp_sova_mag", "prob": 50 },
+	  { "item": "vp_sova_mag", "prob": 50 },
+      { "group": "on_hand_9x18" }
+    ]
+  },
+  {
+    "id": "nested_fort_12",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "fort_12" },
+      { "item": "fort_12_mag" },
+      { "item": "fort_12_mag", "prob": 50 },
+	  { "item": "fort_12_mag", "prob": 50 },
       { "group": "on_hand_9x18" }
     ]
   },

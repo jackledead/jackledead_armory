@@ -1,11 +1,11 @@
 [
   {
-    "id": "fort_221",
+    "id": "vp_sova",
     "copy-from": "pistol_base",
     "looks_like": "walther_ppk",
     "type": "GUN",
-    "name": { "str": "Fort-221 pistol" },
-    "description": "A compact and reliable 9x18mm pistol produced in Ukraine. The Fort-221 is a popular firearm among law enforcement and military units in Ukraine due to its size and reliability. It bears a striking resemblance to the Walther PPK.",
+    "name": { "str": "VP Sova pistol" },
+    "description": "A compact and reliable 9x18mm pistol produced in Eastern Europe. The VP Sova is a popular firearm among law enforcement and military units due to its size and reliability. It bears a striking resemblance to the Walther PPK.",
     "weight": "500 g",
     "volume": "250 ml",
     "longest_side": "165 mm",
@@ -22,7 +22,7 @@
     "min_cycle_recoil": 300,
     "flags": [ "ALLOWS_BODY_BLOCK" ],
     "weapon_category": [ "AUTOMATIC_PISTOLS" ],
-    "pocket_data": [ { "magazine_well": "150 ml", "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "fort221_mag" ] } ],
+    "pocket_data": [ { "magazine_well": "150 ml", "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "vp_sova_mag" ] } ],
     "melee_damage": { "bash": 7 }
   },
   {
@@ -54,7 +54,7 @@
   {
     "id": "wist_94",
     "copy-from": "pistol_base",
-	"looks_like": "walther_ppk",
+    "looks_like": "walther_ppk",
     "type": "GUN",
     "name": { "str": "WIST-94" },
     "description": "A semi-automatic pistol manufactured by PREXER Ltd. in Poland. Designed by Wiesław Stark in 1994, it is chambered for the 9×19mm Parabellum cartridge and has a 16-round box magazine.",
@@ -62,7 +62,7 @@
     "volume": "350 ml",
     "longest_side": "190 mm",
     "price": 120000,
-    "price_postapoc": 5000,
+    "price_postapoc": 3000,
     "to_hit": -2,
     "material": [ "plastic", "steel" ],
     "color": "dark_gray",
@@ -71,6 +71,32 @@
     "durability": 8,
     "min_cycle_recoil": 500,
     "pocket_data": [ { "magazine_well": "200 ml", "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "wist_94_mag" ] } ],
+    "melee_damage": { "bash": 8 }
+  },
+  {
+    "id": "fort_12",
+    "copy-from": "pistol_base",
+    "looks_like": "walther_ppk",
+    "type": "GUN",
+    "name": { "str": "Fort-12 pistol" },
+    "description": "The Fort-12 pistol is a reliable 9x18mm firearm made in Ukraine to replace the aging Makarov PM pistols. It boasts improved ergonomics, accuracy, and a larger magazine capacity of 12 rounds.",
+    "weight": "830 g",
+    "volume": "250 ml",
+    "longest_side": "180 mm",
+    "price": 45000,
+    "price_postapoc": 2000,
+    "to_hit": -1,
+    "material": [ "steel" ],
+    "symbol": "(",
+    "color": "light_gray",
+    "ammo": [ "9x18" ],
+    "ranged_damage": { "damage_type": "bullet", "amount": -1 },
+    "dispersion": 410,
+    "durability": 8,
+    "min_cycle_recoil": 400,
+    "flags": [ "ALLOWS_BODY_BLOCK" ],
+    "weapon_category": [ "SEMI_AUTO_HANDGUNS" ],
+    "pocket_data": [ { "magazine_well": "150 ml", "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "fort_12_mag" ] } ],
     "melee_damage": { "bash": 8 }
   }
 ]

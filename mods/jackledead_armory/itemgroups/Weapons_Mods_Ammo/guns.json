@@ -5,7 +5,7 @@
     "copy-from": "guns_pistol_common",
     "//": "Pistols that are reasonably prolific amongst civilians, commonly owned and reliably obtainable by citizens and that are found in many locations.",
     "//2": "Making the assumption any loaded gun will have additional ammo and mags with it.",
-    "extend": { "items": [ { "group": "nested_fort_221", "prob": 40 } ] }
+    "extend": { "items": [ { "group": "nested_vp_sova", "prob": 40 }, { "group": "nested_fort_12", "prob": 40 } ] }
   },
   {
     "type": "item_group",
@@ -15,7 +15,8 @@
     "//": "Empty and reasonably common pistols found exclusively in gun stores.",
     "extend": {
       "items": [
-        { "item": "fort_221", "prob": 40, "charges-min": 0, "charges-max": 0 },
+        { "item": "vp_sova", "prob": 40, "charges-min": 0, "charges-max": 0 },
+		{ "item": "fort_12", "prob": 40, "charges-min": 0, "charges-max": 0 },
         { "item": "fort_14", "prob": 30, "charges-min": 0, "charges-max": 0 }
       ]
     }
@@ -55,7 +56,7 @@
     "copy-from": "guns_pistol_milspec",
     "//": "US military specification pistols only ever found at military sites. These weapons must be pistols that are still in current inventory, and are still being issued in some capacity to American personnel.",
     "//2": "Making the assumption any loaded gun will have additional ammo and mags with it.",
-    "extend": { "items": [ { "group": "nested_fort_221", "prob": 50 }, { "group": "nested_fort_14", "prob": 60 } ] }
+    "extend": { "items": [ { "group": "nested_vp_sova", "prob": 50 }, { "group": "nested_fort_12", "prob": 50 }, { "group": "nested_fort_14", "prob": 60 } ] }
   },
   {
     "type": "item_group",
@@ -286,7 +287,8 @@
     "copy-from": "sidearms_cop",
     "extend": {
       "items": [
-        { "item": "fort_221", "prob": 30, "charges": [ 0, 8 ] },
+        { "item": "vp_sova", "prob": 30, "charges": [ 0, 9 ] },
+		{ "item": "fort_12", "prob": 30, "charges": [ 0, 12 ] },
         { "item": "fort_14", "prob": 30, "charges": [ 0, 14 ] },
         { "item": "wist_94", "prob": 30, "charges": [ 0, 16 ] }
       ]
@@ -300,7 +302,11 @@
     "extend": {
       "items": [
         {
-          "collection": [ { "item": "fort_221", "prob": 100, "charges": [ 0, 8 ] }, { "group": "field_fort_221" } ],
+          "collection": [ { "item": "vp_sova", "prob": 100, "charges": [ 0, 9 ] }, { "group": "field_vp_sova" } ],
+          "prob": 40
+        },
+		{
+          "collection": [ { "item": "fort_12", "prob": 100, "charges": [ 0, 12 ] }, { "group": "field_fort_12" } ],
           "prob": 40
         },
         {
@@ -321,7 +327,8 @@
     "//": "guns lost but still have mags",
     "extend": {
       "items": [
-        { "group": "field_fort_221", "prob": 35 },
+        { "group": "field_vp_sova", "prob": 35 },
+		{ "group": "field_fort_12", "prob": 30 },
         { "group": "field_fort_14", "prob": 35 },
         { "group": "field_wist_94", "prob": 25 }
       ]

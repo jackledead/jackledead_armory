@@ -9,7 +9,8 @@
         [ "vepr_mag30", 10 ],
         [ "pslmag5", 5 ],
         [ "pslmag10", 6 ],
-        [ "fort221_mag", 10 ],
+        [ "vp_sova_mag", 10 ],
+		[ "fort_12_mag", 10 ],
         [ "drum762r", 4 ],
         [ "belt762r", 2 ],
         [ "fort14_mag", 10 ],
@@ -26,7 +27,8 @@
     "//": "Standard issue police magazines.",
     "extend": {
       "items": [
-        { "item": "fort221_mag", "prob": 40, "charges": [ 0, 8 ] },
+        { "item": "vp_sova_mag", "prob": 40, "charges": [ 0, 9 ] },
+		{ "item": "fort_12_mag", "prob": 40, "charges": [ 0, 12 ] },
         { "item": "vepr_mag30", "prob": 15, "charges": [ 0, 30 ] },
         { "item": "fort14_mag", "prob": 30, "charges": [ 0, 14 ] },
 		{ "item": "wist_94_mag", "prob": 30, "charges": [ 0, 16 ] }
@@ -53,7 +55,7 @@
     "id": "mags_pistol_common",
     "copy-from": "mags_pistol_common",
     "//": "Factory specification pistol magazines commonly owned by citizens.",
-    "extend": { "items": [ [ "fort221_mag", 25 ], [ "fort14_mag", 25 ], [ "wist_94_mag", 20 ] ] }
+    "extend": { "items": [ [ "vp_sova_mag", 25 ], [ "fort_12_mag", 25 ], [ "fort14_mag", 25 ], [ "wist_94_mag", 20 ] ] }
   },
   {
     "type": "item_group",

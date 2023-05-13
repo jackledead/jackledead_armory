@@ -22,23 +22,45 @@
     ]
   },
   {
-    "id": "field_fort_221",
+    "id": "field_vp_sova",
     "type": "item_group",
     "//": "this is a distribution for ammo and magazines an active combatant would have immediately on hand.  Most should be expended.",
     "//2": "usually takes the form of 100% chance for first mag, 70% for second, 50% for third with reducing chances of them being mostly expended.",
-    "//3": "this group is for the fort_221",
+    "//3": "this group is for the vp_sova",
     "subtype": "collection",
     "entries": [
       {
-        "distribution": [ { "item": "fort221_mag", "charges": 8, "prob": 50 }, { "item": "fort221_mag", "charges": [ 0, 5 ], "prob": 50 } ],
+        "distribution": [ { "item": "vp_sova_mag", "charges": 9, "prob": 50 }, { "item": "vp_sova_mag", "charges": [ 0, 5 ], "prob": 50 } ],
         "prob": 100
       },
       {
-        "distribution": [ { "item": "fort221_mag", "charges": 8, "prob": 30 }, { "item": "fort221_mag", "charges": [ 0, 5 ], "prob": 70 } ],
+        "distribution": [ { "item": "vp_sova_mag", "charges": 9, "prob": 30 }, { "item": "vp_sova_mag", "charges": [ 0, 5 ], "prob": 70 } ],
         "prob": 80
       },
       {
-        "distribution": [ { "item": "fort221_mag", "charges": 8, "prob": 30 }, { "item": "fort221_mag", "charges": [ 0, 5 ], "prob": 70 } ],
+        "distribution": [ { "item": "vp_sova_mag", "charges": 9, "prob": 30 }, { "item": "vp_sova_mag", "charges": [ 0, 5 ], "prob": 70 } ],
+        "prob": 60
+      }
+    ]
+  },
+  {
+    "id": "field_fort_12",
+    "type": "item_group",
+    "//": "this is a distribution for ammo and magazines an active combatant would have immediately on hand.  Most should be expended.",
+    "//2": "usually takes the form of 100% chance for first mag, 70% for second, 50% for third with reducing chances of them being mostly expended.",
+    "//3": "this group is for the fort_12",
+    "subtype": "collection",
+    "entries": [
+      {
+        "distribution": [ { "item": "fort_12_mag", "charges": 12, "prob": 50 }, { "item": "fort_12_mag", "charges": [ 0, 5 ], "prob": 50 } ],
+        "prob": 100
+      },
+      {
+        "distribution": [ { "item": "fort_12_mag", "charges": 12, "prob": 30 }, { "item": "fort_12_mag", "charges": [ 0, 5 ], "prob": 70 } ],
+        "prob": 80
+      },
+      {
+        "distribution": [ { "item": "fort_12_mag", "charges": 12, "prob": 30 }, { "item": "fort_12_mag", "charges": [ 0, 5 ], "prob": 70 } ],
         "prob": 60
       }
     ]

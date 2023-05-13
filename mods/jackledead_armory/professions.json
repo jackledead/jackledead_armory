@@ -55,8 +55,8 @@
           { "item": "vepr", "custom-flags": [ "auto_wield" ], "ammo-item": "545", "charges": 30 },
           { "item": "vepr_mag30", "ammo-item": "545", "charges": 30, "count": 1 },
           { "item": "cig", "container-item": "blazer" },
-          { "item": "fort_221", "ammo-item": "9x18mmfmj", "container-item": "holster", "charges": 8 },
-          { "item": "fort221_mag", "ammo-item": "9x18mmfmj", "charges": 8, "count": 2 },
+          { "item": "vp_sova", "ammo-item": "9x18mmfmj", "container-item": "holster", "charges": 9 },
+          { "item": "vp_sova_mag", "ammo-item": "9x18mmfmj", "charges": 9, "count": 2 },
           { "item": "knife_folding", "container-item": "pants" }
         ]
       },
@@ -99,10 +99,10 @@
           { "group": "swat_ballistic_vest_pristine" },
           { "group": "charged_two_way_radio" },
           { "item": "sheriffshirt", "variant": "swat_shirt" },
-          { "item": "fort221_mag", "ammo-item": "9x18mmfmj", "charges": 8, "count": 2 },
+          { "item": "vp_sova_mag", "ammo-item": "9x18mmfmj", "charges": 9, "count": 2 },
           { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
           { "item": "grenadebandolier", "contents-item": [ "flashbang", "flashbang" ] },
-          { "item": "fort_221", "ammo-item": "9x18mmfmj", "charges": 8, "container-item": "holster" },
+          { "item": "vp_sova", "ammo-item": "9x18mmfmj", "charges": 9, "container-item": "holster" },
           {
             "item": "tos_30",
             "ammo-item": "9x18mm",
@@ -149,8 +149,8 @@
           { "group": "charged_two_way_radio" },
           { "item": "glasses_bal", "custom-flags": [ "no_auto_equip" ] },
           { "group": "charged_powered_earmuffs" },
-          { "item": "fort_221", "ammo-item": "9x18mmfmj", "charges": 8, "container-item": "holster" },
-          { "item": "fort221_mag", "ammo-item": "9x18mmfmj", "charges": 8, "count": 2 },
+          { "item": "vp_sova", "ammo-item": "9x18mmfmj", "charges": 9, "container-item": "holster" },
+          { "item": "vp_sova_mag", "ammo-item": "9x18mmfmj", "charges": 9, "count": 2 },
           { "item": "pslmag10", "charges": 10, "count": 2 },
           {
             "item": "vp_scout",
@@ -262,8 +262,8 @@
           { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
           { "item": "file" },
           { "item": "lighter", "charges": 100 },
-          { "item": "fort_221", "ammo-item": "9x18mm", "charges": 8, "container-item": "holster" },
-          { "item": "fort221_mag", "ammo-item": "9x18mm", "charges": 8, "count": 2 },
+          { "item": "fort_12", "ammo-item": "9x18mm", "charges": 12, "container-item": "holster" },
+          { "item": "fort_12_mag", "ammo-item": "9x18mm", "charges": 12, "count": 2 },
           { "item": "paper", "charges": 20, "container-item": "leather_journal" },
           { "item": "permanent_marker", "charges": 500 },
           { "item": "roadmap" },
@@ -304,8 +304,8 @@
           { "group": "charged_smart_phone" },
           { "group": "charged_two_way_radio" },
           { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
-          { "item": "fort_221", "ammo-item": "9x18mmfmj", "charges": 8, "container-item": "holster" },
-          { "item": "fort221_mag", "ammo-item": "9x18mmfmj", "charges": 8, "count": 3 },
+          { "item": "fort_12", "ammo-item": "9x18mmfmj", "charges": 12, "container-item": "holster" },
+          { "item": "fort_12_mag", "ammo-item": "9x18mmfmj", "charges": 12, "count": 3 },
           { "item": "sheriffshirt", "variant": "sheriff" }
         ]
       },
