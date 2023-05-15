@@ -22,6 +22,8 @@ Gepard M3: The Gepard is an anti-materiel rifle from Hungary that is designed to
 
 UKM 2000: The UKM is a Polish heavy machine gun that has been widely used by the Ukrainian Armed Forces and other military units in Ukraine. It is known for its reliability and versatility.
 
+Wist 94: 9x19 mm pistol from Poland
+
 Fort 14TP pistol: 14 round 9x18mm usually loaded with fmjs. Set to be the new pistol of the UAF.
 
 ### Fictional:
@@ -32,6 +34,8 @@ Tos 30 submachine gun: A lightweight Eastern European submachine gun intended fo
 Tos 84 semi-automatic shotgun: Akin to a saiga. Used by close quarters swat. 
 
 Tos Aklula: Machine gun firing the 7.62x54r round from belts or drums.
+
+VP Sova: 9x18mm pistol with 9 round magazine.
 
 ### Existing:
 Made makarovs, mosins more common.
@@ -44,7 +48,7 @@ blue_pistol_scope
 
 classic_handguard
 
-combat_knife_bayonet
+standard_knife_bayonet
 
 compact_holo_sight
 
@@ -134,11 +138,11 @@ holo_magnifier_4
 
 ## Professions:
 
-Black Sea Mafia Boss: Start with Vepr, Fort 221, cigarettes, lighter, cell phone, blazer, dress shirt, pants. I'm sure he's a nice guy. A little OP, statted at 8 points but really meant to be used for roleplay and fun.
+Black Sea Mafia Boss: Start with Vepr, VP Sova, cigarettes, lighter, cell phone, blazer, dress shirt, pants. I'm sure he's a nice guy. A little OP, statted at 8 points but really meant to be used for roleplay and fun.
 
-Black Sea Swat Officer: Start with Tos 30 and Fort 221.
+Black Sea Swat Officer: Start with Tos 30 and VP Sova.
 
-Black Sea Police Recon-Rifleman: Start with a scoped VP Orel and a Fort 221
+Black Sea Police Recon-Rifleman: Start with a scoped VP Orel and a VP Sova
 
 Black Sea CQC Specialist Swat: Start with Tos 84 shotgun and Fort 14 pistol.
 
