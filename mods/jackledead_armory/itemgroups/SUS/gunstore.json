@@ -1,0 +1,11 @@
+[
+  {
+    "id": "SUS_gunstore_gear",
+    "copy-from": "SUS_gunstore_gear",
+    "type": "item_group",
+    "//": "SUS item groups are collections that contain a reasonable realistic distribution of items that might spawn in a given storage furniture.",
+    "//2": "This group is for tactical and military gear sold by gunstores",
+    "subtype": "distribution",
+    "extend": { "entries": [ { "item": "knife_pry_fold", "prob": 15 }, { "item": "knife_pry_fixed", "prob": 10 }, { "item": "standard_knife_bayonet", "prob": 15 } ] }
+  }
+]

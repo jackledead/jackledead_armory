@@ -2,25 +2,27 @@
   {
     "type": "item_group",
     "id": "bugout_small_gun",
+    "copy-from": "bugout_small_gun",
     "subtype": "distribution",
     "//": "a handgun of some kind.",
-    "entries": [
-      { "item": "vp_sova", "prob": 15 },
-	  { "item": "fort_12", "prob": 15 },
-	  { "item": "fort_14", "prob": 15 }
-    ]
+    "extend": {
+      "entries": [ { "item": "vp_sova", "prob": 15 }, { "item": "fort_12", "prob": 15 }, { "item": "fort_14", "prob": 15 } ]
+    }
   },
   {
     "type": "item_group",
     "id": "bugout_long_gun",
+    "copy-from": "bugout_long_gun",
     "subtype": "distribution",
     "//": "a long weapon of some kind.",
-    "entries": [
-      { "item": "vp_scout", "prob": 20 },
-      { "item": "vepr", "prob": 10 },
-      { "item": "zbroyar_z15", "prob": 15 },
-	  { "item": "tos_84", "prob": 8 },
-	  { "item": "tos_30", "prob": 10 }
-    ]
+    "extend": {
+      "entries": [
+        { "item": "vp_scout", "prob": 20 },
+        { "item": "vepr", "prob": 10 },
+        { "item": "zbroyar_z15", "prob": 15 },
+        { "item": "tos_84", "prob": 8 },
+        { "item": "tos_30", "prob": 10 }
+      ]
+    }
   }
 ]

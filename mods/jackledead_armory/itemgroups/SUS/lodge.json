@@ -1,0 +1,30 @@
+[
+  {
+    "id": "SUS_hunting_rifle",
+    "copy-from": "SUS_hunting_rifle",
+    "type": "item_group",
+    "//": "items found in a rifle hunting space",
+    "subtype": "collection",
+    "extend": {
+      "entries": [
+        { "item": "zbroyar_z15", "prob": 50, "charges-min": 0, "charges-max": 30 },
+        { "item": "mosin91_30", "prob": 15, "charges-min": 0, "charges-max": 5 },
+        { "item": "mosin44", "prob": 20, "charges-min": 0, "charges-max": 5 },
+        { "item": "vp_scout", "prob": 10, "charges-min": 0, "charges-max": 10 }
+      ]
+    }
+  },
+  {
+    "id": "cannibal_food",
+    "copy-from": "cannibal_food",
+    "type": "item_group",
+    "subtype": "collection",
+    "extend": {
+      "entries": [
+        { "item": "knife_pry_fold", "prob": 5 },
+        { "item": "knife_pry_fixed", "prob": 20 },
+        { "item": "standard_knife_bayonet", "prob": 12 }
+      ]
+    }
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "camping",
+    "copy-from": "camping",
+    "type": "item_group",
+	"extend": { "items": [ [ "knife_pry_fold", 10 ], [ "knife_pry_fixed", 8 ] ] }
+  },
+  {
+    "id": "hiking",
+    "copy-from": "hiking",
+    "type": "item_group",
+	"extend": { "items": [ [ "knife_pry_fold", 6 ], [ "knife_pry_fixed", 4 ] ] }
+  }
+]

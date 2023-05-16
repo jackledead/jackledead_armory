@@ -1,0 +1,43 @@
+[
+  {
+    "type": "item_group",
+    "id": "swat_gear",
+    "copy-from": "swat_gear",
+    "subtype": "distribution",
+    "extend": {
+      "items": [
+        [ "knife_pry_fold", 10 ],
+        [ "blue_laser_sight", 3 ],
+        [ "compact_holo_sight", 3 ],
+        [ "compact_red_dot_sight", 3 ],
+        [ "green_dot_sight", 3 ],
+        [ "green_holo_sight", 3 ],
+        [ "green_laser_sight", 3 ],
+        [ "grip_ergonomic", 3 ],
+        [ "grip_heavy", 3 ],
+        [ "grip_light", 3 ],
+        [ "heavy_grip", 3 ],
+        [ "magnified_red_dot", 3 ],
+        [ "offset_rail_laser", 3 ],
+        [ "orange_dot_sight", 3 ],
+        [ "red_laser_sight", 3 ],
+        [ "tactical_holo_sight", 3 ],
+        [ "tactical_rifle_scope", 3 ],
+        [ "two_stage_trigger", 3 ],
+        [ "yellow_laser_sight", 3 ],
+        [ "standard_knife_bayonet", 10 ],
+        [ "short_suppressor", 15 ],
+        [ "tactical_grip", 3 ]
+      ]
+    }
+  },
+  {
+    "id": "gear_soldier_sidearm",
+    "copy-from": "gear_soldier_sidearm",
+    "type": "item_group",
+    "//": "Sidearm and appropriate holster or sheath for soldiers or other paramilitary forces.",
+    "extend": {
+      "items": [ { "distribution": [ { "collection": [ { "item": "standard_knife_bayonet" }, { "item": "sheath" } ], "prob": 20 } ] } ]
+    }
+  }
+]

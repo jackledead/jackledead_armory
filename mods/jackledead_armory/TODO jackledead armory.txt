@@ -1,17 +1,12 @@
 TODO:
+umm i guess the fort 221 is a rifle so i gotta change what I have to a pistol thats real. added the fort 12. now to test.
 
 Make profession for the Tos Akula
-profession for each gun
+
 add z-10 762x51 nato rifle
 add British guns/professions
 
-
 Pretty much done:
-
-
-Done:
-new pistol new shotgun
-umm i guess the fort 221 is a rifle so i gotta change what I have to a pistol thats real. added the fort 12. now to test.
 Add new guns to itemgroups
 fix item groups for new calibers
 fix looks like for new pistol
@@ -21,5 +16,14 @@ Add polish pistol for machine gunner
 Rename vp scout, renamed to VP Orel
 rechamber the gepard m3 in 145x114
 make fictional machine gun chambered in 762x54r
+
+
 Make sure gepard anti material profession starts with gun mods
 test new professions
+
+
+profession for each gun
+
+Done:
+new pistol new shotgun
+

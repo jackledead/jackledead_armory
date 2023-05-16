@@ -2,195 +2,223 @@
   {
     "type": "item_group",
     "id": "military_standard_assault_rifles",
+    "copy-from": "military_standard_assault_rifles",
     "subtype": "distribution",
-    "entries": [ { "item": "vepr", "prob": 40, "charges": [ 0, 30 ] }, { "item": "tavor_x95", "prob": 8, "charges": [ 0, 30 ] } ]
+    "extend": {
+      "entries": [ { "item": "vepr", "prob": 40, "charges": [ 0, 30 ] }, { "item": "tavor_x95", "prob": 8, "charges": [ 0, 30 ] } ]
+    }
   },
   {
     "type": "item_group",
     "id": "military_standard_assault_rifles_sighted",
+    "copy-from": "military_standard_assault_rifles_sighted",
     "subtype": "distribution",
-    "entries": [
-      { "item": "vepr", "prob": 35, "charges": [ 0, 30 ], "contents-item": [ "sights_mount", "green_holo_sight" ] },
-      { "item": "tavor_x95", "prob": 10, "charges": [ 0, 30 ], "contents-item": "long_range_acog" }
-    ]
+    "extend": {
+      "entries": [
+        { "item": "vepr", "prob": 35, "charges": [ 0, 30 ], "contents-item": [ "sights_mount", "green_holo_sight" ] },
+        { "item": "tavor_x95", "prob": 10, "charges": [ 0, 30 ], "contents-item": "long_range_acog" }
+      ]
+    }
   },
   {
     "type": "item_group",
     "id": "military_standard_shotguns",
+    "copy-from": "military_standard_shotguns",
     "subtype": "distribution",
-    "entries": [ { "item": "tos_84", "prob": 30, "charges": [ 0, 30 ] } ]
+    "extend": { "entries": [ { "item": "tos_84", "prob": 30, "charges": [ 0, 30 ] } ] }
   },
   {
     "type": "item_group",
     "id": "military_standard_sniper_rifles",
+    "copy-from": "military_standard_sniper_rifles",
     "subtype": "distribution",
-    "entries": [
-      { "item": "zbroyar_z15", "prob": 15, "charges": [ 0, 30 ] },
-      { "item": "m3_gepard", "prob": 2, "charges": [ 0, 5 ] },
-      { "item": "vp_scout", "prob": 20, "charges": [ 0, 10 ], "contents-item": [ "tactical_rifle_scope" ] },
-      { "item": "snipex_alligator", "prob": 2, "charges": [ 0, 5 ] }
-    ]
+    "extend": {
+      "entries": [
+        { "item": "zbroyar_z15", "prob": 15, "charges": [ 0, 30 ] },
+        { "item": "m3_gepard", "prob": 2, "charges": [ 0, 5 ] },
+        { "item": "vp_scout", "prob": 20, "charges": [ 0, 10 ], "contents-item": [ "tactical_rifle_scope" ] },
+        { "item": "snipex_alligator", "prob": 2, "charges": [ 0, 5 ] }
+      ]
+    }
   },
   {
     "type": "item_group",
     "id": "military_standard_lmgs",
+    "copy-from": "military_standard_lmgs",
     "subtype": "distribution",
-    "entries": [ { "item": "ukm_2000", "prob": 80, "charges": [ 0, 50 ] }, { "item": "tos_akula", "prob": 80, "charges": [ 0, 200 ] } ]
+    "extend": {
+      "entries": [ { "item": "ukm_2000", "prob": 80, "charges": [ 0, 50 ] }, { "item": "tos_akula", "prob": 80, "charges": [ 0, 200 ] } ]
+    }
   },
   {
     "type": "item_group",
     "id": "military_standard_pistols",
+    "copy-from": "military_standard_pistols",
     "subtype": "distribution",
-    "entries": [
-      { "item": "vp_sova", "prob": 20, "charges": [ 0, 9 ] },
-	  { "item": "fort_12", "prob": 20, "charges": [ 0, 12 ] },
-      { "item": "fort_14", "prob": 15, "charges": [ 0, 14 ] },
-      { "item": "wist_94", "prob": 15, "charges": [ 0, 16 ] }
-    ]
+    "extend": {
+      "entries": [
+        { "item": "vp_sova", "prob": 20, "charges": [ 0, 9 ] },
+        { "item": "fort_12", "prob": 20, "charges": [ 0, 12 ] },
+        { "item": "fort_14", "prob": 15, "charges": [ 0, 14 ] },
+        { "item": "wist_94", "prob": 15, "charges": [ 0, 16 ] }
+      ]
+    }
   },
   {
     "type": "item_group",
     "id": "military",
+    "copy-from": "military",
     "subtype": "distribution",
-    "entries": [
-      { "item": "m3_gepard", "prob": 2 },
-      { "item": "ukm_2000", "prob": 4 },
-      { "item": "ukm308drum", "prob": 2 },
-      { "item": "vp_sova", "prob": 5 },
-      { "item": "vp_sova_mag", "prob": 4 },
-	  { "item": "fort_12", "prob": 5 },
-      { "item": "fort_12_mag", "prob": 4 },
-      { "item": "vepr", "prob": 6 },
-      { "item": "tavor_x95", "prob": 8 },
-      { "item": "vp_scout", "prob": 5 },
-      { "item": "762R_tracer", "prob": 2 },
-      { "item": "tos_akula", "prob": 4 },
-      { "item": "belt762r", "prob": 2 },
-      { "item": "drum762r", "prob": 2 },
-      { "item": "m3gepardmag", "prob": 2 },
-      { "item": "tos_30", "prob": 6 },
-      { "item": "tos_30_mag", "prob": 8 },
-      { "item": "alligator_mag", "prob": 2 },
-      { "item": "145x114mm", "prob": 2 },
-      { "item": "145X114_incendiary", "prob": 1 },
-      { "item": "snipex_alligator", "prob": 2 },
-      { "item": "fort14_mag", "prob": 6 },
-      { "item": "fort_14", "prob": 8 },
-      { "item": "wist_94_mag", "prob": 5 },
-      { "item": "wist_94", "prob": 6 },
-      { "item": "tos_84", "prob": 5 },
-      { "item": "saiga10mag", "prob": 4 },
-      { "item": "saiga30mag", "prob": 4 },
-      { "item": "vepr_mag30", "prob": 8 },
-      { "item": "545", "prob": 5 },
-      { "item": "hair_trigger", "prob": 1 },
-      { "item": "small_muzzle_brake", "prob": 1 },
-      { "item": "heavy_grip", "prob": 1 },
-      { "item": "light_stock_grip", "prob": 1 },
-      { "item": "classic_handguard", "prob": 1 },
-      { "item": "lightweight_handguard", "prob": 1 },
-      { "item": "grip_heavy", "prob": 1 },
-      { "item": "grip_light", "prob": 1 },
-      { "item": "grip_ergonomic", "prob": 1 },
-      { "item": "red_laser_sight", "prob": 1 },
-      { "item": "green_laser_sight", "prob": 1 },
-      { "item": "blue_laser_sight", "prob": 1 },
-      { "item": "yellow_laser_sight", "prob": 1 },
-      { "item": "purple_laser_sight", "prob": 1 },
-      { "item": "standard_knife_bayonet", "prob": 2 },
-      { "item": "blue_pistol_scope", "prob": 1 },
-      { "item": "red_pistol_scope", "prob": 1 },
-      { "item": "green_pistol_scope", "prob": 1 },
-      { "item": "compact_pistol_scope", "prob": 1 },
-      { "item": "enhanced_pistol_scope", "prob": 1 },
-      { "item": "green_dot_sight", "prob": 1 },
-      { "item": "compact_red_dot_sight", "prob": 1 },
-      { "item": "orange_dot_sight", "prob": 1 },
-      { "item": "lightweight_dot_sight", "prob": 1 },
-      { "item": "purple_dot_sight", "prob": 1 },
-      { "item": "long_range_rifle_scope", "prob": 1 },
-      { "item": "tactical_shotgun_scope", "prob": 1 },
-      { "item": "magnified_red_dot", "prob": 1 },
-      { "item": "heavy_long_choke", "prob": 1 },
-      { "item": "short_light_choke", "prob": 1 },
-      { "item": "heavy_muzzle_brake", "prob": 1 },
-      { "item": "long_suppressor", "prob": 1 },
-      { "item": "short_suppressor", "prob": 1 },
-      { "item": "two_stage_trigger", "prob": 1 },
-      { "item": "tactical_grip", "prob": 1 },
-      { "item": "offset_rail_laser", "prob": 1 },
-      { "item": "tactical_handguard", "prob": 1 },
-      { "item": "compact_holo_sight", "prob": 1 },
-      { "item": "tactical_holo_sight", "prob": 1 },
-      { "item": "green_holo_sight", "prob": 1 },
-      { "item": "enhanced_pistol_scope", "prob": 1 },
-      { "item": "tactical_rifle_scope", "prob": 1 },
-      { "item": "green_holo", "prob": 1 },
-      { "item": "long_range_acog", "prob": 1 },
-      { "item": "holo_magnifier_2", "prob": 1 },
-      { "item": "holo_magnifier_4", "prob": 1 }
-    ]
+    "extend": {
+      "entries": [
+        { "item": "m3_gepard", "prob": 2 },
+        { "item": "ukm_2000", "prob": 4 },
+        { "item": "ukm308drum", "prob": 2 },
+        { "item": "vp_sova", "prob": 5 },
+        { "item": "vp_sova_mag", "prob": 4 },
+        { "item": "fort_12", "prob": 5 },
+        { "item": "fort_12_mag", "prob": 4 },
+        { "item": "vepr", "prob": 6 },
+        { "item": "tavor_x95", "prob": 8 },
+        { "item": "vp_scout", "prob": 5 },
+        { "item": "762R_tracer", "prob": 2 },
+        { "item": "tos_akula", "prob": 4 },
+        { "item": "belt762r", "prob": 2 },
+        { "item": "drum762r", "prob": 2 },
+        { "item": "m3gepardmag", "prob": 2 },
+        { "item": "tos_30", "prob": 6 },
+        { "item": "tos_30_mag", "prob": 8 },
+        { "item": "alligator_mag", "prob": 2 },
+        { "item": "145x114mm", "prob": 2 },
+        { "item": "145X114_incendiary", "prob": 1 },
+        { "item": "snipex_alligator", "prob": 2 },
+        { "item": "fort14_mag", "prob": 6 },
+        { "item": "fort_14", "prob": 8 },
+        { "item": "wist_94_mag", "prob": 5 },
+        { "item": "wist_94", "prob": 6 },
+        { "item": "tos_84", "prob": 5 },
+        { "item": "saiga10mag", "prob": 4 },
+        { "item": "saiga30mag", "prob": 4 },
+        { "item": "vepr_mag30", "prob": 8 },
+        { "item": "545", "prob": 5 },
+        { "item": "hair_trigger", "prob": 1 },
+        { "item": "small_muzzle_brake", "prob": 1 },
+        { "item": "heavy_grip", "prob": 1 },
+        { "item": "light_stock_grip", "prob": 1 },
+        { "item": "classic_handguard", "prob": 1 },
+        { "item": "lightweight_handguard", "prob": 1 },
+        { "item": "grip_heavy", "prob": 1 },
+        { "item": "grip_light", "prob": 1 },
+        { "item": "grip_ergonomic", "prob": 1 },
+        { "item": "red_laser_sight", "prob": 1 },
+        { "item": "green_laser_sight", "prob": 1 },
+        { "item": "blue_laser_sight", "prob": 1 },
+        { "item": "yellow_laser_sight", "prob": 1 },
+        { "item": "purple_laser_sight", "prob": 1 },
+        { "item": "standard_knife_bayonet", "prob": 2 },
+        { "item": "blue_pistol_scope", "prob": 1 },
+        { "item": "red_pistol_scope", "prob": 1 },
+        { "item": "green_pistol_scope", "prob": 1 },
+        { "item": "compact_pistol_scope", "prob": 1 },
+        { "item": "enhanced_pistol_scope", "prob": 1 },
+        { "item": "green_dot_sight", "prob": 1 },
+        { "item": "compact_red_dot_sight", "prob": 1 },
+        { "item": "orange_dot_sight", "prob": 1 },
+        { "item": "lightweight_dot_sight", "prob": 1 },
+        { "item": "purple_dot_sight", "prob": 1 },
+        { "item": "long_range_rifle_scope", "prob": 1 },
+        { "item": "tactical_shotgun_scope", "prob": 1 },
+        { "item": "magnified_red_dot", "prob": 1 },
+        { "item": "heavy_long_choke", "prob": 1 },
+        { "item": "short_light_choke", "prob": 1 },
+        { "item": "heavy_muzzle_brake", "prob": 1 },
+        { "item": "long_suppressor", "prob": 1 },
+        { "item": "short_suppressor", "prob": 1 },
+        { "item": "two_stage_trigger", "prob": 1 },
+        { "item": "tactical_grip", "prob": 1 },
+        { "item": "offset_rail_laser", "prob": 1 },
+        { "item": "tactical_handguard", "prob": 1 },
+        { "item": "compact_holo_sight", "prob": 1 },
+        { "item": "tactical_holo_sight", "prob": 1 },
+        { "item": "green_holo_sight", "prob": 1 },
+        { "item": "enhanced_pistol_scope", "prob": 1 },
+        { "item": "tactical_rifle_scope", "prob": 1 },
+        { "item": "green_holo", "prob": 1 },
+        { "item": "long_range_acog", "prob": 1 },
+        { "item": "holo_magnifier_2", "prob": 1 },
+        { "item": "holo_magnifier_4", "prob": 1 }
+      ]
+    }
   },
   {
     "type": "item_group",
     "id": "army_bed",
+    "copy-from": "army_bed",
     "subtype": "distribution",
-    "entries": [
-      { "item": "vp_sova_mag", "prob": 5 },
-      { "item": "vp_sova", "prob": 6 },
-	  { "item": "fort_12_mag", "prob": 5 },
-      { "item": "fort_12", "prob": 6 },
-      { "item": "fort14_mag", "prob": 5 },
-      { "item": "fort_14", "prob": 6 },
-      { "item": "wist_94_mag", "prob": 5 },
-      { "item": "wist_94", "prob": 6 }
-    ]
+    "extend": {
+      "entries": [
+        { "item": "vp_sova_mag", "prob": 5 },
+        { "item": "vp_sova", "prob": 6 },
+        { "item": "fort_12_mag", "prob": 5 },
+        { "item": "fort_12", "prob": 6 },
+        { "item": "fort14_mag", "prob": 5 },
+        { "item": "fort_14", "prob": 6 },
+        { "item": "wist_94_mag", "prob": 5 },
+        { "item": "wist_94", "prob": 6 }
+      ]
+    }
   },
   {
     "type": "item_group",
     "id": "mil_hw",
+    "copy-from": "mil_hw",
     "subtype": "distribution",
-    "entries": [
-      { "item": "ukm_2000", "prob": 30, "charges": [ 0, 50 ] },
-      { "item": "ukm308drum", "prob": 10, "charges": [ 1, 50 ] },
-      { "item": "m240", "prob": 20, "charges": [ 0, 200 ] },
-      { "item": "m3_gepard", "prob": 5, "charges": [ 0, 5 ] },
-      { "item": "762R_tracer", "prob": 5, "charges": [ 1, 50 ] },
-      { "item": "tos_akula", "prob": 25, "charges": [ 0, 200 ] },
-      { "item": "belt762r", "prob": 8, "charges": [ 0, 200 ] },
-      { "item": "drum762r", "prob": 10, "charges": [ 1, 50 ] },
-      { "item": "m3gepardmag", "prob": 3, "charges": [ 1, 5 ] },
-      { "item": "alligator_mag", "prob": 3, "charges": [ 1, 5 ] },
-      { "item": "145x114mm", "prob": 3, "charges": [ 1, 25 ] },
-      { "item": "145X114_incendiary", "prob": 1, "charges": [ 1, 25 ] },
-      { "item": "snipex_alligator", "prob": 5, "charges": [ 0, 5 ] }
-    ]
+    "extend": {
+      "entries": [
+        { "item": "ukm_2000", "prob": 30, "charges": [ 0, 50 ] },
+        { "item": "ukm308drum", "prob": 10, "charges": [ 1, 50 ] },
+        { "item": "m240", "prob": 20, "charges": [ 0, 200 ] },
+        { "item": "m3_gepard", "prob": 5, "charges": [ 0, 5 ] },
+        { "item": "762R_tracer", "prob": 5, "charges": [ 1, 50 ] },
+        { "item": "tos_akula", "prob": 25, "charges": [ 0, 200 ] },
+        { "item": "belt762r", "prob": 8, "charges": [ 0, 200 ] },
+        { "item": "drum762r", "prob": 10, "charges": [ 1, 50 ] },
+        { "item": "m3gepardmag", "prob": 3, "charges": [ 1, 5 ] },
+        { "item": "alligator_mag", "prob": 3, "charges": [ 1, 5 ] },
+        { "item": "145x114mm", "prob": 3, "charges": [ 1, 25 ] },
+        { "item": "145X114_incendiary", "prob": 1, "charges": [ 1, 25 ] },
+        { "item": "snipex_alligator", "prob": 5, "charges": [ 0, 5 ] }
+      ]
+    }
   },
   {
     "type": "item_group",
     "id": "helicopter",
+    "copy-from": "helicopter",
     "magazine": 100,
     "subtype": "distribution",
-    "entries": [
-      { "item": "ukm_2000", "prob": 1, "charges": [ 0, 200 ] },
-      { "item": "ukm308drum", "prob": 1, "charges": [ 1, 50 ] },
-      { "item": "m240", "prob": 1, "charges": [ 0, 200 ] },
-      { "item": "m3_gepard", "prob": 1, "charges": [ 0, 5 ] },
-      { "item": "762R_tracer", "prob": 1, "charges": [ 1, 50 ] },
-      { "item": "tos_akula", "prob": 1, "charges": [ 0, 200 ] },
-      { "item": "belt762r", "prob": 1, "charges": [ 1, 200 ] },
-      { "item": "drum762r", "prob": 1, "charges": [ 0, 50 ] },
-      { "item": "m3gepardmag", "prob": 1, "charges": [ 1, 5 ] },
-      { "item": "vepr", "prob": 2, "charges": [ 0, 30 ] },
-      { "item": "tavor_x95", "prob": 1, "charges": [ 0, 30 ], "contents-item": "long_range_acog" },
-      { "item": "vp_sova", "prob": 3, "charges": [ 0, 9 ] },
-	  { "item": "fort_12", "prob": 3, "charges": [ 0, 12 ] },
-      { "item": "alligator_mag", "prob": 1, "charges": [ 0, 5 ] },
-      { "item": "145x114mm", "prob": 1, "charges": [ 1, 15 ] },
-      { "item": "145X114_incendiary", "prob": 1, "charges": [ 1, 15 ] },
-      { "item": "snipex_alligator", "prob": 1, "charges": [ 0, 5 ] },
-      { "item": "fort_14", "prob": 3, "charges": [ 0, 14 ] },
-      { "item": "tos_84", "prob": 2, "charges": [ 0, 30 ] }
-    ]
+    "extend": {
+      "entries": [
+        { "item": "ukm_2000", "prob": 1, "charges": [ 0, 200 ] },
+        { "item": "ukm308drum", "prob": 1, "charges": [ 1, 50 ] },
+        { "item": "m240", "prob": 1, "charges": [ 0, 200 ] },
+        { "item": "m3_gepard", "prob": 1, "charges": [ 0, 5 ] },
+        { "item": "762R_tracer", "prob": 1, "charges": [ 1, 50 ] },
+        { "item": "tos_akula", "prob": 1, "charges": [ 0, 200 ] },
+        { "item": "belt762r", "prob": 1, "charges": [ 1, 200 ] },
+        { "item": "drum762r", "prob": 1, "charges": [ 0, 50 ] },
+        { "item": "m3gepardmag", "prob": 1, "charges": [ 1, 5 ] },
+        { "item": "vepr", "prob": 2, "charges": [ 0, 30 ] },
+        { "item": "tavor_x95", "prob": 1, "charges": [ 0, 30 ], "contents-item": "long_range_acog" },
+        { "item": "vp_sova", "prob": 3, "charges": [ 0, 9 ] },
+        { "item": "fort_12", "prob": 3, "charges": [ 0, 12 ] },
+        { "item": "alligator_mag", "prob": 1, "charges": [ 0, 5 ] },
+        { "item": "145x114mm", "prob": 1, "charges": [ 1, 15 ] },
+        { "item": "145X114_incendiary", "prob": 1, "charges": [ 1, 15 ] },
+        { "item": "snipex_alligator", "prob": 1, "charges": [ 0, 5 ] },
+        { "item": "fort_14", "prob": 3, "charges": [ 0, 14 ] },
+        { "item": "tos_84", "prob": 2, "charges": [ 0, 30 ] }
+      ]
+    }
   }
 ]

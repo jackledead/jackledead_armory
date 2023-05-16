@@ -1,0 +1,14 @@
+[
+  {
+    "id": "everyday_gear",
+    "copy-from": "everyday_gear",
+    "type": "item_group",
+	"extend": { "items": [ [ "knife_pry_fold", 8 ] ] }
+  },
+  {
+    "id": "traveler",
+    "copy-from": "traveler",
+    "type": "item_group",
+	"extend": { "items": [ [ "knife_pry_fold", 8 ] ] }
+  }
+]
