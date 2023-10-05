@@ -33,7 +33,7 @@ Tos 30 submachine gun: A lightweight Eastern European submachine gun intended fo
 
 Tos 84 semi-automatic shotgun: Akin to a saiga. Used by close quarters swat. 
 
-Tos Aklula: Machine gun firing the 7.62x54r round from belts or drums.
+Tos Akula: Machine gun firing the 7.62x54r round from belts or drums.
 
 VP Sova: 9x18mm pistol with 9 round magazine.
 
