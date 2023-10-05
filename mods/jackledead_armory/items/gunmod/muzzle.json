@@ -31,7 +31,7 @@
     "dispersion_modifier": 10,
     "handling_modifier": 5,
     "loudness_modifier": 20,
-    "mod_targets": [ "shotgun", "rifle" ]
+    "mod_targets": [ "smg", "rifle" ]
   },
   {
     "id": "long_suppressor",
