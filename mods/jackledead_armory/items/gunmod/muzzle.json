@@ -49,7 +49,7 @@
     "dispersion_modifier": 5,
     "handling_modifier": 2,
     "loudness_modifier": 7,
-    "mod_targets": [ "smg", "rifle" ]
+    "mod_targets": [ "pistol", "smg", "rifle" ]
   },
   {
     "id": "linear_compensator",
