@@ -38,7 +38,9 @@
         [ "tactical_shotgun_scope", 10 ],
         [ "magnified_red_dot", 10 ],
         [ "heavy_long_choke", 25 ],
-        [ "short_light_choke", 25 ]
+        [ "short_light_choke", 25 ],
+        [ "linear_compensator", 20 ],
+        [ "hybrid_muzzle_brake", 10 ]
       ]
     }
   },
@@ -63,7 +65,9 @@
         [ "enhanced_pistol_scope", 30 ],
         [ "tactical_rifle_scope", 30 ],
         [ "green_holo", 20 ],
-        [ "holo_magnifier_2", 10 ]
+        [ "holo_magnifier_2", 10 ],
+        [ "barrel_extension", 5 ],
+        [ "micro_muzzle_brake", 15 ]
       ]
     }
   },
