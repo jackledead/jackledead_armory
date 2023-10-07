@@ -8,7 +8,7 @@ CDDA mod to add real world firearms and some of my own design. Includes 46+ gun 
 
 ## Weapons
 ### Real:
-Snipex Alligator: Firing the massive 14.5x114mm anti material round, this sniper is no joke. Place of origin: Ukraine
+Snipex Alligator: Firing the massive 14.5x114mm anti materiel round, this sniper is no joke. Place of origin: Ukraine
 
 Fort-12 pistol: Ukrainian pistol to supplement the Makarov in service.
 
