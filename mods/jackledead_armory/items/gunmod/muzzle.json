@@ -182,6 +182,6 @@
     "mod_targets": [ "pistol", "smg", "rifle" ],
     "install_time": "10 s",
     "loudness_modifier": -5,
-    "damage_modifier": 2
+    "damage_modifier": { "damage_type": "bullet", "amount":2 }
   }
 ]
