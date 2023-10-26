@@ -1,6 +1,9 @@
 # jackledead_armory
 CDDA mod to add real world firearms and some of my own design. Includes 46+ gun mods, 10+ guns, new ammos and many professions to showcase the mod.
 
+## Latest Update Picture
+![armory graphics update 1](https://github.com/jackledead/jackledead_armory/assets/75153234/9c8e9040-c00c-4760-8e2b-a0d438046068)
+
 ## How to install (Latest CDDA Experimental):
 1. Click the green button in the top and download as a zip
 2. Extract and then
@@ -167,19 +170,20 @@ Survivor (Kickass): Locked and loaded, ready for the apocalypse. Starts with hyb
 Gun-Mod Nut: starts with 20 gun mods, the skills to install them, a firearm repair kit, but no guns.
 
 ## Suggested Tileset
-#### ASCII/RETRODAYS: Simple means more imagination to fill your mind.
-#### UNDEAD PEOPLE TILESET: [github.com/Theawesomeboophis/UndeadPeopleTileset](https://github.com/Theawesomeboophis/UndeadPeopleTileset) Looks great with the guns from jackledead armory, is very visible and fun. Great mods compatibility.
-#### Ultica: Realistic.
+#### UNDEAD PEOPLE TILESET: [github.com/Theawesomeboophis/UndeadPeopleTileset]
+Officially supported.
+#### MSXOTTO+ (comes with CDDA)
+Officially supported.
 
 ## Suggested Mods for use with this mod
 #### [Jackledead Infected Mod Github](https://github.com/jackledead/jackledead_infected) for that fast running infected zombie  apocalypse feel.
-#### [No Hope And Dinos](https://github.com/jackledead/No-Hope-and-Dinos) so you can blow up a T-Rex with an anti-material round from the Snipex Alligator.
+#### [No Hope And Dinos](https://github.com/jackledead/No-Hope-and-Dinos) so you can blow up a T-Rex with an anti-materiel round from the Snipex Alligator.
 
 ## Additional Mods you may be interested in
 #### My repo of the exclusions mods anthology by Kenan [CDDA-CBN-Jackledead-NoMods-Collection](https://github.com/jackledead/CDDA-CBN-Jackledead-NoMods-Collection)
 
 ## Special Thanks
-#### My Wife for being my biggest fan.
+#### My wife for being my biggest fan.
 #### Phoenix of the Chorus for getting me back into modding by pointing out a simple old bug I accidentally left in dinomod.
 #### LyleSY and the Dino Gang. Long live laser spinosaurus.
 #### Kenan and Kenan's modding discord server and modpack [Kenans Modpack CDDA Github](https://github.com/Kenan2000/CDDA-Structured-Kenan-Modpack)
