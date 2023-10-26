@@ -15,7 +15,7 @@ Snipex Alligator: Firing the massive 14.5x114mm anti materiel round, this sniper
 
 Fort-12 pistol: Ukrainian pistol to supplement the Makarov in service.
 
-Vepr: The Vepr is a Ukrainian-made bullpup rifle that is based on the AK-74 design. It is a rugged and reliable firearm that is often used by Ukrainian military and law enforcement units.
+Malyuk/Vepr: The Vepr is a Ukrainian-made bullpup rifle that is based on the AK-74 design. It is a rugged and reliable firearm that is often used by Ukrainian military and law enforcement units.
 
 Fort-224 rifle: While not exclusively Ukrainian, the Fort-224 is manufactured in Ukraine under license from the Israeli company IWI. It is a variant of the Tavor x95. It is a versatile and compact rifle that is used by Ukrainian special forces and other military units.
 
