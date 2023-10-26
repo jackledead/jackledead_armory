@@ -2,6 +2,7 @@
   {
     "id": "762R_tracer",
     "copy-from": "762_54R",
+    "looks_like": "762_54R",
     "type": "AMMO",
     "name": { "str_sp": "7.62x54mmR tracer" },
     "description": "7.62x54mmR tracer ammunition with a 150gr FMJ bullet. The tracer element ignites upon firing, leaving a visible trail in the air to help with aiming.",
@@ -17,6 +18,7 @@
   {
     "id": "145x114mm",
     "type": "AMMO",
+    "looks_like": "reloaded_50bmg",
     "name": { "str_sp": "14.5x114mm anti-material round" },
     "description": "A powerful anti-material round designed for the Snipex Alligator rifle, capable of penetrating armor and disabling vehicles.",
     "weight": "170 g",
@@ -37,6 +39,7 @@
   {
     "id": "145X114_incendiary",
     "copy-from": "145x114mm",
+    "looks_like": "reloaded_50bmg",
     "type": "AMMO",
     "name": { "str_sp": "14.5x114mm incendiary round" },
     "description": "An incendiary variant of the powerful 14.5x114mm round. Incendiary rounds are designed to ignite flammable substances upon impact, causing secondary damage to the target.",

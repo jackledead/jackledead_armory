@@ -3,6 +3,7 @@
     "id": "offset_rail_laser",
     "type": "GUNMOD",
     "name": { "str": "offset rail laser" },
+    "looks_like": "red_laser_sight",
     "description": "A visible-light laser mounted on a 45° offset rail, allowing for quick target acquisition and improved accuracy.",
     "weight": "120 g",
     "volume": "250 ml",

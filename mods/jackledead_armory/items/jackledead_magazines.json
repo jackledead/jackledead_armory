@@ -14,6 +14,7 @@
   {
     "id": "drum762r",
     "copy-from": "stanag50",
+    "looks_like": "stanag50",
     "type": "MAGAZINE",
     "name": { "str": "7.62x54R drum magazine" },
     "description": "A bulky 50-round drum magazine for use with 7.62x54R caliber machine guns.",
@@ -23,6 +24,7 @@
   {
     "id": "vp_sova_mag",
     "copy-from": "ppkmag",
+    "looks_like": "ppkmag",
     "type": "MAGAZINE",
     "name": { "str": "VP Sova 9-round magazine" },
     "description": "A standard 9-round steel box magazine for the VP Sova pistol.",
@@ -32,7 +34,7 @@
   },
   {
     "id": "m3gepardmag",
-    "looks_like": "stanag30",
+    "looks_like": "as50mag",
     "type": "MAGAZINE",
     "name": { "str": "M3 Gepard 5-round magazine" },
     "description": "A 5-round box magazine for the M3 Gepard anti-materiel rifle.",
@@ -50,6 +52,7 @@
   },
   {
     "id": "tos_30_mag",
+    "looks_like": "mp5mag",
     "type": "MAGAZINE",
     "name": { "str": "Tos 30 Magazine" },
     "description": "A detachable box magazine for the Tos 30 police submachine gun, holding up to 30 rounds of 9x18mm ammunition.",
@@ -66,6 +69,7 @@
   },
   {
     "id": "alligator_mag",
+    "looks_like": "as50mag",
     "type": "MAGAZINE",
     "copy-from": "m3gepardmag",
     "name": { "str": "Snipex Alligator 5-round magazine" },
@@ -105,6 +109,7 @@
   {
     "id": "wist_94_mag",
     "type": "MAGAZINE",
+    "looks_like": "m1911mag",
     "name": { "str": "WIST-94 16-round magazine" },
     "description": "A 16-round double stack box magazine for the WIST-94 pistol.",
     "weight": "85 g",
@@ -122,6 +127,7 @@
   {
     "id": "ukm308drum",
     "copy-from": "drum762r",
+    "looks_like": "akdrum75",
     "type": "MAGAZINE",
     "name": { "str": ".308 50 round drum magazine" },
     "description": "A bulky 50-round drum magazine for use with the UKM 2000, compatible with 762.51mm NATO ammunition.",
@@ -131,6 +137,7 @@
   {
     "id": "fort_12_mag",
     "copy-from": "m1911mag",
+    "looks_like": "m1911mag",
     "type": "MAGAZINE",
     "name": { "str": "Fort-12 12-round magazine" },
     "description": "A standard 12-round steel box magazine for the Fort-12 pistol.",

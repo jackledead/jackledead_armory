@@ -2,6 +2,7 @@
   {
     "id": "classic_handguard",
     "copy-from": "modern_handguard",
+    "looks_like": "modern_handguard",
 	"type": "GUNMOD",
     "name": { "str": "classic hand guard" },
     "description": "A traditional hand guard with a simple design. It is durable and provides a reliable grip without any unnecessary weight or bulk. This hand guard is ideal for those who prefer a more classic look for their weapon.",
@@ -17,6 +18,7 @@
   {
     "id": "tactical_handguard",
     "copy-from": "modern_handguard",
+    "looks_like": "modern_handguard",
 	"type": "GUNMOD",
     "name": { "str": "tactical hand guard" },
     "description": "A hand guard designed for tactical use. It features a rugged, textured design that provides a non-slip grip, even in wet conditions.",
@@ -31,6 +33,7 @@
   {
     "id": "lightweight_handguard",
     "copy-from": "modern_handguard",
+    "looks_like": "modern_handguard",
 	"type": "GUNMOD",
     "name": { "str": "lightweight hand guard" },
     "description": "A lightweight hand guard designed to reduce overall weight and improve weapon handling. It is made from lightweight materials such as plastic and aluminum and features a minimalist design that eliminates excess weight and bulk.",

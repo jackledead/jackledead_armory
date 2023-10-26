@@ -39,26 +39,5 @@
     "dispersion_modifier": 75,
     "loudness_modifier": 2,
     "flags": [ "IRREMOVABLE", "ZERO_WEIGHT" ]
-  },
-  {
-    "id": "upstest",
-    "type": "GUNMOD",
-    "name": { "str": "upstest" },
-    "description": "Test mod for UPS drain on mods, this should never spawn, if you see this, it's a bug.  50x more UPS drain.",
-    "weight": "450 g",
-    "volume": "500 ml",
-    "price": 20000,
-    "price_postapoc": 0,
-    "install_time": "0 s",
-    "material": [ "steel" ],
-    "symbol": ":",
-    "color": "light_gray",
-    "location": "barrel",
-    "mod_targets": [ "smg", "rifle", "shotgun", "pistol" ],
-    "damage_modifier": { "damage_type": "stab", "amount": 500 },
-    "dispersion_modifier": 500,
-    "energy_drain_multiplier": 50.0,
-    "min_skills": [ [ "gun", 1 ] ],
-    "melee_damage": { "bash": 5 }
   }
 ]
