@@ -5,7 +5,7 @@
     "name": "Jackledead Armory",
     "authors": [ "Jackledead" ],
     "maintainers": [ "Jackledead" ],
-    "description": "Adds Ukrainian firearms and some of my own design.",
+    "description": "Adds 12+ new firearms and 46+ gun-mods as well as 10+ professions to showcase them.",
     "category": "items",
     "dependencies": [ "dda" ]
   }
