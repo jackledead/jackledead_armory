@@ -1,0 +1,105 @@
+[
+  {
+    "id": "simple_tier_gun_skin",
+    "name": { "str_sp": "simple gun skin" },
+    "type": "GUNMOD",
+    "description": "A fully painted simple gun skin.",
+    "//variantsInfo": "These variants will represent solid, full, single colors.",
+    "variant_type": "generic",
+    "variants": [
+      {
+        "id": "jackle_gun_skin_black",
+        "//variantRedSight": "the black skin can come from paint or spray can",
+        "name": { "str_sp": "full black paint job" },
+        "description": "A simple black paint job for guns.",
+        "weight": 15,
+        "color": "dark_gray"
+      },
+      {
+        "id": "jackle_gun_skin_red",
+        "//variantRedSight": "red gun skin. what else to say. I like color.",
+        "name": { "str_sp": "full red paint job" },
+        "description": "A simple red paint job for guns.",
+        "weight": 3,
+        "color": "red"
+      },
+      {
+        "id": "jackle_gun_skin_blue",
+        "name": { "str_sp": "full blue paint job" },
+        "description": "A simple blue paint job for guns.",
+        "weight": 3,
+        "color": "blue"
+      },
+      {
+        "id": "jackle_gun_skin_white",
+        "name": { "str_sp": "full white paint job" },
+        "description": "A simple white paint job for guns.",
+        "weight": 3,
+        "color": "white"
+      },
+      {
+        "id": "jackle_gun_skin_green",
+        "name": { "str_sp": "full green paint job" },
+        "description": "A simple green paint job for guns.",
+        "weight": 3,
+        "color": "green"
+      },
+      {
+        "id": "jackle_gun_skin_brown",
+        "name": { "str_sp": "full brown paint job" },
+        "description": "A simple brown paint job for guns.",
+        "weight": 3,
+        "color": "brown"
+      },
+      {
+        "id": "jackle_gun_skin_yellow",
+        "name": { "str_sp": "full yellow paint job" },
+        "description": "A simple yellow paint job for guns.",
+        "weight": 3,
+        "color": "yellow"
+      },
+      {
+        "id": "jackle_gun_skin_magenta",
+        "name": { "str_sp": "full magenta paint job" },
+        "description": "A simple magenta paint job for guns.",
+        "weight": 3,
+        "color": "magenta"
+      },
+      {
+        "id": "jackle_gun_skin_cyan",
+        "name": { "str_sp": "full cyan paint job" },
+        "description": "A simple cyan paint job for guns.",
+        "weight": 3,
+        "color": "cyan"
+      },
+      {
+        "id": "jackle_gun_skin_silver",
+        "name": { "str_sp": "full silver paint job" },
+        "description": "A simple silver paint job for guns.",
+        "weight": 3,
+        "color": "light_gray"
+      },
+      {
+        "id": "jackle_gun_skin_gray",
+        "name": { "str_sp": "full gray paint job" },
+        "description": "A simple gray paint job for guns.",
+        "weight": 3,
+        "color": "light_gray"
+      }
+    ],
+    "weight": "0 g",
+    "volume": "0 ml",
+    "integral_volume": "0 ml",
+    "price": 150,
+    "price_postapoc": 10,
+    "install_time": "1 m",
+    "material": [ "paint" ],
+    "symbol": "P",
+    "color": "blue",
+    "location": "mechanism",
+    "mod_targets": [ "pistol", "smg", "rifle", "shotgun", "crossbow", "launcher", "bow" ],
+    "min_skills": [ [ "weapon", 1 ] ],
+    "add_mod": [ [ "mechanism", 1 ] ],
+    "flags": ["ZERO_WEIGHT"]
+  }
+]

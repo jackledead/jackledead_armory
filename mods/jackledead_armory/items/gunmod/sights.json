@@ -96,6 +96,95 @@
     "flags": [ "DISABLE_SIGHTS" ]
   },
   {
+    "id": "improve_sights",
+    "copy-from": "improve_sights",
+    "name": { "str_sp": "iron sights" },
+    "type": "GUNMOD",
+    "//variantsInfo": "These variants will be exactly the same as the vanilla improve_sights stat wise",
+    "variant_type": "generic",
+    "variants": [
+      {
+        "id": "jackle_vanilla_improve_sights",
+        "//variantVanillaImproveSight": "same as improve_sights from vanilla",
+        "name": { "str_sp": "iron sights" },
+        "description": "A basic set of iron sights",
+        "weight": 45
+      },
+      {
+        "id": "jackle_red_iron_sights",
+        "//variantRedSight": "umm. red sights what else to say. I like color.",
+        "name": { "str_sp": "red iron sights" },
+        "description": "A basic set of iron sights, but they are painted red for visibility in certain environments.",
+        "weight": 3,
+        "color": "red"
+      },
+      {
+        "id": "jackle_blue_iron_sights",
+        "name": { "str_sp": "blue iron sights" },
+        "description": "A basic set of iron sights, but they are painted blue for visibility in certain environments.",
+        "weight": 3,
+        "color": "blue"
+      },
+      {
+        "id": "jackle_white_iron_sights",
+        "//variantWhiteSight": "https://qr.ae/pKIWuv white painted iron sights post market",
+        "name": { "str_sp": "white iron sights" },
+        "description": "A basic set of iron sights, but they painted white for visibility in certain environments.",
+        "weight": 3,
+        "color": "white"
+      },
+      {
+        "id": "jackle_green_iron_sights",
+        "name": { "str_sp": "green iron sights" },
+        "description": "A basic set of iron sights, but they are painted green for visibility in certain environments.",
+        "weight": 3,
+        "color": "green"
+      },
+      {
+        "id": "jackle_brown_iron_sights",
+        "name": { "str_sp": "brown iron sights" },
+        "description": "A basic set of iron sights, but they are painted brown for visibility in certain environments.",
+        "weight": 3,
+        "color": "brown"
+      },
+      {
+        "id": "jackle_yellow_iron_sights",
+        "name": { "str_sp": "yellow iron sights" },
+        "description": "A basic set of iron sights, but they are painted yellow for visibility in certain environments.",
+        "weight": 3,
+        "color": "yellow"
+      },
+      {
+        "id": "jackle_magenta_iron_sights",
+        "name": { "str_sp": "magenta iron sights" },
+        "description": "A basic set of iron sights, but they are painted magenta for visibility in certain environments.",
+        "weight": 3,
+        "color": "magenta"
+      },
+      {
+        "id": "jackle_cyan_iron_sights",
+        "name": { "str_sp": "cyan iron sights" },
+        "description": "A basic set of iron sights, but they are painted cyan for visibility in certain environments.",
+        "weight": 3,
+        "color": "cyan"
+      },
+      {
+        "id": "jackle_gray_iron_sights",
+        "name": { "str_sp": "silver painted iron sights" },
+        "description": "A basic set of iron sights, but they are painted silver for visibility in certain environments.",
+        "weight": 3,
+        "color": "light_gray"
+      },
+      {
+        "id": "jackle_pink_iron_sights",
+        "name": { "str_sp": "pink painted iron sights" },
+        "description": "A basic set of iron sights, but they are painted pink for visibility in certain environments.",
+        "weight": 3,
+        "color": "pink"
+      }
+    ]
+  },
+  {
     "id": "blue_pistol_scope",
     "type": "GUNMOD",
     "name": { "str": "blue pistol scope" },
@@ -229,7 +318,7 @@
     "color": "light_gray",
     "sight_dispersion": 0,
     "aim_speed_modifier": -2,
-	"dispersion_modifier": -2,
+    "dispersion_modifier": -2,
     "field_of_view": 180,
     "min_skills": [ [ "weapon", 3 ], [ "gun", 3 ] ]
   },
@@ -275,7 +364,7 @@
     "price": 60000,
     "price_postapoc": 800,
     "material": [ "aluminum", "glass" ],
-	"symbol": ":",
+    "symbol": ":",
     "color": "black",
     "location": "sights",
     "install_time": "5 m",
