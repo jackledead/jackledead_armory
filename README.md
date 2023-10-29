@@ -4,8 +4,7 @@ CDDA mod to add real world firearms and some of my own design. Includes 46+ gun 
 ## Latest Update Picture
 ![armory graphics update 1](https://github.com/jackledead/jackledead_armory/assets/75153234/9c8e9040-c00c-4760-8e2b-a0d438046068)
 ![Painted Iron Sights mini update 1](https://github.com/jackledead/jackledead_armory/assets/75153234/1c6893de-a1b1-480e-8a7d-a1f82c6e14b5)
-![UVP update 1](https://github.com/jackledead/jackledead_armory/assets/75153234/1896cfc9-dd4c-42c3-a636-e8b053587307)
-
+![image](https://github.com/jackledead/jackledead_armory/assets/75153234/a86a66d9-5320-434a-a852-3e2839223667)
 
 ## How to install (Latest CDDA Experimental):
 1. Click the green button in the top and download as a zip
