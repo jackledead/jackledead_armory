@@ -6,7 +6,7 @@
     "subtype": "distribution",
     "//": "a handgun of some kind.",
     "extend": {
-      "entries": [ { "item": "vp_sova", "prob": 15 }, { "item": "fort_12", "prob": 15 }, { "item": "fort_14", "prob": 15 } ]
+      "entries": [ { "item": "vp_sova", "prob": 15 }, { "item": "fort_12", "prob": 15 }, { "item": "fort_14", "prob": 15 }, { "item": "vp_kunytsya", "prob": 15 } ]
     }
   },
   {

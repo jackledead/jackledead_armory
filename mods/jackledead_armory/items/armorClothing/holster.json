@@ -1,0 +1,47 @@
+[
+{
+    "id": "laynard_pistol_sling",
+    "type": "ARMOR",
+    "name": {
+      "str": "laynard pistol sling"    
+    },
+    "looks_like": "single_sling",
+    "description": "A single point sling designed to hang a pistol or small SMG around the neck for easy access. Activate to holster/draw your weapon.",
+    "weight": "100 g",
+    "volume": "250 ml",
+    "price": 8000,
+    "price_postapoc": 500, 
+    "material": [
+      "nylon"
+    ],
+    "symbol": "[",
+    "color": "green",
+    "material_thickness": 1,
+    "flags": [
+      "OVERSIZE",
+      "BELTED"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true, 
+        "min_item_volume": "300 ml",
+        "max_contains_volume": "4 L",
+        "max_contains_weight": "3 kg",
+        "max_item_length": "50 cm",
+        "moves": 30
+      }
+    ],
+    "use_action": {
+      "type": "holster"
+    },
+    "armor": [
+      {
+        "encumbrance": [0, 10],
+        "coverage": 5,
+        "covers": ["torso"],
+        "specifically_covers": ["torso_hanging_front"]
+      }
+    ]
+  }
+]

@@ -34,7 +34,7 @@
     "description": "A reliable and combat-ready 9x18mm pistol produced in Ukraine. The Fort-14TP is set to be adopted by all branches of Ukrainian Armed Forces.",
     "weight": "920 g",
     "volume": "430 ml",
-    "longest_side": "160 mm",
+    "longest_side": "196 mm",
     "price": 45000,
     "price_postapoc": 2600,
     "to_hit": -1,
@@ -44,11 +44,11 @@
     "ammo": [ "9x18" ],
     "ranged_damage": { "damage_type": "bullet", "amount": -1 },
     "dispersion": 400,
-    "durability": 6,
+    "durability": 8,
     "min_cycle_recoil": 400,
     "flags": [ "ALLOWS_BODY_BLOCK" ],
     "weapon_category": [ "AUTOMATIC_PISTOLS" ],
-    "pocket_data": [ { "magazine_well": "150 ml", "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "fort14_mag" ] } ],
+    "pocket_data": [ { "magazine_well": "150 ml", "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "fort14_mag", "vp_kunytsya_20rd_mag" ] } ],
     "melee_damage": { "bash": 9 }
   },
   {
@@ -92,11 +92,31 @@
     "ammo": [ "9x18" ],
     "ranged_damage": { "damage_type": "bullet", "amount": -1 },
     "dispersion": 410,
-    "durability": 8,
+    "durability": 7,
     "min_cycle_recoil": 400,
     "flags": [ "ALLOWS_BODY_BLOCK" ],
     "weapon_category": [ "SEMI_AUTO_HANDGUNS" ],
     "pocket_data": [ { "magazine_well": "150 ml", "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "fort_12_mag" ] } ],
     "melee_damage": { "bash": 8 }
+  },
+  {
+    "id": "vp_kunytsya",
+    "copy-from": "fort_14",
+    "looks_like": "fort_14",
+    "type": "GUN",
+    "name": { "str": "VP Kunytsya pistol" },
+    "description": "A 9x18mm pistol produced in Eastern Europe, named after the marten, a quick and feisty mustelid. It features an under-folding stock by default.",
+    "default_mods": [ "under_folding_stock" ],
+    "durability": 7,
+    "price": 79000,
+    "price_postapoc": 3000,
+    "longest_side": "396 mm",
+    "pocket_data": [
+      {
+        "magazine_well": "200 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "item_restriction": [ "vp_kunytsya_20rd_mag", "fort14_mag" ]
+      }
+    ]  
   }
 ]

@@ -40,7 +40,8 @@
         [ "heavy_long_choke", 25 ],
         [ "short_light_choke", 25 ],
         [ "linear_compensator", 20 ],
-        [ "hybrid_muzzle_brake", 10 ]
+        [ "hybrid_muzzle_brake", 10 ],
+        ["laynard_pistol_sling", 30]
       ]
     }
   },

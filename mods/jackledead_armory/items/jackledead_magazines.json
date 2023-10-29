@@ -82,6 +82,7 @@
   {
     "id": "fort14_mag",
     "copy-from": "m1911mag",
+    "looks_like": "m1911mag",
     "type": "MAGAZINE",
     "name": { "str": "Fort-14TP 14-round magazine" },
     "description": "A standard 14-round steel box magazine for the Fort-14TP pistol.",
@@ -144,5 +145,22 @@
     "ammo_type": [ "9x18" ],
     "price": 2500,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "9x18": 12 } } ]
+  },
+  {
+    "id": "vp_kunytsya_20rd_mag",
+    "copy-from": "fort14_mag",
+    "looks_like": "m1911mag",
+    "type": "MAGAZINE",
+    "name": { "str": "VP Kunytsya 20-round magazine" },
+    "description": "A 20-round box magazine for the VP Kunytsya pistol.",
+    "ammo_type": [ "9x18" ],
+    "price": 2500,
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": { "9x18": 20 }
+      }
+    ]
   }
 ]

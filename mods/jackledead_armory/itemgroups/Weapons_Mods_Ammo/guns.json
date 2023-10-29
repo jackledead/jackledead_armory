@@ -32,7 +32,8 @@
         { "group": "nested_makarov", "prob": 25 },
         { "group": "nested_tokarev", "prob": 25 },
         { "group": "nested_walther_ppk", "prob": 25 },
-        { "group": "nested_fort_14", "prob": 30 }
+        { "group": "nested_fort_14", "prob": 30 },
+        { "group": "nested_vp_k_pistol", "prob": 20 }
       ]
     }
   },
@@ -46,7 +47,8 @@
       "items": [
         { "item": "makarov", "prob": 15, "charges-min": 0, "charges-max": 0 },
         { "item": "tokarev", "prob": 10, "charges-min": 0, "charges-max": 0 },
-        { "item": "walther_ppk", "prob": 10, "charges-min": 0, "charges-max": 0 }
+        { "item": "walther_ppk", "prob": 10, "charges-min": 0, "charges-max": 0 },
+        { "item": "vp_kunytsya", "prob": 10, "charges-min": 0, "charges-max": 0 }
       ]
     }
   },
@@ -347,7 +349,8 @@
         { "item": "tos_30", "prob": 30, "charges-min": 0, "charges-max": 30 },
         { "item": "tos_84", "prob": 15, "charges-min": 0, "charges-max": 30 },
         { "item": "fort_14", "prob": 15, "charges-min": 0, "charges-max": 14 },
-        { "item": "wist_94", "prob": 15, "charges-min": 0, "charges-max": 16 }
+        { "item": "wist_94", "prob": 15, "charges-min": 0, "charges-max": 16 },
+        { "item": "vp_kunytsya", "prob": 15, "charges-min": 0, "charges-max": 20 }
       ]
     }
   },

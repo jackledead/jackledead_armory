@@ -1,0 +1,15 @@
+[
+    {
+        "result": "laynard_pistol_sling",
+        "type": "recipe",
+        "activity_level": "LIGHT_EXERCISE",
+        "category": "CC_ARMOR",
+        "subcategory": "CSC_ARMOR_STORAGE",
+        "skill_used": "tailor",
+        "difficulty": 1,
+        "time": "40 m",
+        "autolearn": true,
+        "reversible": true,
+        "using": [ [ "tailoring_nylon_patchwork", 1 ], [ "clasps", 2 ] ]
+      }
+]

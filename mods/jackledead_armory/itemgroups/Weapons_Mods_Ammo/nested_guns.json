@@ -172,5 +172,19 @@
       { "item": "saiga30mag", "prob": 50 },
       { "group": "on_hand_shot" }
     ]
+  },
+  {
+    "id": "nested_vp_k_pistol",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "vp_kunytsya" },
+      { "item": "fort1vp_kunytsya_20rd_mag4_mag" },
+      { "item": "vp_kunytsya_20rd_mag", "prob": 50 },
+	  { "item": "vp_kunytsya_20rd_mag", "prob": 50 },
+      { "group": "on_hand_9x18" }
+    ]
   }
 ]

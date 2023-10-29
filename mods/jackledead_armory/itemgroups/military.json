@@ -148,7 +148,8 @@
         { "item": "holo_magnifier_2", "prob": 1 },
         { "item": "holo_magnifier_4", "prob": 1 },
         { "item": "linear_compensator", "prob": 1 },
-        { "item": "hybrid_muzzle_brake", "prob": 1 }
+        { "item": "hybrid_muzzle_brake", "prob": 1 },
+        { "item": "laynard_pistol_sling", "prob": 1 }
       ]
     }
   },

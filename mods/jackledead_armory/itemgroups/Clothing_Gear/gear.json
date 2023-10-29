@@ -27,7 +27,8 @@
         [ "yellow_laser_sight", 3 ],
         [ "standard_knife_bayonet", 10 ],
         [ "short_suppressor", 15 ],
-        [ "tactical_grip", 3 ]
+        [ "tactical_grip", 3 ],
+        ["laynard_pistol_sling", 4]
       ]
     }
   },
