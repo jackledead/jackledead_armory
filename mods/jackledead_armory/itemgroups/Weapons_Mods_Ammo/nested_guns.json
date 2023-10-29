@@ -181,7 +181,7 @@
     "ammo": 100,
     "entries": [
       { "item": "vp_kunytsya" },
-      { "item": "fort1vp_kunytsya_20rd_mag4_mag" },
+      { "item": "vp_kunytsya_20rd_mag" },
       { "item": "vp_kunytsya_20rd_mag", "prob": 50 },
 	  { "item": "vp_kunytsya_20rd_mag", "prob": 50 },
       { "group": "on_hand_9x18" }
