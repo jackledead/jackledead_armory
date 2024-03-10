@@ -85,7 +85,7 @@
   {
     "id": "vepr",
     "copy-from": "rifle_auto",
-    "looks_like": "steyr_aug",
+    "looks_like": "modular_ar15",
     "type": "GUN",
     "name": { "str": "Malyuk" },
     "description": "A Ukrainian-made bullpup rifle based on the AK-74 design, the Ukrainian Malyuk or Vulcan-M is known for its reliability and durability.",
@@ -122,7 +122,7 @@
   },
   {
     "id": "tavor_x95",
-    "copy-from": "m27_assault_rifle",
+    "copy-from": "modular_m27_assault_rifle",
     "looks_like": "scar_l",
     "type": "GUN",
     "name": { "str": "Fort-224 rifle" },

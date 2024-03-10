@@ -332,7 +332,6 @@
     "items": {
       "both": {
         "items": [
-          "army_top",
           "knit_scarf",
           "socks",
           "boots_steel",
@@ -352,7 +351,8 @@
             "contents-item": [ "shoulder_strap", "grip_light" ]
           },
           { "item": "stanag30", "ammo-item": "223", "charges": 30 },
-          { "item": "sheath", "contents-item": "knife_hunting" }
+          { "item": "sheath", "contents-item": "knife_hunting" },
+          { "item": "tank_top", "variant": "tank_top_camo" }
         ]
       },
       "male": [ "boxer_shorts" ],
@@ -866,7 +866,7 @@
           { "item": "stab_vest", "variant": "airsoft_stab_vest" },
           { "group": "charged_smart_phone"},
           { "item": "mask_dust" },
-          { "item": "medium_battery_cell", "ammo-item": "battery", "charges": 400, "container-item": "chemistry_set" },
+          { "item": "chemistry_set" },
           { "group": "vp_k_standard_2_mags" },
           { "item": "vp_kunytsya", "ammo-item": "9x18mm", "charges": 20, "contents-item": ["hair_trigger"], "custom-flags": [ "auto_wield" ] },
           { "item": "knife_pry_fixed", "container-item": "scabbard" },
