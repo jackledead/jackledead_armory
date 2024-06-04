@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "jackledead_armory_expansion",
+    "name": "Jackledead Armory: Creeps Goons Guns",
+    "authors": [ "Jackledead" ],
+    "maintainers": [ "Jackledead" ],
+    "description": "Adds creeps, goons, and guns to provide a Survival-FPS-like feel while using my armory mod.",
+    "category": "content",
+    "dependencies": [ "dda", "jackledead_armory" ]
+  }
+]

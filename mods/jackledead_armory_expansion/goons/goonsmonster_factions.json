@@ -1,0 +1,72 @@
+[{
+    "type": "MONSTER_FACTION",
+    "name": "looters",
+    "friendly": [
+      "fish"
+    ],
+    "by_mood": [
+      "animal",
+      "mutant",
+      "bot",
+      "nether",
+      "spider",
+      "insect",
+      "small_animal"
+    ],
+    "hate": [
+      "scavengers",
+      "rogue_para",
+      "zombie",
+      "human",
+      "player"
+    ]
+  },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "scavengers",
+    "friendly": [
+      "fish"
+    ],
+    "by_mood": [
+      "animal",
+      "mutant",
+      "bot",
+      "nether",
+      "spider",
+      "insect",
+      "small_animal"
+    ],
+    "hate": [
+      "rogue_para",
+      "looters",
+      "zombie",
+      "human",
+      "player"
+    ]
+  },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "rogue_para",
+    "friendly": [
+      "fish",
+      "small_animal"
+    ],
+    "by_mood": [
+      "animal",
+      "mutant",
+      "bot",
+      "nether",
+      "spider",
+      "insect",
+      "small_animal"
+    ],
+    "hate": [
+      "scavengers",
+      "looters",
+      "zombie",
+      "human",
+      "player"
+    ]
+  }
+]
+  
