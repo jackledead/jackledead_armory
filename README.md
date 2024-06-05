@@ -1,5 +1,5 @@
 # jackledead_armory
-CDDA mod to add real world firearms and some of my own design. Includes 46+ gun mods, 10+ guns, new ammos and many professions to showcase the mod.
+CDDA mod to add real world firearms and some of my own design. Includes 46+ gun mods, 10+ guns, new ammos and many professions to showcase the mod. Includes the Goons expansion mod to add foes using my items!
 
 ## Latest Update Picture
 ![armory graphics update 1](https://github.com/jackledead/jackledead_armory/assets/75153234/9c8e9040-c00c-4760-8e2b-a0d438046068)
@@ -10,6 +10,7 @@ CDDA mod to add real world firearms and some of my own design. Includes 46+ gun 
 1. Click the green button in the top and download as a zip
 2. Extract and then
 3. simply put jackledead_armory/mods/jackledead_armory in your data/mods/ folder
+4. also put the expansion mod in the same place if you want to play with bandits and stuff.
 
 ## Weapons
 ### Real:
@@ -170,6 +171,13 @@ Ukrainian Special Anti-Material Sniper: Armed with the massive Snipex Alligator 
 Survivor (Kickass): Locked and loaded, ready for the apocalypse. Starts with hybrid car, Vepr and Fort 14, multitool and other goodies.
 
 Gun-Mod Nut: starts with 20 gun mods, the skills to install them, a firearm repair kit, but no guns.
+
+## GOONS MOD EXPANSION:
+2 Bandit variant (weak)
+2 Scavenger variants (medium)
+2 Rogue paramilitary variants (medium hard)
+1 Elite Scavenger (hard)
+1 Elite Sniper (Do not go near)(spawns after day 20)
 
 ## Suggested Tileset
 #### UNDEAD PEOPLE TILESET: [github.com/Theawesomeboophis/UndeadPeopleTileset]
