@@ -12,6 +12,11 @@ CDDA mod to add real world firearms and some of my own design. Includes 46+ gun 
 3. simply put jackledead_armory/mods/jackledead_armory in your data/mods/ folder
 4. also put the expansion mod in the same place if you want to play with bandits and stuff.
 
+## How to install (Latest Cataclsym Bright Nights Experimental):
+1. Click the green button in the top and download as a zip
+2. Extract and then
+3. simply put jackledead_armory/modsBrightNights/jackledead_armory in your data/mods/ folder
+
 ## Weapons
 ### Real:
 Snipex Alligator: Firing the massive 14.5x114mm anti materiel round, this sniper is no joke. Place of origin: Ukraine
@@ -172,7 +177,7 @@ Survivor (Kickass): Locked and loaded, ready for the apocalypse. Starts with hyb
 
 Gun-Mod Nut: starts with 20 gun mods, the skills to install them, a firearm repair kit, but no guns.
 
-## GOONS MOD EXPANSION:
+## GOONS MOD EXPANSION (cdda only):
 2 Bandit variant (weak)
 2 Scavenger variants (medium)
 2 Rogue paramilitary variants (medium hard)
