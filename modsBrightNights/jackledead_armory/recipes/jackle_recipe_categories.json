@@ -1,0 +1,17 @@
+[
+  {
+    "type": "recipe_category",
+    "id": "CC_PAINTING",
+    "recipe_subcategories": [
+      "CSC_ALL",
+      "CSC_PAINTING_PARTIAL_GUN_PAINTJOBS",
+      "CSC_PAINTING_FULL_PAINTJOBS",
+      "CSC_PAINTING_HIGH_TIER_PAINTJOBS",
+      "CSC_PAINTING_SIGHTS_PAINTJOBS",
+      "CSC_PAINTING_STOCK_PAINTJOBS",
+      "CSC_PAINTING_GRIP_PAINTJOBS",
+      "CSC_PAINTING_BARREL_PAINTJOBS",
+      "CSC_PAINTING_MISC"
+    ]
+  }
+]

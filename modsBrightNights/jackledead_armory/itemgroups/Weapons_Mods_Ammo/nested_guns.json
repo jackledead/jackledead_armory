@@ -1,0 +1,190 @@
+[
+  {
+    "id": "nested_vp_sova",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "jkl_vp_sova" },
+      { "item": "jkl_vp_sova_mag" },
+      { "item": "jkl_vp_sova_mag", "prob": 50 },
+	  { "item": "jkl_vp_sova_mag", "prob": 50 },
+      { "group": "on_hand_9x18" }
+    ]
+  },
+  {
+    "id": "nested_fort_12",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "jkl_fort_12" },
+      { "item": "jkl_fort_12_mag" },
+      { "item": "jkl_fort_12_mag", "prob": 50 },
+	  { "item": "jkl_fort_12_mag", "prob": 50 },
+      { "group": "on_hand_9x18" }
+    ]
+  },
+  {
+    "id": "nested_vp_scout",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "jkl_vp_scout", "charges-min": 0, "charges-max": 10 },
+      { "item": "jkl_pslmag5" },
+      { "item": "jkl_pslmag5", "prob": 50 },
+      { "item": "jkl_pslmag10", "prob": 70 },
+      { "group": "on_hand_762R" }
+    ]
+  },
+  {
+    "id": "nested_tos_akula",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "jkl_tos_akula", "charges-min": 0, "charges-max": 200 },
+      { "item": "jkl_drum762r" },
+      { "item": "jkl_drum762r", "prob": 35 },
+      { "item": "jkl_belt762r", "prob": 25 },
+      { "group": "on_hand_762R" }
+    ]
+  },
+  {
+    "id": "nested_ukm_2000",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "jkl_ukm_2000", "charges-min": 0, "charges-max": 50 },
+      { "item": "jkl_ukm308drum" },
+      { "item": "jkl_ukm308drum", "prob": 35 },
+      { "item": "jkl_ukm308drum", "prob": 25 },
+      { "group": "on_hand_308" }
+    ]
+  },
+  {
+    "id": "nested_vepr",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "jkl_vepr", "charges-min": 0, "charges-max": 30 },
+      { "item": "jkl_vepr_mag30" },
+      { "item": "jkl_vepr_mag30", "prob": 50 },
+      { "item": "jkl_vepr_mag30", "prob": 50 },
+      { "group": "on_hand_545x39" }
+    ]
+  },
+  {
+    "id": "nested_tavor_x95",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "jkl_tavor_x95", "charges-min": 0, "charges-max": 40 },
+      { "item": "stanag30" },
+      { "item": "stanag30", "prob": 50 },
+      { "item": "stanag40", "prob": 50 },
+      { "group": "on_hand_223" }
+    ]
+  },
+  {
+    "id": "nested_zbroyar_z15",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "jkl_zbroyar_z15", "charges-min": 0, "charges-max": 20 },
+      { "item": "stanag20" },
+      { "item": "stanag20", "prob": 50 },
+      { "item": "stanag20", "prob": 50 },
+      { "group": "on_hand_223" }
+    ]
+  },
+  {
+    "id": "nested_snipex_alligator",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "jkl_snipex_alligator" },
+      { "item": "jkl_alligator_mag" },
+      { "item": "jkl_alligator_mag", "prob": 50 },
+      { "group": "on_hand_145x114" }
+    ]
+  },
+  {
+    "id": "nested_tos_30",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [ { "item": "jkl_tos_30" }, { "item": "jkl_tos_30_mag" }, { "item": "jkl_tos_30_mag", "prob": 50 }, { "group": "on_hand_9x18" } ]
+  },
+  {
+    "id": "nested_m3_gepard",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "jkl_m3_gepard" },
+      { "item": "jkl_m3gepardmag" },
+      { "item": "jkl_m3gepardmag", "prob": 50 },
+      { "group": "on_hand_50" }
+    ]
+  },
+  {
+    "id": "nested_fort_14",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "jkl_fort_14" },
+      { "item": "jkl_fort14_mag" },
+      { "item": "jkl_fort14_mag", "prob": 50 },
+	  { "item": "jkl_fort14_mag", "prob": 50 },
+      { "group": "on_hand_9x18" }
+    ]
+  },
+  {
+    "id": "nested_tos_84",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "jkl_tos_84" },
+      { "item": "saiga10mag" },
+	  { "item": "saiga10mag", "prob": 50 },
+      { "item": "saiga30mag", "prob": 50 },
+      { "group": "on_hand_shot" }
+    ]
+  },
+  {
+    "id": "nested_vp_k_pistol",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "jkl_vp_kunytsya" },
+      { "item": "jkl_vp_kunytsya_20rd_mag" },
+      { "item": "jkl_vp_kunytsya_20rd_mag", "prob": 50 },
+	  { "item": "jkl_vp_kunytsya_20rd_mag", "prob": 50 },
+      { "group": "on_hand_9x18" }
+    ]
+  }
+]

@@ -1,0 +1,211 @@
+[
+  {
+    "type": "item_group",
+    "id": "gunmod_common",
+    "//3": "gunmod_common",
+    "//": "Common gunmods typically owned by citizens and found in many locations.",
+    
+      "items": [
+        [ "jkl_hair_trigger", 15 ],
+        [ "jkl_double_action_trigger", 10 ],
+        [ "jkl_small_muzzle_brake", 10 ],
+        [ "jkl_heavy_grip", 20 ],
+        [ "jkl_light_stock_grip", 30 ],
+        [ "jkl_classic_handguard", 30 ],
+        [ "jkl_lightweight_handguard", 20 ],
+        [ "jkl_grip_heavy", 30 ],
+        [ "jkl_grip_light", 20 ],
+        [ "jkl_grip_ergonomic", 10 ],
+        [ "jkl_red_laser_sight", 10 ],
+        [ "jkl_green_laser_sight", 10 ],
+        [ "jkl_blue_laser_sight", 10 ],
+        [ "jkl_yellow_laser_sight", 10 ],
+        [ "jkl_purple_laser_sight", 10 ],
+        [ "jkl_gold_iron_sights", 5 ],
+        [ "jkl_blue_pistol_scope", 8 ],
+        [ "jkl_red_pistol_scope", 8 ],
+        [ "jkl_green_pistol_scope", 8 ],
+        [ "jkl_compact_pistol_scope", 8 ],
+        [ "jkl_enhanced_pistol_scope", 8 ],
+        [ "jkl_green_dot_sight", 10 ],
+        [ "jkl_compact_red_dot_sight", 10 ],
+        [ "jkl_orange_dot_sight", 10 ],
+        [ "jkl_lightweight_dot_sight", 10 ],
+        [ "jkl_purple_dot_sight", 10 ],
+        [ "jkl_long_range_rifle_scope", 10 ],
+        [ "jkl_offset_rail_laser", 10 ],
+        [ "jkl_hunting_rifle_scope", 30 ],
+        [ "jkl_tactical_shotgun_scope", 10 ],
+        [ "jkl_magnified_red_dot", 10 ],
+        [ "jkl_heavy_long_choke", 25 ],
+        [ "jkl_short_light_choke", 25 ],
+        [ "jkl_linear_compensator", 20 ],
+        [ "jkl_hybrid_muzzle_brake", 10 ],
+        [ "jkl_laynard_pistol_sling", 30]
+      ]
+    
+  },
+  {
+    "type": "item_group",
+    "id": "gunmod_rare",
+    "//3": "gunmod_rare",
+    "//": "Less common gunmods including those only used by police/paramilitary forces.",
+    
+      "items": [
+        [ "jkl_standard_knife_bayonet", 15 ],
+		[ "jkl_heavy_muzzle_brake", 20 ],
+        [ "jkl_long_suppressor", 30 ],
+        [ "jkl_short_suppressor", 40 ],
+        [ "jkl_two_stage_trigger", 50 ],
+        [ "jkl_tactical_grip", 20 ],
+        [ "jkl_offset_rail_laser", 5 ],
+        [ "jkl_tactical_handguard", 30 ],
+        [ "jkl_compact_holo_sight", 40 ],
+        [ "jkl_tactical_holo_sight", 30 ],
+        [ "jkl_green_holo_sight", 40 ],
+        [ "jkl_enhanced_pistol_scope", 30 ],
+        [ "jkl_tactical_rifle_scope", 30 ],
+        [ "jkl_green_holo", 20 ],
+        [ "jkl_holo_magnifier_2", 10 ],
+        [ "jkl_barrel_extension", 5 ],
+        [ "jkl_micro_muzzle_brake", 15 ]
+      ]
+    
+  },
+  {
+    "type": "item_group",
+    "id": "gunmod_milspec",
+    "//3": "gunmod_milspec",
+    "//": "Military specification gunmods found only at military sites.",
+    
+      "items": [ [ "jkl_long_range_acog", 80 ], [ "jkl_tactical_holo_sight", 80 ], [ "jkl_standard_knife_bayonet", 15 ], [ "jkl_holo_magnifier_4", 20 ] ]
+    
+  },
+  {
+    "type": "item_group",
+    "id": "sights_all",
+    "//3": "sights_all",
+    "//": "All aftermarket sights.",
+    
+      "items": [
+        [ "jkl_compact_holo_sight", 10 ],
+        [ "jkl_tactical_holo_sight", 10 ],
+        [ "jkl_gold_iron_sights", 10 ],
+        [ "jkl_green_holo_sight", 10 ],
+        [ "jkl_blue_pistol_scope", 5 ],
+        [ "jkl_red_pistol_scope", 5 ],
+        [ "jkl_green_pistol_scope", 5 ],
+        [ "jkl_compact_pistol_scope", 5 ],
+        [ "jkl_enhanced_pistol_scope", 5 ],
+        [ "jkl_green_dot_sight", 10 ],
+        [ "jkl_compact_red_dot_sight", 10 ],
+        [ "jkl_lightweight_dot_sight", 20 ],
+        [ "jkl_orange_dot_sight", 20 ],
+        [ "jkl_purple_dot_sight", 20 ],
+        [ "jkl_long_range_rifle_scope", 10 ],
+        [ "jkl_tactical_rifle_scope", 10 ],
+        [ "jkl_hunting_rifle_scope", 10 ],
+        [ "jkl_tactical_shotgun_scope", 10 ],
+        [ "jkl_magnified_red_dot", 10 ],
+        [ "jkl_green_holo", 10 ],
+        [ "jkl_long_range_acog", 10 ]
+      ]
+    
+  },
+  {
+    "type": "item_group",
+    "id": "sights_pistol",
+    "//3": "sights_pistol",
+    "//": "Aftermarket sights that are for pistols.",
+    
+      "items": [
+        [ "jkl_gold_iron_sights", 10 ],
+        [ "jkl_blue_pistol_scope", 5 ],
+        [ "jkl_red_pistol_scope", 5 ],
+        [ "jkl_green_pistol_scope", 5 ],
+        [ "jkl_compact_pistol_scope", 5 ],
+        [ "jkl_enhanced_pistol_scope", 5 ],
+        [ "jkl_green_dot_sight", 10 ],
+        [ "jkl_compact_red_dot_sight", 10 ],
+        [ "jkl_lightweight_dot_sight", 20 ],
+        [ "jkl_orange_dot_sight", 20 ],
+        [ "jkl_purple_dot_sight", 20 ]
+      ]
+    
+  },
+  {
+    "type": "item_group",
+    "id": "sights_SMG",
+    "//3": "sights_SMG",
+    "//": "Aftermarket sights that are for SMG's.",
+    
+      "items": [
+        [ "jkl_gold_iron_sights", 10 ],
+        [ "jkl_blue_pistol_scope", 5 ],
+        [ "jkl_red_pistol_scope", 5 ],
+        [ "jkl_green_pistol_scope", 5 ],
+        [ "jkl_compact_pistol_scope", 5 ],
+        [ "jkl_enhanced_pistol_scope", 5 ],
+        [ "jkl_green_dot_sight", 10 ],
+        [ "jkl_compact_red_dot_sight", 10 ],
+        [ "jkl_lightweight_dot_sight", 20 ],
+        [ "jkl_orange_dot_sight", 20 ],
+        [ "jkl_purple_dot_sight", 20 ],
+        [ "jkl_magnified_red_dot", 10 ],
+        [ "jkl_green_holo_sight", 10 ],
+        [ "jkl_tactical_holo_sight", 10 ],
+        [ "jkl_compact_holo_sight", 10 ]
+      ]
+    
+  },
+  {
+    "type": "item_group",
+    "id": "sights_rifle",
+    "//": "Aftermarket sights that are for rifles.",
+    
+      "items": [
+        [ "jkl_gold_iron_sights", 10 ],
+        [ "jkl_green_dot_sight", 10 ],
+        [ "jkl_compact_red_dot_sight", 10 ],
+        [ "jkl_lightweight_dot_sight", 20 ],
+        [ "jkl_orange_dot_sight", 20 ],
+        [ "jkl_purple_dot_sight", 20 ],
+        [ "jkl_magnified_red_dot", 10 ],
+        [ "jkl_green_holo_sight", 10 ],
+        [ "jkl_tactical_holo_sight", 10 ],
+        [ "jkl_compact_holo_sight", 10 ],
+        [ "jkl_long_range_rifle_scope", 10 ],
+        [ "jkl_tactical_rifle_scope", 10 ],
+        [ "jkl_hunting_rifle_scope", 10 ],
+        [ "jkl_long_range_acog", 10 ]
+      ]
+    
+  },
+  {
+    "type": "item_group",
+    "id": "sights_shotgun",
+    "//3": "sights_shotgun",
+    "//": "Aftermarket sights that are for shotguns.",
+    
+      "items": [
+        [ "jkl_gold_iron_sights", 10 ],
+        [ "jkl_green_dot_sight", 10 ],
+        [ "jkl_compact_red_dot_sight", 10 ],
+        [ "jkl_lightweight_dot_sight", 20 ],
+        [ "jkl_orange_dot_sight", 20 ],
+        [ "jkl_purple_dot_sight", 20 ],
+        [ "jkl_magnified_red_dot", 10 ],
+        [ "jkl_green_holo_sight", 10 ],
+        [ "jkl_tactical_holo_sight", 10 ],
+        [ "jkl_compact_holo_sight", 10 ],
+        [ "jkl_tactical_shotgun_scope", 10 ]
+      ]
+    
+  },
+  {
+    "type": "item_group",
+    "id": "sights_launcher",
+    "//3": "sights_launcher",
+    "//": "Aftermarket sights that are for launchers.",
+     "items": [ [ "jkl_gold_iron_sights", 10 ] ] }
+]

@@ -1,0 +1,864 @@
+[
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "tac_grip_fort_14",
+    "entries": [ { "item": "jkl_fort_14", "ammo-item": "9x18mmfmj", "charges": 14, "contents-item": [ "tactical_grip" ] } ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "vp_k_standard_2_mags",
+    "entries": [
+      { "item": "jkl_vp_kunytsya_20rd_mag", "ammo-item": "9x18mm", "charges": 20 },
+      { "item": "jkl_vp_kunytsya_20rd_mag", "ammo-item": "9x18mm", "charges": 20 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "army_mags_tos30",
+    "entries": [
+      { "item": "jkl_tos_30_mag", "ammo-item": "9x18mmfmj", "charges": 30 },
+      { "item": "jkl_tos_30_mag", "ammo-item": "9x18mmfmj", "charges": 30 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "army_mags_vepr",
+    "entries": [
+      { "item": "jkl_vepr_mag30", "ammo-item": "545", "charges": 30 },
+      { "item": "jkl_vepr_mag30", "ammo-item": "545", "charges": 30 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "army_mags_fort14",
+    "entries": [
+      { "item": "jkl_fort14_mag", "ammo-item": "9x18mmfmj", "charges": 14 },
+      { "item": "jkl_fort14_mag", "ammo-item": "9x18mmfmj", "charges": 14 }
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "black_sea_mafia_boss",
+    "name": "Black Sea Mafia Boss",
+    "description": "In Ukraine you were born into poverty, you joined one of the organized crime families to make a living.  There, you quickly made it to the top and became the boss. Your crew is gone, but your past life has prepared you for a world where violence is common currency.",
+    "points": 7,
+    "skills": [
+      { "level": 2, "name": "pistol" },
+      { "level": 1, "name": "smg" },
+      { "level": 1, "name": "rifle" },
+      { "level": 1, "name": "unarmed" },
+      { "level": 2, "name": "melee" },
+      { "level": 3, "name": "speech" }
+    ],
+    "items": {
+      "both": {
+        "items": [ "knit_scarf", "socks", "dress_shoes", "gold_watch", "diamond_ring", "diamond_gold_pendant_necklace", "gold_bracelet", "smart_phone" ],
+        "entries": [
+          { "item": "lighter", "charges": 90, "container-item": "dress_shirt" },
+          { "item": "jkl_vepr", "custom-flags": [ "auto_wield" ], "ammo-item": "545", "charges": 30 },
+          { "item": "jkl_vepr_mag30", "ammo-item": "545", "charges": 30, "count": 1 },
+          { "item": "cig", "container-item": "blazer" },
+          { "item": "jkl_vp_sova", "ammo-item": "9x18mmfmj", "container-item": "holster", "charges": 9 },
+          { "item": "jkl_vp_sova_mag", "ammo-item": "9x18mmfmj", "charges": 9, "count": 2 },
+          { "item": "knife_folding", "container-item": "pants" }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "bra", "panties", "diamond_gold_earring" ]
+    },
+    "traits": [ "LIAR" ]
+  },
+  {
+    "type": "profession",
+    "id": "black_sea_swat",
+    "name": "Black Sea SWAT Officer",
+    "description": "Armed with your favorite smg and the pistol you had since you were a cadet. As a member of the police force's most elite division, you are more than adequately trained and equipped to survive the brutal onslaught of the apocalypse.  Unfortunately, the chain of command has broken down; your only mission now is to stay alive.",
+    "points": 5,
+    "skills": [
+      { "level": 3, "name": "gun" },
+      { "level": 3, "name": "pistol" },
+      { "level": 3, "name": "smg" },
+      { "level": 2, "name": "swimming" }
+    ],
+    "traits": [ "PROF_SWAT" ],
+    "items": {
+      "both": {
+        "items": [
+          "socks",
+          "police_belt",
+          "tac_helmet",
+          "boots_combat",
+          "gloves_tactical",
+          "badge_swat",
+          "wristwatch",
+          "pants_cargo",
+          "elbow_pads",
+          "knee_pads",
+          "knife_folding"
+        ],
+        "entries": [
+          { "item": "modularvestceramic" },
+          { "group": "charged_two_way_radio" },
+          { "item": "sheriffshirt" },
+          { "item": "jkl_vp_sova_mag", "ammo-item": "9x18mmfmj", "charges": 9, "count": 2 },
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "grenadebandolier", "contents-item": [ "flashbang", "flashbang" ] },
+          { "item": "jkl_vp_sova", "ammo-item": "9x18mmfmj", "charges": 9, "container-item": "holster" },
+          {
+            "item": "jkl_tos_30",
+            "ammo-item": "9x18mm",
+            "charges": 30,
+            "contents-item": [ "shoulder_strap", "jkl_blue_laser_sight", "jkl_orange_dot_sight" ]
+          }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boy_shorts" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "black_sea_sniper_police",
+    "name": "Black Sea Police Recon-Rifleman",
+    "description": "Equipped with an experiemental folding rifle of high caliber, you're ready to waste some infected. Your training will serve you well.",
+    "points": 5,
+    "skills": [
+      { "level": 5, "name": "gun" },
+      { "level": 4, "name": "rifle" },
+      { "level": 1, "name": "pistol" },
+      { "level": 1, "name": "swimming" }
+    ],
+    "traits": [ "PROF_POLICE" ],
+    "items": {
+      "both": {
+        "items": [
+          "socks",
+          "pants_army",
+          "police_belt",
+          "sweatshirt",
+          "sneakers",
+          "gloves_tactical",
+          "hat_ball",
+          "badge_deputy",
+          "wristwatch",
+          "tacvest",
+          "knife_folding",
+          "legpouch_large"
+        ],
+        "entries": [
+          { "group": "charged_two_way_radio" },
+          { "item": "glasses_bal", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "jkl_vp_sova", "ammo-item": "9x18mmfmj", "charges": 9, "container-item": "holster" },
+          { "item": "jkl_vp_sova_mag", "ammo-item": "9x18mmfmj", "charges": 9, "count": 2 },
+          { "item": "jkl_pslmag10", "charges": 10, "count": 2 },
+          {
+            "item": "jkl_vp_scout",
+            "ammo-item": "762_54R",
+            "charges": 10,
+            "contents-item": [ "shoulder_strap", "rifle_scope" ]
+          },
+          { "item": "sheriffshirt" }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "bra", "boy_shorts" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "black_sea_swat_heavy",
+    "name": "Black Sea SWAT CQC Specialist",
+    "description": "You came here for training but everything has changed. As a member of the police force's most elite division, you were given special training and became an expert in close-quarters combat. However, in the aftermath of the apocalypse, the rule of law has collapsed, and you must now rely on your skills and instincts to survive in a world filled with danger and uncertainty. Your training will be put to the test as you navigate through the ruins of civilization, facing the constant threat of violence and chaos at every turn.",
+    "points": 5,
+    "skills": [
+      { "level": 3, "name": "gun" },
+      { "level": 3, "name": "shotgun" },
+      { "level": 1, "name": "pistol" },
+      { "level": 1, "name": "melee" },
+      { "level": 1, "name": "bashing" },
+      { "level": 2, "name": "swimming" }
+    ],
+    "traits": [ "PROF_SWAT" ],
+    "items": {
+      "both": {
+        "items": [
+          "socks",
+          "tac_fullhelmet",
+          "boots_combat",
+          "gloves_tactical",
+          "badge_swat",
+          "wristwatch",
+          "pants_cargo",
+          "elbow_pads",
+          "knee_pads",
+          "knife_folding",
+          "legpouch_large"
+        ],
+        "entries": [
+          { "item": "modularvestceramic" },
+          { "group": "charged_two_way_radio" },
+          { "item": "sheriffshirt" },
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "jkl_fort14_mag", "ammo-item": "9x18mmfmj", "charges": 14, "count": 2 },
+          { "item": "jkl_fort_14", "ammo-item": "9x18mmfmj", "charges": 14, "container-item": "holster" },
+          { "item": "baton", "container-item": "police_belt" },
+          {
+            "item": "jkl_tos_84",
+            "ammo-item": "shot_00",
+            "charges": 30,
+            "contents-item": [ "shoulder_strap", "jkl_green_dot_sight", "jkl_grip_heavy" ]
+          }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boy_shorts" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "ukrainian_park_ranger",
+    "name": "Ukrainian Park Ranger",
+    "description": "Armed with a Z-15 rifle and Fort 221 pistol. Your days of patrolling the park and protecting people and wildlife from each other have taught you many useful skills.  After finding a gruesome scene at a campsite and getting no response when you radioed for help, you stockpiled as many supplies as possible and set out in your pickup looking for answers.",
+    "points": 9,
+    "skills": [
+      { "level": 3, "name": "gun" },
+      { "level": 1, "name": "pistol" },
+      { "level": 3, "name": "driving" },
+      { "level": 2, "name": "firstaid" },
+      { "level": 1, "name": "fabrication" },
+      { "level": 2, "name": "swimming" },
+      { "level": 2, "name": "survival" }
+    ],
+    "vehicle": "pickup",
+    "items": {
+      "both": {
+        "items": [
+          "boots_hiking",
+          "balclava",
+          "diving_watch",
+          "e_tool",
+          "hammer",
+          "knife_folding",
+          "multitool",
+          "pants_army",
+          "police_belt",
+          "rollmat",
+          "socks",
+          "travelpack",
+          "vest",
+          "water_clean",
+          "legpouch_large",
+          "whistle_multitool",
+          "smart_phone"
+        ],
+        "entries": [
+          { "group": "charged_flashlight" },
+          { "group": "charged_two_way_radio" },
+          { "item": "1st_aid" },
+          { "item": "coat_rain", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "file" },
+          { "item": "lighter", "charges": 100 },
+          { "item": "jkl_fort_12", "ammo-item": "9x18mm", "charges": 12, "container-item": "holster" },
+          { "item": "jkl_fort_12_mag", "ammo-item": "9x18mm", "charges": 12, "count": 2 },
+          { "item": "paper", "charges": 20 },
+          { "item": "permanent_marker", "charges": 500 },
+          { "item": "roadmap" },
+          { "item": "sm_extinguisher", "charges": 10 },
+          { "item": "trailmap" },
+          { "item": "sheriffshirt" },
+          { "item": "jkl_zbroyar_z15", "ammo-item": "223", "charges": 30, "contents-item": [ "shoulder_strap" ] },
+          { "item": "stanag30", "ammo-item": "223", "charges": 30 }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "bra", "boy_shorts" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "ukrainian_cop",
+    "name": "Ukrainian Police Officer",
+    "description": "You came here for international police training. Now everyone is gone.",
+    "points": 2,
+    "skills": [ { "level": 3, "name": "gun" }, { "level": 3, "name": "pistol" }, { "level": 1, "name": "swimming" } ],
+    "traits": [ "PROF_POLICE" ],
+    "items": {
+      "both": {
+        "items": [
+          "pants_army",
+          "socks",
+          "badge_deputy",
+          "police_belt",
+          "boots",
+          "whistle",
+          "wristwatch",
+          "legpouch_large",
+          "knife_folding",
+          "smart_phone"
+        ],
+        "entries": [
+          { "group": "charged_two_way_radio" },
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "jkl_fort_12", "ammo-item": "9x18mmfmj", "charges": 12, "container-item": "holster" },
+          { "item": "jkl_fort_12_mag", "ammo-item": "9x18mmfmj", "charges": 12, "count": 3 },
+          { "item": "sheriffshirt" }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "bra", "boy_shorts" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "ukrainian_rifle_hunter",
+    "name": "Ukrainian Rifle Hunter",
+    "description": "Armed with Zbroyar Z-15 rifle and backup mag. Ever since you were a child you loved hunting, and you fancy yourself a crack shot.  Why, if the world ended, there's nothing you'd want at your side more than your trusty rifle.  So, when it did, you made sure to bring it along.",
+    "points": 3,
+    "skills": [ { "level": 1, "name": "gun" }, { "level": 1, "name": "rifle" } ],
+    "items": {
+      "both": {
+        "items": [
+          "knit_scarf",
+          "socks",
+          "boots_steel",
+          "pants_cargo",
+          "jacket_flannel",
+          "hat_hunting",
+          "wristwatch",
+          "back_holster",
+          "smart_phone"
+        ],
+        "entries": [
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          {
+            "item": "jkl_zbroyar_z15",
+            "ammo-item": "223",
+            "charges": 30,
+            "contents-item": [ "shoulder_strap", "jkl_grip_light" ]
+          },
+          { "item": "stanag30", "ammo-item": "223", "charges": 30 },
+          { "item": "sheath", "contents-item": "knife_hunting" },
+          { "item": "tank_top" }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boxer_shorts" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "black_sea_specops",
+    "name": "Black Sea Special Operator",
+    "description": "Armed with suppressed Tos 30 submachine gun and Fort 14TP pistol. You were the best of the best, the military's finest.  That's why you're still alive, even after all your comrades fell to the undead.  As far as you can tell, military command abandoned you in this hellhole when you missed the emergency evac.",
+    "points": 9,
+    "skills": [
+      { "level": 4, "name": "gun" },
+      { "level": 4, "name": "smg" },
+	  { "level": 2, "name": "pistol" },
+      { "level": 2, "name": "rifle" },
+      { "level": 2, "name": "stabbing" },
+      { "level": 3, "name": "melee" },
+      { "level": 3, "name": "dodge" },
+      { "level": 2, "name": "traps" },
+      { "level": 3, "name": "firstaid" },
+      { "level": 3, "name": "swimming" },
+      { "level": 3, "name": "survival" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "wetsuit",
+          "pants_army",
+          "wetsuit_hood",
+          "tac_helmet",
+          "wetsuit_gloves",
+          "gloves_tactical",
+          "socks",
+          "boots_combat",
+          "dive_bag",
+          "diving_watch",
+          "chestrig"
+        ],
+        "entries": [
+          { "group": "charged_two_way_radio" },
+		  { "group": "tac_grip_fort_14", "container-item": "holster" },
+          { "item": "water_clean", "container-item": "canteen" },
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "glasses_bal", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "knife_combat", "container-item": "sheath" },
+          { "item": "jkl_fort14_mag", "ammo-item": "9x18mmfmj", "charges": 14, "count": 2 },
+          {
+            "item": "jkl_tos_30",
+            "ammo-item": "9x18mmfmj",
+            "charges": 30,
+            "contents-item": [ "shoulder_strap", "short_suppressor", "green_holo_sight" ]
+          },
+          { "item": "jkl_tos_30_mag", "ammo-item": "9x18mmfmj", "charges": 30, "count": 2 }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boxer_shorts" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "ukrainian_rifleman",
+    "name": "Ukrainian Rifleman",
+    "description": "Armed with Vepr assault rifle and Fort 14TP pistol. When you were young, you dreamed of being a soldier.  War is hell and hell is war, but you never thought it would be this bad.",
+    "points": 6,
+    "skills": [
+      { "level": 3, "name": "gun" },
+      { "level": 3, "name": "rifle" },
+      { "level": 2, "name": "melee" },
+      { "level": 2, "name": "stabbing" },
+      { "level": 2, "name": "dodge" },
+      { "level": 2, "name": "survival" },
+      { "level": 2, "name": "firstaid" },
+      { "level": 2, "name": "swimming" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "pants_army",
+          "undershirt",
+          "longshirt",
+          "helmet_army",
+          "mask_ski",
+          "gloves_liner",
+          "gloves_tactical",
+          "socks",
+          "boots_combat",
+          "wristwatch",
+          "molle_pack"
+        ],
+        "entries": [
+          { "group": "charged_two_way_radio" },
+          { "item": "modularvestceramic" },
+          { "item": "water_clean", "container-item": "canteen" },
+          { "item": "legpouch_large", "contents-group": "army_mags_vepr" },
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "knife_combat", "container-item": "sheath" },
+          { "item": "jkl_fort14_mag", "ammo-item": "9x18mmfmj", "charges": 14 },
+          { "item": "jkl_fort_14", "ammo-item": "9x18mmfmj", "charges": 14, "container-item": "holster" },
+          {
+            "item": "jkl_vepr",
+            "ammo-item": "545",
+            "charges": 30,
+            "contents-item": [ "shoulder_strap", "jkl_green_holo_sight", "jkl_sights_mount", "jkl_underbarrel_mount" ]
+          }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boxer_shorts" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "polish_mil_auto_rifleman",
+    "name": "Polish Automatic Rifleman",
+    "description": "Armed with UKM 2000 machine gun and Fort 14TP pistol. You were trusted with a big-ass, belt-fed machine gun and plenty of ammo to lay down suppressing fire for your team.  Now that it's going to be much harder to resupply, you should probably be more selective with the ol' spray-and-pray.",
+    "points": 7,
+    "skills": [
+      { "level": 2, "name": "gun" },
+      { "level": 2, "name": "rifle" },
+      { "level": 2, "name": "melee" },
+      { "level": 1, "name": "stabbing" },
+      { "level": 1, "name": "dodge" },
+      { "level": 1, "name": "firstaid" },
+      { "level": 1, "name": "survival" },
+      { "level": 1, "name": "swimming" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "pants_army",
+          "undershirt",
+          "longshirt",
+          "helmet_army",
+          "mask_ski",
+          "gloves_liner",
+          "gloves_tactical",
+          "socks",
+          "boots_combat",
+          "wristwatch",
+          "molle_pack"
+        ],
+        "entries": [
+          { "group": "charged_two_way_radio" },
+          { "item": "modularvestceramic" },
+          { "item": "water_clean", "container-item": "canteen" },
+          {
+            "item": "jkl_ukm_2000",
+            "ammo-item": "762_51",
+            "charges": 50,
+            "contents-item": [ "shoulder_strap", "jkl_green_holo", "bipod" ]
+          },
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "knife_combat", "container-item": "sheath" },
+		  { "item": "jkl_ukm308drum", "ammo-item": "762_51", "charges": 50 },
+          { "item": "jkl_wist_94_mag", "ammo-item": "9mm", "charges": 16 },
+          { "item": "jkl_wist_94", "ammo-item": "9mm", "charges": 16, "container-item": "holster" }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boxer_shorts" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "ukrainian_special_rifleman",
+    "name": "Ukrainian Special Forces Rifleman",
+    "description": "Armed with Tavor x95 rifle w/ ACOG scope and suppressor, and Fort 14TP pistol. When you were young, you dreamed of being a soldier.  War is hell and hell is war, but you never thought it would be this bad.",
+    "points": 9,
+    "skills": [
+      { "level": 4, "name": "gun" },
+      { "level": 4, "name": "rifle" },
+	  { "level": 2, "name": "pistol" },
+      { "level": 4, "name": "melee" },
+      { "level": 3, "name": "stabbing" },
+      { "level": 3, "name": "dodge" },
+      { "level": 2, "name": "survival" },
+      { "level": 2, "name": "firstaid" },
+      { "level": 2, "name": "swimming" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "pants_army",
+          "undershirt",
+          "longshirt",
+          "helmet_army",
+          "mask_ski",
+          "gloves_liner",
+          "gloves_tactical",
+          "socks",
+          "boots_combat",
+          "wristwatch",
+          "molle_pack"
+        ],
+        "entries": [
+          { "group": "charged_two_way_radio" },
+          { "item": "modularvestceramic" },
+          { "item": "water_clean", "container-item": "canteen" },
+          { "item": "legpouch_large", "contents-group": "army_mags_m4" },
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "knife_combat", "container-item": "sheath" },
+          { "item": "jkl_fort14_mag", "ammo-item": "9x18mmfmj", "charges": 14 },
+          { "item": "jkl_fort_14", "ammo-item": "9x18mmfmj", "charges": 14, "container-item": "holster" },
+          {
+            "item": "jkl_tavor_x95",
+            "ammo-item": "556",
+            "charges": 30,
+            "contents-item": [ "shoulder_strap", "short_suppressor", "long_range_acog" ]
+          }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boxer_shorts" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "black_sea_mil_sniper",
+    "name": "Black Sea Anti-Material Sniper",
+    "description": "Armed with Gepard m3 anti-material rifle and Fort 14TP pistol. You're a crack shot with a rifle, and the farther you can stay away from zombies, the better.  The only thing stopping you is limited ammo, so you should try to find a place to restock sooner or later.",
+    "points": 8,
+    "skills": [
+      { "level": 5, "name": "gun" },
+      { "level": 4, "name": "rifle" },
+      { "level": 2, "name": "melee" },
+      { "level": 1, "name": "stabbing" },
+      { "level": 1, "name": "dodge" },
+      { "level": 1, "name": "firstaid" },
+      { "level": 2, "name": "survival" },
+      { "level": 1, "name": "swimming" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "pants_army",
+          "undershirt",
+          "longshirt",
+          "helmet_army",
+          "mask_ski",
+          "gloves_liner",
+          "gloves_tactical",
+          "socks",
+          "boots_combat",
+          "wristwatch",
+          "molle_pack",
+          "cloak"
+        ],
+        "entries": [
+          { "group": "charged_two_way_radio" },
+          { "item": "modularvestceramic" },
+          { "item": "water_clean", "container-item": "canteen" },
+          { "item": "jkl_m3_gepard", "ammo-item": "jkl_145x114mm", "charges": 5, "contents-item": [ "shoulder_strap" ] },
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "knife_combat", "container-item": "sheath" },
+          { "item": "jkl_fort_14", "ammo-item": "9x18mmfmj", "container-item": "holster", "charges": 14 },
+          { "item": "legpouch_large", "contents-group": "army_mags_fort14" },
+          { "item": "jkl_m3gepardmag", "ammo-item": "jkl_145x114mm", "charges": 5 }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boxer_shorts" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "ukrainian_special_mil_sniper",
+    "name": "Ukrainian Special Anti-Material Sniper",
+    "description": "Armed with the giant Snipex Alligator and Fort 14TP pistol. You're a crack shot with a rifle, and the farther you can stay away from zombies, the better.  The only thing stopping you is limited ammo, so you should try to find a place to restock sooner or later.",
+    "points": 9,
+    "skills": [
+      { "level": 5, "name": "gun" },
+      { "level": 5, "name": "rifle" },
+      { "level": 3, "name": "melee" },
+      { "level": 1, "name": "stabbing" },
+      { "level": 1, "name": "dodge" },
+      { "level": 1, "name": "firstaid" },
+      { "level": 2, "name": "survival" },
+      { "level": 2, "name": "swimming" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "pants_army",
+          "undershirt",
+          "longshirt",
+          "helmet_army",
+          "mask_ski",
+          "gloves_liner",
+          "gloves_tactical",
+          "socks",
+          "boots_combat",
+          "wristwatch",
+          "molle_pack",
+          "cloak"
+        ],
+        "entries": [
+          { "group": "charged_two_way_radio" },
+          { "item": "modularvestceramic" },
+          { "item": "water_clean", "container-item": "canteen" },
+          {
+            "item": "jkl_snipex_alligator",
+            "ammo-item": "jkl_145x114mm",
+            "charges": 5,
+            "contents-item": [ "shoulder_strap" ]
+          },
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "knife_combat", "container-item": "sheath" },
+          { "item": "jkl_fort_14", "ammo-item": "9x18mmfmj", "container-item": "holster", "charges": 14 },
+          { "item": "legpouch_large", "contents-group": "army_mags_fort14" },
+          { "item": "jkl_alligator_mag", "ammo-item": "jkl_145x114mm", "charges": 5 }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boxer_shorts" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "jackledead_survivor_A",
+    "name": "Survivor (Kickass)",
+    "description": "Armed, padded, ready to fight to the last breath.",
+    "points": 11,
+    "skills": [
+      { "level": 4, "name": "gun" },
+      { "level": 2, "name": "pistol" },
+      { "level": 2, "name": "rifle" },
+      { "level": 3, "name": "driving" },
+      { "level": 3, "name": "firstaid" },
+      { "level": 3, "name": "fabrication" },
+      { "level": 2, "name": "swimming" },
+      { "level": 2, "name": "survival" },
+      { "level": 3, "name": "mechanics" },
+      { "level": 2, "name": "cooking" },
+      { "level": 2, "name": "tailor" }
+    ],
+    "vehicle": "pickup",
+    "items": {
+      "both": {
+        "items": [
+          "crowbar",
+          "boots_hiking",
+          "balclava",
+          "diving_watch",
+          "multitool",
+          "pants_cargo",
+          "police_belt",
+          "socks",
+          "duffelbag",
+          "vest",
+          "legpouch_large",
+          "dress_shirt",
+          "jacket_flannel",
+          "cig",
+          "elbow_pads",
+          "knee_pads",
+          "weed",
+          "rolling_paper",
+          "hammer",
+          "mp3",
+          "smart_phone"
+        ],
+        "entries": [
+          { "group": "charged_flashlight" },
+          { "item": "1st_aid" },
+          { "item": "water_clean", "container-item": "canteen" },
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "glasses_safety", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "sunglasses", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "mask_dust", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "lighter", "charges": 100 },
+          { "item": "jkl_fort_14", "ammo-item": "9x18mmfmj", "charges": 14, "container-item": "holster" },
+          { "item": "jkl_fort14_mag", "ammo-item": "9x18mmfmj", "charges": 14, "count": 2 },
+          { "item": "9x18mmfmj" },
+          { "item": "paper", "charges": 20 },
+          { "item": "permanent_marker", "charges": 500 },
+          { "item": "survivormap" },
+          { "item": "knife_combat", "container-item": "sheath" },
+          {
+            "item": "jkl_vepr",
+            "ammo-item": "545",
+            "charges": 30,
+            "contents-item": [ "shoulder_strap", "jkl_short_suppressor", "jkl_magnified_red_dot" ]
+          },
+          { "item": "jkl_vepr_mag30", "ammo-item": "545", "charges": 30, "count": 2 },
+          { "item": "545" },
+          { "item": "wrench" }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "bra", "boy_shorts" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "jackledead_gunmod_nut",
+    "name": "Gun-Mod Nut",
+    "description": "You've always loved customizing your firearms. When the Cataclsym struck, you grabbed your stuff and headed out. Unfortunately, you forgot your gun. Fortunately you know where the gun stores are.",
+    "points": 9,
+    "skills": [
+      { "level": 4, "name": "gun" },
+      { "level": 2, "name": "pistol" },
+      { "level": 2, "name": "rifle" },
+      { "level": 2, "name": "smg" },
+      { "level": 2, "name": "shotgun" },
+      { "level": 3, "name": "fabrication" },
+      { "level": 3, "name": "mechanics" },
+      { "level": 2, "name": "electronics" },
+      { "level": 1, "name": "tailor" },
+      { "level": 1, "name": "melee" },
+      { "level": 1, "name": "stabbing" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "duct_tape",
+          "sneakers",
+          "wristwatch",
+          "pants_cargo",
+          "socks",
+          "backpack_leather",
+          "apron_leather",
+          "tshirt",
+          "gloves_work",
+          "jacket_light",
+          "hat_boonie",
+          "jkl_gold_iron_sights",
+          "jkl_compact_holo_sight",
+          "jkl_purple_dot_sight",
+          "jkl_compact_pistol_scope",
+          "jkl_hunting_rifle_scope",
+          "jkl_hair_trigger",
+          "jkl_light_stock_grip",
+          "jkl_small_muzzle_brake",
+          "jkl_lightweight_handguard",
+          "jkl_grip_ergonomic",
+          "jkl_green_laser_sight",
+          "jkl_yellow_laser_sight",
+          "jkl_heavy_long_choke",
+          "jkl_offset_rail_laser",
+          "jkl_sights_mount",
+          "jkl_underbarrel_mount",
+          "jkl_short_suppressor",
+          "brass_catcher",
+          "adjustable_stock",
+          "barrel_ported",
+          "bipod",
+          "mp3",
+          "smart_phone"
+        ],
+        "entries": [
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "glasses_safety", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "mask_dust", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "shoulder_strap", "custom-flags": [ "no_auto_equip" ] },
+		  { "item": "small_repairkit", "charges": 300 },
+          { "item": "lighter", "charges": 60 },
+          { "item": "permanent_marker", "charges": 200 },
+          { "item": "survivormap" },
+          { "item": "rag", "count": 5 },
+          { "item": "jkl_standard_knife_bayonet", "custom-flags": [ "auto_wield" ] }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "bra", "boy_shorts" ]
+    }
+  },
+  {
+    "type": "profession",  
+    "id": "univ_prof_virologist_prepper",
+    "name": "Former Virology Professor",
+    "description": "You were a professor of virology at the local university before the outbreak. You retired early and started prepping for the apocalypse you saw coming. Though, even with that gun you're still a nerd.",
+    "points": 8,
+    "traits": [ "PROF_MED" ],
+    "skills": [
+      { "level": 4, "name": "cooking" },
+      { "level": 3, "name": "firstaid" },
+      { "level": 3, "name": "computer" },
+      { "level": 3, "name": "speech" },  
+      { "level": 2, "name": "fabrication" },
+      { "level": 2, "name": "electronics" },
+      { "level": 2, "name": "gun" },
+      { "level": 1, "name": "melee" },
+      { "level": 1, "name": "survival" }
+    ],
+    "items": {
+      "both": {
+        "items": [ 
+          "dress_shirt", 
+          "socks",
+          "boots",
+          "knit_scarf",
+          "glasses_safety",
+          "gloves_tactical",
+          "hat_knit",
+          "mbag",
+          "jkl_laynard_pistol_sling",
+          "smart_phone"
+        ],
+        "entries": [
+          { "item": "kevlar" },
+          { "item": "mask_dust" },
+          { "item": "chemistry_set" },
+          { "group": "vp_k_standard_2_mags" },
+          { "item": "jkl_vp_kunytsya", "ammo-item": "9x18mm", "charges": 20, "contents-item": ["hair_trigger"], "custom-flags": [ "auto_wield" ] },
+          { "item": "jkl_knife_pry_fixed", "container-item": "scabbard" },
+          { "item": "pants" }  
+        ]
+      },
+      "male": [ "briefs" ],    
+      "female": [ "bra", "panties" ]
+    }
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "everyday_gear",
+    "type": "item_group",
+	"items": [ [ "jkl_knife_pry_fold", 8 ] ] 
+  },
+  {
+    "id": "traveler",
+    "type": "item_group",
+	"items": [ [ "jkl_knife_pry_fold", 8 ] ] 
+  }
+]

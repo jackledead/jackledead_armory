@@ -1,0 +1,65 @@
+TODO:
+figure out colored iron sights graphics via body pillows clues
+Make profession for the Tos Akula
+Custom mag graphics
+add z-10 762x51 nato rifle
+add British guns/professions
+
+Pretty much done:
+profession for each gun
+
+Done:
+Add new guns to itemgroups
+fix item groups for new calibers
+fix looks like for new pistol
+snipex alligator should have better range and damage values, pull from m107a1 maybe
+fix ukm caliber and 
+Add polish pistol for machine gunner
+Rename vp scout, renamed to VP Orel
+rechamber the gepard m3 in 145x114
+make fictional machine gun chambered in 762x54r
+
+
+Make sure gepard anti material profession starts with gun mods
+test new professions
+
+umm i guess the fort 221 is a rifle so i gotta change what I have to a pistol thats real. added the fort 12. now to test.
+
+new pistol new shotgun
+
+{
+    "id": "upstest",
+    "type": "GUNMOD",
+    "name": { "str": "upstest" },
+    "description": "Test mod for UPS drain on mods, this should never spawn, if you see this, it's a bug.  50x more UPS drain.",
+    "weight": "450 g",
+    "volume": "500 ml",
+    "price": 20000,
+    "price_postapoc": 0,
+    "install_time": "0 s",
+    "material": [ "steel" ],
+    "symbol": ":",
+    "color": "light_gray",
+    "location": "barrel",
+    "mod_targets": [ "smg", "rifle", "shotgun", "pistol" ],
+    "damage_modifier": { "damage_type": "stab", "amount": 500 },
+    "dispersion_modifier": 500,
+    "energy_drain_multiplier": 50.0,
+    "min_skills": [ [ "gun", 1 ] ],
+    "melee_damage": { "bash": 5 }
+  }
+
+  {
+        "file": "jackledeadarmoryitems2large.png",
+        "//": "range  to ",
+        "sprite_width": 64,
+        "sprite_height": 80,
+        "sprite_offset_x": -16,
+        "sprite_offset_y": -48,
+        "tiles": [
+          { "id": "m3_gepard", "fg": 1, "rotates": false },
+          { "id": "overlay_wielded_m3_gepard", "fg": 1, "rotates": false },
+          { "id": "snipex_alligator", "fg": 1, "rotates": false },
+          { "id": "overlay_wielded_snipex_alligator", "fg": 1, "rotates": false }
+        ]
+      }

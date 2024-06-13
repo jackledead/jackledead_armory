@@ -1,0 +1,55 @@
+[
+  {
+    "type": "scenario",
+    "id": "heli_crash",
+    "copy-from": "heli_crash",
+    "name": "Helicopter Crash",
+    "extend": {
+      "professions": [
+        "black_sea_sniper_police",
+        "black_sea_specops",
+        "ukrainian_rifleman",
+        "polish_mil_auto_rifleman",
+        "ukrainian_special_rifleman",
+        "ukrainian_special_mil_sniper",
+        "black_sea_mil_sniper"
+      ]
+    },
+    "map_extra": "mx_helicopter",
+    "flags": [ "HELI_CRASH", "LONE_START" ]
+  },
+  {
+    "type": "scenario",
+    "id": "overrun",
+    "copy-from": "overrun",
+    "name": "Challenge - Overrun",
+    "extend": {
+      "professions": [
+        "black_sea_sniper_police",
+        "black_sea_specops",
+        "ukrainian_rifleman",
+        "polish_mil_auto_rifleman",
+        "ukrainian_special_rifleman",
+        "ukrainian_special_mil_sniper",
+        "black_sea_mil_sniper"
+      ]
+    },
+    "flags": [ "CHALLENGE", "LONE_START" ]
+  },
+  {
+    "type": "scenario",
+    "id": "presort",
+    "copy-from": "presort",
+    "name": "Crazy Party",
+    "allowed_locs": [ "sloc_private_resort" ],
+    "extend": { "professions": [ "black_sea_mafia_boss" ] }
+  },
+  {
+    "type": "scenario",
+    "id": "Mansion",
+    "copy-from": "Mansion",
+    "name": "Challenge - Mansion Escape",
+    "flags": [ "CHALLENGE", "LONE_START" ],
+    "extend": { "professions": [ "black_sea_mafia_boss" ] }
+  }
+]

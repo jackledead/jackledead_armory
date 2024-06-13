@@ -1,0 +1,20 @@
+possible json for gunmods:
+
+"sight_dispersion": 25,
+"aim_speed_modifier": 5,
+"field_of_view": 270,
+"handling_modifier": 2,
+"proportional": { "aim_speed": 0.95 },
+"dispersion_modifier": -3,
+
+known sd of sights:
+mine:
+gold iron sights: sd 29
+
+cdda:
+iron sights sd 30
+ACOG scope: sd 8
+holo: sight dispersion 23
+Rifle scope: SD 0
+holo magnifier: SD 13
+red dot sd 27

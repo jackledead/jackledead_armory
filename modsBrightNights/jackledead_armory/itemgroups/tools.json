@@ -1,0 +1,14 @@
+[
+  {
+    "id": "tools_hunting",
+    "type": "item_group",
+    "//": "Gear that hunters take on hunting trips.",
+    "items": [ [ "jkl_knife_pry_fold", 10 ], [ "jkl_knife_pry_fixed", 8 ] ]
+  },
+  {
+    "id": "tools_survival",
+    "type": "item_group",
+    "//": "Practical, small and light-weight tools for survival excluding camping gear.",
+    "items": [ [ "jkl_knife_pry_fold", 10 ], [ "jkl_knife_pry_fixed", 5 ] ] 
+  }
+]

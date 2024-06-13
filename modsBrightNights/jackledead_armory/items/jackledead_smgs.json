@@ -1,0 +1,18 @@
+[
+  {
+    "id": "jkl_tos_30",
+    "copy-from": "hk_mp5",
+    "type": "GUN",
+    "name": { "str": "Tos 30 submachine gun" },
+    "description": "A lightweight Eastern European submachine gun intended for internal security and police units, chambered in 9x18mm Makarov.",
+    "weight": "1500 g",
+    "price": 25000,
+    "price_postapoc": 2500,
+    "material": [ "steel", "plastic" ],
+    "ammo": [ "9x18" ],
+    "min_cycle_recoil": 250,
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "burst", 3 ], [ "AUTO", "auto", 6 ] ],
+    "magazine_well": "250 ml",
+    "magazines": [ [ "9x18", [ "jkl_tos_30_mag" ] ] ]
+  }
+]

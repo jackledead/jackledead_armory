@@ -1,0 +1,40 @@
+[
+  {
+    "type": "item_group",
+    "id": "swat_gear",
+    "subtype": "distribution",
+    "items": [
+      [ "jkl_knife_pry_fold", 10 ],
+      [ "jkl_blue_laser_sight", 3 ],
+      [ "jkl_compact_holo_sight", 3 ],
+      [ "jkl_compact_red_dot_sight", 3 ],
+      [ "jkl_green_dot_sight", 3 ],
+      [ "jkl_green_holo_sight", 3 ],
+      [ "jkl_green_laser_sight", 3 ],
+      [ "jkl_grip_ergonomic", 3 ],
+      [ "jkl_grip_heavy", 3 ],
+      [ "jkl_grip_light", 3 ],
+      [ "jkl_heavy_grip", 3 ],
+      [ "jkl_magnified_red_dot", 3 ],
+      [ "jkl_offset_rail_laser", 3 ],
+      [ "jkl_orange_dot_sight", 3 ],
+      [ "jkl_red_laser_sight", 3 ],
+      [ "jkl_tactical_holo_sight", 3 ],
+      [ "jkl_tactical_rifle_scope", 3 ],
+      [ "jkl_two_stage_trigger", 3 ],
+      [ "jkl_yellow_laser_sight", 3 ],
+      [ "jkl_standard_knife_bayonet", 10 ],
+      [ "jkl_short_suppressor", 15 ],
+      [ "jkl_tactical_grip", 3 ],
+      [ "jkl_laynard_pistol_sling", 4 ]
+    ]
+  },
+  {
+    "id": "gear_soldier_sidearm",
+    "type": "item_group",
+    "//": "Sidearm and appropriate holster or sheath for soldiers or other paramilitary forces.",
+    "items": [
+      { "distribution": [ { "collection": [ { "item": "jkl_standard_knife_bayonet" }, { "item": "sheath" } ], "prob": 20 } ] }
+    ]
+  }
+]

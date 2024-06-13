@@ -1,0 +1,12 @@
+[
+  {
+    "id": "camping",
+    "type": "item_group",
+	"items": [ [ "jkl_knife_pry_fold", 10 ], [ "jkl_knife_pry_fixed", 8 ] ] 
+  },
+  {
+    "id": "hiking",
+    "type": "item_group",
+	"items": [ [ "jkl_knife_pry_fold", 6 ], [ "jkl_knife_pry_fixed", 4 ] ]
+  }
+]

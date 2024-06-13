@@ -1,0 +1,49 @@
+[
+  {
+    "id": "jkl_762R_tracer",
+    "copy-from": "762_54R",
+    "looks_like": "762_54R",
+    "type": "AMMO",
+    "name": { "str_sp": "7.62x54mmR tracer" },
+    "description": "7.62x54mmR tracer ammunition with a 150gr FMJ bullet. The tracer element ignites upon firing, leaving a visible trail in the air to help with aiming.",
+    "symbol": "=",
+    "color": "light_red",
+    "ammo_type": "762R",
+    "range": 75,
+    "damage": { "damage_type": "bullet", "amount": 50, "armor_penetration": 16 },
+    "dispersion": 15,
+    "recoil": 2645,
+    "effects": [ "COOKOFF", "INCENDIARY" ]
+  },
+  {
+    "id": "jkl_145x114mm",
+    "type": "AMMO",
+    "looks_like": "reloaded_50bmg",
+    "name": { "str_sp": "14.5x114mm anti-material round" },
+    "description": "A powerful anti-material round designed for the Snipex Alligator rifle, capable of penetrating armor and disabling vehicles.",
+    "weight": "170 g",
+    "volume": "120 ml",
+    "price": 4000,
+    "price_postapoc": 3500,
+    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
+    "material": [ "brass", "powder" ],
+    "symbol": ">",
+    "color": "yellow",
+    "ammo_type": "145x114",
+    "casing": "jkl_145x114_casing",
+    "range": 150,
+    "damage": { "damage_type": "bullet", "amount": 250, "armor_penetration": 70 },
+    "dispersion": 100,
+    "recoil": 30000,
+    "effects": [ "COOKOFF" ]
+  },
+  {
+    "id": "jkl_145X114_incendiary",
+    "copy-from": "jkl_145x114mm",
+    "looks_like": "reloaded_50bmg",
+    "type": "AMMO",
+    "name": { "str_sp": "14.5x114mm incendiary round" },
+    "description": "An incendiary variant of the powerful 14.5x114mm round. Incendiary rounds are designed to ignite flammable substances upon impact, causing secondary damage to the target.",
+    "effects": [ "COOKOFF", "INCENDIARY" ]
+  }
+]

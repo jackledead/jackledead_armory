@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "jackledead_armory",
+    "name": "Jackledead Armory",
+    "authors": [ "Jackledead" ],
+    "maintainers": [ "Jackledead" ],
+    "description": "Adds 12+ new firearms and 46+ gun-mods as well as 10+ professions to showcase them.",
+    "category": "items",
+    "dependencies": [ "bn" ]
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "jkl_145x114_casing",
+    "copy-from": "casing",
+    "looks_like": "50_casing",
+    "type": "GENERIC",
+    "name": { "str": "14.5x114mm casing" },
+    "description": "An empty casing from a 14.5x114mm round. These casings are difficult to come by, but you don't think you have the skills to reload it.",
+    "weight": "20 g",
+    "volume": "15 ml"
+  }
+]

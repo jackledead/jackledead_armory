@@ -1,0 +1,30 @@
+[
+{
+    "id": "jkl_laynard_pistol_sling",
+    "type": "ARMOR",
+    "name": {
+      "str": "laynard pistol sling"    
+    },
+    "looks_like": "single_sling",
+    "description": "A single point sling designed to hang a pistol or small SMG around the neck for easy access. Activate to holster/draw your weapon.",
+    "weight": "100 g",
+    "volume": "250 ml",
+    "price": 8000,
+    "price_postapoc": 500, 
+    "material": [
+      "cotton"
+    ],
+    "symbol": "[",
+    "color": "green",
+    "material_thickness": 1,
+    "flags": [
+      "OVERSIZE",
+      "BELTED",
+      "COMPACT"
+    ],
+    "use_action": { "type": "holster", "max_volume": "4 L", "min_volume": "300 ml", "skills": [ "pistol", "smg" ] },
+    "covers": [ "torso" ],
+    "coverage": 5,
+    "encumbrance": 4
+  }
+]
