@@ -398,7 +398,7 @@
             "item": "jkl_tos_30",
             "ammo-item": "9x18mmfmj",
             "charges": 30,
-            "contents-item": [ "shoulder_strap", "short_suppressor", "green_holo_sight" ]
+            "contents-item": [ "shoulder_strap", "jkl_short_suppressor", "jkl_green_holo_sight" ]
           },
           { "item": "jkl_tos_30_mag", "ammo-item": "9x18mmfmj", "charges": 30, "count": 2 }
         ]
@@ -556,7 +556,7 @@
             "item": "jkl_tavor_x95",
             "ammo-item": "556",
             "charges": 30,
-            "contents-item": [ "shoulder_strap", "short_suppressor", "long_range_acog" ]
+            "contents-item": [ "shoulder_strap", "jkl_short_suppressor", "jkl_long_range_acog" ]
           }
         ]
       },
