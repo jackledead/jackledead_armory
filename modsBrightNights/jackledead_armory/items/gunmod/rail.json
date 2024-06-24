@@ -18,7 +18,8 @@
     "mod_target_category": [ [ "SUBMACHINE_GUNS" ], [ "RIFLES" ], [ "MACHINE_GUNS" ], [ "SHOTGUNS" ] ],
     "min_skills": [ [ "gun", 2 ] ],
     "handling_modifier": 1,
-    "aim_speed_modifier": 15,
+    "aim_speed": 6,
+    "sight_dispersion": 24,
     "add_mod": [ [ "sights", 1 ] ]
   }
 ]

@@ -36,8 +36,8 @@
       [ "FLAMETHROWERS" ]
     ],
     "install_time": "4 m",
-    "sight_dispersion_modifier": -2,
-    "aim_speed_modifier": 4,
+    "sight_dispersion": 12,
+    "aim_speed": 5,
     "min_skills": [ [ "weapon", 2 ], [ "gun", 2 ] ],
     "flags": [ "DISABLE_SIGHTS", "ZOOM" ]
   },
@@ -69,8 +69,8 @@
       [ "FLAMETHROWERS" ]
     ],
     "install_time": "6 m",
-    "sight_dispersion_modifier": -5,
-    "aim_speed_modifier": 7,
+    "sight_dispersion": 10,
+    "aim_speed": 5,
     "min_skills": [ [ "weapon", 3 ], [ "gun", 4 ] ],
     "flags": [ "DISABLE_SIGHTS", "ZOOM" ]
   },
@@ -83,7 +83,7 @@
     "weight": "175 g",
     "volume": "200 ml",
     "sight_dispersion": 24,
-    "aim_speed_modifier": 3,
+    "aim_speed": 4,
     "price": 50000
   },
   {
@@ -93,8 +93,8 @@
     "name": { "str": "tactical holo sight" },
     "description": "An advanced optic with an adjustable circular hologram reticle superimposed on the field of view. Used extensively by military forces, it increases accuracy and weight. This is a step up from a red dot sight.",
     "color": "dark_gray",
-    "sight_dispersion": 19,
-    "aim_speed_modifier": -1,
+    "sight_dispersion": 12,
+    "aim_speed": 5,
     "material": [ "superalloy", "steel" ]
   },
   {
@@ -104,7 +104,7 @@
     "name": { "str": "green holo sight" },
     "description": "An advanced optic with a green circular hologram reticle superimposed on the field of view. Used extensively by military forces, it increases accuracy and weight. This is a step up from a red dot sight.",
     "color": "green",
-    "sight_dispersion": 21
+    "sight_dispersion": 12
   },
   {
     "id": "jkl_gold_iron_sights",
@@ -140,95 +140,6 @@
     "sight_dispersion": 29,
     "min_skills": [ [ "weapon", 2 ], [ "gun", 1 ] ],
     "flags": [ "DISABLE_SIGHTS" ]
-  },
-  {
-    "id": "jkl_improve_sights",
-    "copy-from": "improve_sights",
-    "name": { "str_sp": "iron sights" },
-    "type": "GUNMOD",
-    "//variantsInfo": "These variants will be exactly the same as the vanilla improve_sights stat wise",
-    "variant_type": "generic",
-    "variants": [
-      {
-        "id": "jkl_jackle_vanilla_improve_sights",
-        "//variantVanillaImproveSight": "same as improve_sights from vanilla",
-        "name": { "str_sp": "iron sights" },
-        "description": "A basic set of iron sights",
-        "weight": 45
-      },
-      {
-        "id": "jkl_jackle_red_iron_sights",
-        "//variantRedSight": "umm. red sights what else to say. I like color.",
-        "name": { "str_sp": "red iron sights" },
-        "description": "A basic set of iron sights, but they are painted red for visibility in certain environments.",
-        "weight": 3,
-        "color": "red"
-      },
-      {
-        "id": "jkl_jackle_blue_iron_sights",
-        "name": { "str_sp": "blue iron sights" },
-        "description": "A basic set of iron sights, but they are painted blue for visibility in certain environments.",
-        "weight": 3,
-        "color": "blue"
-      },
-      {
-        "id": "jkl_jackle_white_iron_sights",
-        "//variantWhiteSight": "https://qr.ae/pKIWuv white painted iron sights post market",
-        "name": { "str_sp": "white iron sights" },
-        "description": "A basic set of iron sights, but they painted white for visibility in certain environments.",
-        "weight": 3,
-        "color": "white"
-      },
-      {
-        "id": "jkl_jackle_green_iron_sights",
-        "name": { "str_sp": "green iron sights" },
-        "description": "A basic set of iron sights, but they are painted green for visibility in certain environments.",
-        "weight": 3,
-        "color": "green"
-      },
-      {
-        "id": "jkl_jackle_brown_iron_sights",
-        "name": { "str_sp": "brown iron sights" },
-        "description": "A basic set of iron sights, but they are painted brown for visibility in certain environments.",
-        "weight": 3,
-        "color": "brown"
-      },
-      {
-        "id": "jkl_jackle_yellow_iron_sights",
-        "name": { "str_sp": "yellow iron sights" },
-        "description": "A basic set of iron sights, but they are painted yellow for visibility in certain environments.",
-        "weight": 3,
-        "color": "yellow"
-      },
-      {
-        "id": "jkl_jackle_magenta_iron_sights",
-        "name": { "str_sp": "magenta iron sights" },
-        "description": "A basic set of iron sights, but they are painted magenta for visibility in certain environments.",
-        "weight": 3,
-        "color": "magenta"
-      },
-      {
-        "id": "jkl_jackle_cyan_iron_sights",
-        "name": { "str_sp": "cyan iron sights" },
-        "description": "A basic set of iron sights, but they are painted cyan for visibility in certain environments.",
-        "weight": 3,
-        "color": "cyan"
-      },
-      {
-        "id": "jkl_jackle_gray_iron_sights",
-        "name": { "str_sp": "silver painted iron sights" },
-        "description": "A basic set of iron sights, but they are painted silver for visibility in certain environments.",
-        "weight": 3,
-        "color": "light_gray"
-      },
-      {
-        "id": "jkl_jackle_pink_iron_sights",
-        "name": { "str_sp": "pink painted iron sights" },
-        "description": "A basic set of iron sights, but they are painted pink for visibility in certain environments.",
-        "weight": 3,
-        "color": "pink"
-      }
-    ]
   },
   {
     "id": "jkl_blue_pistol_scope",
@@ -322,7 +233,7 @@
     "volume": "40 ml",
     "price": 50000,
     "sight_dispersion": 27,
-    "aim_speed_modifier": 6
+    "aim_speed": 5
   },
   {
     "id": "jkl_orange_dot_sight",
@@ -366,8 +277,9 @@
     "price": 105000,
     "price_postapoc": 1100,
     "color": "light_gray",
-    "sight_dispersion": 0,
-    "aim_speed_modifier": -2,
+    "sight_dispersion": -1,
+    "aim_speed": -1,
+    "handling_modifier": 1,
     "dispersion_modifier": -2,
     "min_skills": [ [ "weapon", 3 ], [ "gun", 3 ] ]
   },
@@ -383,7 +295,9 @@
     "price_postapoc": 1200,
     "color": "black",
     "sight_dispersion": 0,
-    "aim_speed_modifier": 2,
+    "aim_speed": 0,
+    "handling_modifier": 2,
+    "dispersion_modifier": -1,
     "min_skills": [ [ "weapon", 2 ], [ "gun", 4 ] ]
   },
   {
@@ -398,7 +312,7 @@
     "price_postapoc": 700,
     "color": "brown",
     "sight_dispersion": 1,
-    "aim_speed_modifier": -1,
+    "aim_speed": 0,
     "min_skills": [ [ "weapon", 1 ], [ "gun", 2 ] ]
   },
   {
@@ -417,6 +331,7 @@
     "install_time": "5 m",
     "sight_dispersion": 5,
     "aim_speed": 2,
+    "handling_modifier": 2,
     "min_skills": [ [ "weapon", 2 ], [ "gun", 3 ] ],
    "mod_target_category": [
       [ "SHOTGUNS" ]
@@ -509,6 +424,7 @@
     "install_time": "5 m",
     "sight_dispersion": 5,
     "aim_speed": 4,
+    "handling_modifier": 1,
     "min_skills": [ [ "weapon", 3 ], [ "gun", 4 ] ],
     "flags": [ "DISABLE_SIGHTS", "ZOOM" ]
   }

@@ -24,8 +24,7 @@
     "handling_modifier": 6,
     "dispersion_modifier": -5,
     "min_skills": [ [ "weapon", 2 ] ],
-    "weight_multiplier": 0.95,
-    "melee_damage": { "bash": 10 }
+    "weight_multiplier": 0.95
   },
   {
     "id": "jkl_classic_handguard",
@@ -40,8 +39,7 @@
     "color": "dark_gray",
     "handling_modifier": 4,
     "dispersion_modifier": -4,
-	"weight_multiplier": 0.98,
-    "melee_damage": { "bash": 13 }
+	"weight_multiplier": 0.98
   },
   {
     "id": "jkl_tactical_handguard",
@@ -55,8 +53,7 @@
     "symbol": ":",
     "color": "green",
     "handling_modifier": 8,
-    "dispersion_modifier": -8,
-    "melee_damage": { "bash": 11 }
+    "dispersion_modifier": -8
   },
   {
     "id": "jkl_lightweight_handguard",
@@ -71,8 +68,7 @@
     "color": "light_gray",
     "handling_modifier": 7,
     "dispersion_modifier": -6,
-	"weight_multiplier": 0.93,
-    "melee_damage": { "bash": 8 }
+	"weight_multiplier": 0.93
   },
   {
     "id": "jkl_grip_heavy",

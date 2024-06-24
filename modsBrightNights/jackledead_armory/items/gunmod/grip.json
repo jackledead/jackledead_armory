@@ -61,7 +61,8 @@
     ],
     "handling_modifier": 3,
     "dispersion_modifier": -3,
-    "aim_speed_modifier": 14,
+    "aim_speed": 5,
+    "sight_dispersion": 23,
     "min_skills": [ [ "weapon", 3 ] ]
   },
   {
@@ -95,7 +96,6 @@
     ],
     "handling_modifier": 2,
     "dispersion_modifier": -2,
-    "aim_speed_modifier": 7,
     "min_skills": [ [ "weapon", 3 ] ],
     "weight_multiplier": 0.8,
     "flags": [ "REDUCED_BASHING" ]

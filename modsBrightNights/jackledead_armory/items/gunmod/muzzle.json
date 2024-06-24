@@ -132,7 +132,7 @@
     "location": "muzzle",
     "mod_target_category": [ [ "SHOTGUNS" ] ],
     "install_time": "5 m",
-    "shot_spread_multiplier_modifier": -0.5
+    "dispersion_modifier": -2
   },
   {
     "id": "jkl_short_light_choke",
@@ -149,7 +149,7 @@
     "location": "muzzle",
     "mod_target_category": [ [ "SHOTGUNS" ] ],
     "install_time": "2 m",
-    "shot_spread_multiplier_modifier": -0.2
+    "dispersion_modifier": -1
   },
   {
     "id": "jkl_barrel_extension",
