@@ -1,0 +1,26 @@
+{
+    "type": "recipe",
+    "result": "jkl_crude_gun_lube",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_OTHER",
+    "skill_used": "fabrication",
+    "skills_required": [
+      "gun",
+      1
+    ],
+    "difficulty": 2,
+    "time": "5 m",
+    "autolearn": true,
+    "components": [
+      [
+        [ "chem_ethanol", 1 ],
+        [ "chem_methanol", 1 ],
+        [ "denat_alcohol", 1 ],
+        [ "lamp_oil", 10 ],
+        [ "motor_oil", 10 ],
+        [ "cooking_oil", 1 ],
+        [ "cooking_oil2", 1 ]
+      ]
+    ]
+  }
+  

@@ -45,10 +45,7 @@
     "symbol": ":",
     "color": "dark_gray",
     "location": "mechanism",
-    "mod_target_category": [
-      [ "PISTOLS" ],
-      [ "REVOLVERS" ]
-    ],
+    "mod_target_category": [ [ "PISTOLS" ], [ "REVOLVERS" ] ],
     "install_time": "30 m",
     "dispersion_modifier": -1,
     "min_skills": [ [ "weapon", 3 ], [ "mechanics", 2 ] ]
@@ -83,5 +80,34 @@
     "install_time": "30 m",
     "dispersion_modifier": -3,
     "min_skills": [ [ "weapon", 4 ], [ "mechanics", 3 ], [ "gun", 2 ] ]
+  },
+  {
+    "id": "jkl_crude_gun_lube",
+    "looks-like": "cooking_oil",
+    "type": "GUNMOD",
+    "name": { "str": "crude gun lube" },
+    "description": "A small amount of crude gun lubricant, stored in a tiny watertight container. Applying this to a firearm will slightly improve its handling characteristics.",
+    "weight": "500 mg",
+    "volume": "5 ml",
+    "integral_volume": "5 ml",
+    "price": 100,
+    "price_postapoc": 50,
+    "material": [ "oil" ],
+    "symbol": ":",
+    "color": "yellow",
+    "location": "mechanism",
+    "mod_target_category": [
+      [ "PISTOLS" ],
+      [ "REVOLVERS" ],
+      [ "SUBMACHINE_GUNS" ],
+      [ "RIFLES" ],
+      [ "MACHINE_GUNS" ],
+      [ "GATLING_GUNS" ],
+      [ "SHOTGUNS" ],
+      [ "GRENADE_LAUNCHERS" ],
+      [ "ROCKET_LAUNCHERS" ],
+      [ "FLAMETHROWERS" ]
+    ],
+    "handling_modifier": 2
   }
 ]
