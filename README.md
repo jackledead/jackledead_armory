@@ -1,7 +1,14 @@
 # jackledead_armory
-CDDA mod to add real world firearms and some of my own design. Includes 46+ gun mods, 10+ guns, new ammos and many professions to showcase the mod. Includes the Goons expansion mod to add foes using my items!
+CDDA and CBN mod(s) to add real world firearms and some of my own design. Includes 46+ gun mods, 10+ guns, new ammos and many professions to showcase the mod. Includes the Goons expansion mod to add foes using my items!
+
+## Differences between BN and CDDA versions
+1. CDDA's also has the Goon Mod for armored baddies using this mod's gear.
+2. CDDA's version uses stat modifiers when possible for things like the magnifiers on the ACOGS, whereas BN's version uses flat stats, and takes the lowest among all the mods for sights.
+3. CDDA's version has a working painting system using variants. BN doesn't have a variant system so it doesn't work there. Ironsights and gunskins.
+4. BN has crude gun lube mechnaism gunmod. +2 handling. Made with various oils or cleaner.
 
 ## Latest Update Picture
+![Decked out CBN Fort pistol](https://cdn.discordapp.com/attachments/997602363726635099/1254880303676391456/image.png?ex=6683ab9a&is=66825a1a&hm=63b31119fec1293d8135dd8d1d0cb0b3f418f1e1ac5aaf17b45464f3d1278921&)
 ![armory graphics update 1](https://github.com/jackledead/jackledead_armory/assets/75153234/9c8e9040-c00c-4760-8e2b-a0d438046068)
 ![Painted Iron Sights mini update 1](https://github.com/jackledead/jackledead_armory/assets/75153234/1c6893de-a1b1-480e-8a7d-a1f82c6e14b5)
 ![image](https://github.com/jackledead/jackledead_armory/assets/75153234/a86a66d9-5320-434a-a852-3e2839223667)
