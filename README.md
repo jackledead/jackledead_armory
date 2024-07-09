@@ -2,7 +2,7 @@
 CDDA and CBN mod(s) to add real world firearms and some of my own design. Includes 46+ gun mods, 10+ guns, new ammos and many professions to showcase the mod. Includes the Goons expansion mod to add foes using my items!
 
 ## Differences between BN and CDDA versions
-1. CDDA's also has the Goon Mod for armored baddies using this mod's gear.
+1. EDITED: Both versions have the goons mod now!
 2. CDDA's version uses stat modifiers when possible for things like the magnifiers on the ACOGS, whereas BN's version uses flat stats, and takes the lowest among all the mods for sights.
 3. CDDA's version has a working painting system using variants. BN doesn't have a variant system so it doesn't work there. Ironsights and gunskins.
 4. BN has crude gun lube mechnaism gunmod. +2 handling. Made with various oils or cleaner.
