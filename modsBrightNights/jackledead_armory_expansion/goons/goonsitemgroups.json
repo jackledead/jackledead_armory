@@ -1,0 +1,153 @@
+[
+    {
+      "id": "looter_a_death_drops",
+      "type": "item_group",
+      "subtype": "collection",
+      "entries": [
+        { "group": "nested_vp_sova" },
+        { "item": "jacket_flannel", "prob": 60 },
+        { "item": "knit_scarf", "prob": 20 },
+        { "item": "pants_cargo", "prob": 70 },
+        { "item": "socks", "prob": 70 },
+        { "item": "boots_hiking", "prob": 60 },
+        { "item": "backpack", "prob": 70 },
+        { "item": "knife_combat", "prob": 40 },
+        { "item": "balclava", "prob": 20 },
+        { "item": "glasses_bal", "prob": 10 }
+      ]
+    },
+    {
+      "id": "looter_b_death_drops",
+      "type": "item_group",
+      "subtype": "collection",
+      "entries": [
+        { "group": "nested_zbroyar_z15" },
+        { "item": "kevlar", "prob": 40 },
+        { "item": "helmet_army", "prob": 20 },
+        { "item": "boots_combat", "prob": 60 },
+        { "item": "gloves_tactical", "prob": 40 },
+        { "item": "backpack", "prob": 70 },
+        { "item": "knife_combat", "prob": 60 },
+        { "item": "slingpack", "prob": 30 },
+        { "item": "two_way_radio", "prob": 20 }
+      ]
+    },
+    {
+      "id": "scavenger_a_death_drops",
+      "type": "item_group",
+      "subtype": "collection",
+      "entries": [
+        { "item": "jkl_knife_pry_fixed" },
+        { "item": "backpack", "prob": 60 },
+        { "item": "jacket_flannel", "prob": 40 },
+        { "item": "pants_cargo", "prob": 60 },
+        { "item": "gloves_liner", "prob": 20 },
+        { "item": "boots_western", "prob": 40 },
+        { "item": "hat_ball", "prob": 30 }
+      ]
+    },
+    {
+      "id": "scavenger_b_death_drops",
+      "type": "item_group",
+      "subtype": "collection",
+      "entries": [
+        { "group": "nested_tos_30" },
+        { "item": "jacket_flannel", "prob": 40 },
+        { "item": "knit_scarf", "prob": 20 },
+        { "item": "pants_cargo", "prob": 60 },
+        { "item": "gloves_liner", "prob": 40 },
+        { "item": "boots_hiking", "prob": 60 },
+        { "item": "backpack", "prob": 70 },
+        { "item": "knife_combat", "prob": 40 },
+        { "item": "two_way_radio", "prob": 20 }
+      ]
+    },
+    {
+      "id": "rogue_paramilitary_a_death_drops",
+      "type": "item_group",
+      "subtype": "collection",
+      "entries": [
+        { "group": "nested_tos_84" },
+        { "item": "kevlar", "prob": 70 },
+        { "item": "knee_pads", "prob": 60 },
+        { "item": "tac_helmet", "prob": 80 },
+        { "item": "gloves_tactical", "prob": 60 },
+        { "item": "boots_combat", "prob": 80 },
+        { "item": "kevlar", "prob": 40 },
+        { "item": "backpack", "prob": 70 },
+        { "item": "knife_combat", "prob": 60 },
+        { "item": "sheath", "prob": 40 },
+        { "item": "two_way_radio", "prob": 40 },
+        { "group": "military_patrol_food" },
+        { "group": "infantry_officer_gear", "prob": 20 },
+        { "group": "infantry_medical_gear", "prob": 10 }
+      ]
+    },
+    {
+      "id": "rogue_paramilitary_b_death_drops",
+      "type": "item_group",
+      "subtype": "collection",
+      "entries": [
+        { "group": "nested_vp_scout" },
+        { "item": "kevlar", "prob": 70 },
+        { "item": "legguard_hard", "prob": 60 },
+        { "item": "armguard_hard", "prob": 60 },
+        { "item": "helmet_army", "prob": 80 },
+        { "item": "gloves_tactical", "prob": 80 },
+        { "item": "boots_combat", "prob": 80 },
+        { "item": "dump_pouch", "prob": 60 },
+        { "item": "backpack", "prob": 70 },
+        { "item": "knife_combat", "prob": 60 },
+        { "item": "sheath", "prob": 40 },
+        { "item": "two_way_radio", "prob": 60 },
+        { "group": "military_patrol_food" },
+        { "group": "infantry_officer_gear", "prob": 40 },
+        { "group": "infantry_medical_gear", "prob": 20 }
+      ]
+    },
+    {
+      "id": "elite_scavenger_death_drops",
+      "type": "item_group",
+      "subtype": "collection",
+      "entries": [
+        { "group": "nested_tavor_x95" },
+        { "item": "kevlar", "prob": 80 },
+        { "item": "legguard_hard", "prob": 70 },
+        { "item": "armguard_hard", "prob": 70 },
+        { "item": "helmet_army", "prob": 80 },
+        { "item": "gloves_tactical", "prob": 70 },
+        { "item": "boots_combat", "prob": 80 },
+        { "item": "dump_pouch", "prob": 60 },
+        { "item": "backpack", "prob": 80 },
+        { "item": "knife_combat", "prob": 60 },
+        { "item": "sheath", "prob": 40 },
+        { "item": "two_way_radio", "prob": 40 }
+      ]
+    },
+    {
+      "id": "elite_sniper_death_drops",
+      "type": "item_group",
+      "subtype": "collection",
+      "entries": [
+        { "group": "nested_snipex_alligator" },
+        { "group": "on_hand_145x114" },
+        { "item": "modularvestceramic" },
+        { "item": "legguard_hard", "prob": 80 },
+        { "item": "armguard_hard", "prob": 80 },
+        { "item": "helmet_army", "prob": 90 },
+        { "item": "gloves_tactical", "prob": 80 },
+        { "item": "boots_combat", "prob": 90 },
+        { "item": "dump_pouch", "prob": 70 },
+        { "item": "backpack", "prob": 90 },
+        { "item": "knife_combat", "prob": 70 },
+        { "item": "sheath", "prob": 50 },
+        { "item": "two_way_radio", "prob": 60 },
+        { "item": "hat_boonie", "prob": 40 },
+        { "item": "chestrig", "prob": 60 },
+        { "item": "knee_pads", "prob": 60 },
+        { "item": "elbow_pads", "prob": 60 },
+        { "group": "military_patrol_food", "prob": 60 }
+      ]
+    }
+  ]
+  
