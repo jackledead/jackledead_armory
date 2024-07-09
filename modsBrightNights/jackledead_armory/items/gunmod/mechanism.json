@@ -83,7 +83,7 @@
   },
   {
     "id": "jkl_crude_gun_lube",
-    "looks-like": "cooking_oil",
+    "looks_like": "superglue",
     "type": "GUNMOD",
     "name": { "str": "crude gun lube" },
     "description": "A small amount of crude gun lubricant, stored in a tiny watertight container. Applying this to a firearm will slightly improve its handling characteristics.",
