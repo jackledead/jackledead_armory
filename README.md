@@ -184,7 +184,7 @@ Survivor (Kickass): Locked and loaded, ready for the apocalypse. Starts with hyb
 
 Gun-Mod Nut: starts with 20 gun mods, the skills to install them, a firearm repair kit, but no guns.
 
-## GOONS MOD EXPANSION (cdda only):
+## GOONS MOD EXPANSION (both versions):
 2 Bandit variant (weak)
 2 Scavenger variants (medium)
 2 Rogue paramilitary variants (medium hard)
