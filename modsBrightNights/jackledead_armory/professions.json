@@ -3,7 +3,7 @@
     "type": "item_group",
     "subtype": "collection",
     "id": "tac_grip_fort_14",
-    "entries": [ { "item": "jkl_fort_14", "ammo-item": "9x18mmfmj", "charges": 14, "contents-item": [ "tactical_grip" ] } ]
+    "entries": [ { "item": "jkl_fort_14", "ammo-item": "9x18mmfmj", "charges": 14, "contents-item": [ "jkl_tactical_grip" ] } ]
   },
   {
     "type": "item_group",
@@ -852,7 +852,7 @@
           { "item": "mask_dust" },
           { "item": "chemistry_set" },
           { "group": "vp_k_standard_2_mags" },
-          { "item": "jkl_vp_kunytsya", "ammo-item": "9x18mm", "charges": 20, "contents-item": ["hair_trigger"], "custom-flags": [ "auto_wield" ] },
+          { "item": "jkl_vp_kunytsya", "ammo-item": "9x18mm", "charges": 20, "contents-item": ["jkl_hair_trigger"], "custom-flags": [ "auto_wield" ] },
           { "item": "jkl_knife_pry_fixed", "container-item": "scabbard" },
           { "item": "pants" }  
         ]
