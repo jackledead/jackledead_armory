@@ -40,7 +40,7 @@
         "description": "The looter fires their pistol!"
       }
     ],
-    "flags": [ "SEES", "HEARS", "WARM", "BASHES", "HUMAN", "PATH_AVOID_DANGER_1" ]
+    "flags": [ "SEES", "HEARS", "WARM", "BASHES", "HUMAN", "PATH_AVOID_DANGER_1", "CAN_OPEN_DOORS" ]
   },
   {
     "id": "mon_looter_b",
@@ -83,7 +83,7 @@
         "description": "The armed looter fires their rifle!"
       }
     ],
-    "flags": [ "SEES", "HEARS", "WARM", "BASHES", "HUMAN", "PATH_AVOID_DANGER_1" ]
+    "flags": [ "SEES", "HEARS", "WARM", "BASHES", "HUMAN", "PATH_AVOID_DANGER_1", "CAN_OPEN_DOORS" ]
   },
   {
     "id": "mon_scavenger_a",
@@ -113,7 +113,7 @@
     "vision_day": 40,
     "vision_night": 3,
     "death_drops": "scavenger_a_death_drops",
-    "flags": [ "SEES", "HEARS", "WARM", "BASHES", "HUMAN", "PATH_AVOID_DANGER_1" ]
+    "flags": [ "SEES", "HEARS", "WARM", "BASHES", "HUMAN", "PATH_AVOID_DANGER_1", "CAN_OPEN_DOORS" ]
   },
   {
     "id": "mon_scavenger_b",
@@ -156,7 +156,7 @@
         "description": "The armed scavenger fires their submachine gun!"
       }
     ],
-    "flags": [ "SEES", "HEARS", "WARM", "BASHES", "HUMAN", "PATH_AVOID_DANGER_1" ]
+    "flags": [ "SEES", "HEARS", "WARM", "BASHES", "HUMAN", "PATH_AVOID_DANGER_1", "CAN_OPEN_DOORS" ]
   },
   {
     "id": "mon_rogue_paramilitary_a",
@@ -199,7 +199,7 @@
         "description": "The rogue paramilitary fires their shotgun!"
       }
     ],
-    "flags": [ "SEES", "HEARS", "WARM", "BASHES", "HUMAN", "CAN_OPEN_DOORS", "PATH_AVOID_DANGER_1", "GOODHEARING" ]
+    "flags": [ "SEES", "HEARS", "WARM", "BASHES", "HUMAN", "PATH_AVOID_DANGER_1", "CAN_OPEN_DOORS", "GOODHEARING" ]
   },
   {
     "id": "mon_rogue_paramilitary_b",
@@ -243,7 +243,7 @@
         "description": "The elite rogue paramilitary fires their bullpup rifle!"
       }
     ],
-    "flags": [ "SEES", "HEARS", "WARM", "BASHES", "HUMAN", "CAN_OPEN_DOORS", "PATH_AVOID_DANGER_1", "GOODHEARING" ]
+    "flags": [ "SEES", "HEARS", "WARM", "BASHES", "HUMAN", "PATH_AVOID_DANGER_1", "CAN_OPEN_DOORS", "GOODHEARING" ]
   },
   {
     "id": "mon_elite_scavenger",
@@ -287,7 +287,7 @@
         "description": "The elite scavenger fires their assault rifle!"
       }
     ],
-    "flags": [ "SEES", "HEARS", "WARM", "BASHES", "HUMAN", "CAN_OPEN_DOORS", "PATH_AVOID_DANGER_1", "GOODHEARING" ]
+    "flags": [ "SEES", "HEARS", "WARM", "BASHES", "HUMAN", "PATH_AVOID_DANGER_1", "CAN_OPEN_DOORS", "GOODHEARING" ]
   },
   {
     "id": "mon_elite_sniper",
@@ -331,6 +331,6 @@
         "description": "The elite sniper fires their anti-materiel rifle!"
       }
     ],
-    "flags": [ "SEES", "HEARS", "WARM", "BASHES", "HUMAN", "PATH_AVOID_DANGER_1", "GOODHEARING" ]
+    "flags": [ "SEES", "HEARS", "WARM", "BASHES", "HUMAN", "PATH_AVOID_DANGER_1", "CAN_OPEN_DOORS", "GOODHEARING" ]
   }
 ]
