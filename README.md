@@ -44,6 +44,8 @@ Wist 94: 9x19 mm pistol from Poland
 
 Fort 14TP pistol: 14 round 9x18mm usually loaded with fmjs. Set to be the new pistol of the UAF.
 
+Alex 338: a Bor bullpup sniper from Poland chambered in 338 lapua magnum.
+
 ### Fictional:
 VP Orel rifle: The VP Orel is a compact and lightweight rifle designed for reconnaissance and stealth missions. It features a bullpup configuration and a folding stock, allowing for easy storage and transportation. The gun is chambered in the powerful 7.62x54r cartridge, making it effective at long ranges while still remaining compact.
 
@@ -168,6 +170,8 @@ Black Sea Anti-Material Sniper: Armed with Gepard M3 anti-material rifle and For
 
 Polish Automatic Rifleman: Armed with UKM 2000 machinegun and Wist 94 pistol.
 
+Polish Sniper: Alex 338 rifle, wist 94 sidearm, extra ammo.
+
 Ukrainian Rifle Hunter: Start with Zbroyar Z-15 semi auto stanag-accepting rifle. 1+1 mags.
 
 Ukrainian Park Ranger: Start with Zbroyar Z-15 and Fort-221 pistol. Extra ammo. Heavy loudout like base game. Pickup truck.
@@ -184,6 +188,8 @@ Survivor (Kickass): Locked and loaded, ready for the apocalypse. Starts with hyb
 
 Gun-Mod Nut: starts with 20 gun mods, the skills to install them, a firearm repair kit, but no guns.
 
+Viralogy Professor: machine pistol and weak vest, machete, smart.
+
 ## GOONS MOD EXPANSION (both versions):
 2 Bandit variant (weak)
 2 Scavenger variants (medium)
@@ -199,7 +205,6 @@ Officially supported.
 
 ## Suggested Mods for use with this mod
 #### [Jackledead Infected Mod Github](https://github.com/jackledead/jackledead_infected) for that fast running infected zombie  apocalypse feel.
-#### [No Hope And Dinos](https://github.com/jackledead/No-Hope-and-Dinos) so you can blow up a T-Rex with an anti-materiel round from the Snipex Alligator.
 
 ## Additional Mods you may be interested in
 #### My repo of the exclusions mods anthology by Kenan [CDDA-CBN-Jackledead-NoMods-Collection](https://github.com/jackledead/CDDA-CBN-Jackledead-NoMods-Collection)
