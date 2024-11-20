@@ -860,5 +860,49 @@
       "male": [ "briefs" ],    
       "female": [ "bra", "panties" ]
     }
+  },
+  {
+    "type": "profession",
+    "id": "jkl_polish_sniper",
+    "name": "Polish Sniper",
+    "description": "Armed with the Alex-338 and a WIST-94.  You were stationed near the border when the outbreak hit.  Your unit was overrun, but your training and long-range skills allowed you to escape the initial chaos. Now, with limited ammo and dwindling supplies, you must rely on your marksmanship and tactical awareness to survive in this desolate landscape. Every shot counts.",
+    "points": 7,
+    "skills": [
+      { "level": 5, "name": "gun" },
+      { "level": 4, "name": "rifle" },
+      { "level": 1, "name": "pistol" },
+      { "level": 2, "name": "survival" },
+      { "level": 1, "name": "swimming" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "pants_cargo",
+          "socks",
+          "boots_combat",
+          "tshirt",
+          "jacket_light",
+          "gloves_tactical",
+          "helmet_army",
+          "wristwatch",
+          "molle_pack",
+          "cloak",
+          "smart_phone"
+        ],
+        "entries": [
+          { "group": "charged_two_way_radio" },
+          { "item": "tacvest" },
+          { "item": "water_clean", "container-item": "canteen" },
+          { "item": "jkl_alex338", "ammo-item": "jkl_338_lapua_match", "charges": 5, "contents-item": [ "shoulder_strap" ] },
+          { "item": "jkl_alex338_mag", "ammo-item": "jkl_338_lapua_match", "charges": 5, "count": 3 },
+          { "item": "jkl_338_lapua_match", "count": 2 },
+          { "item": "jkl_wist_94", "ammo-item": "9mm", "charges": 16, "container-item": "holster" },
+          { "item": "jkl_wist_94_mag", "ammo-item": "9mm", "charges": 16, "count": 2  },
+          { "item": "jkl_knife_pry_fold", "container-item": "pants" }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "bra", "panties" ]
+    }
   }
 ]

@@ -25,7 +25,6 @@
     "volume": "120 ml",
     "price": 4000,
     "price_postapoc": 3500,
-    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
     "material": [ "brass", "powder" ],
     "symbol": ">",
     "color": "yellow",
@@ -45,5 +44,65 @@
     "name": { "str_sp": "14.5x114mm incendiary round" },
     "description": "An incendiary variant of the powerful 14.5x114mm round. Incendiary rounds are designed to ignite flammable substances upon impact, causing secondary damage to the target.",
     "effects": [ "COOKOFF", "INCENDIARY" ]
+  },
+  {
+    "id": "jkl_338_lapua",
+    "type": "AMMO",
+    "name": { "str": ".338 Lapua Magnum" },
+	"looks_like": "762_54R",
+    "description": ".338 Lapua Magnum ammunition with a 250gr FMJ bullet.  Known for its extreme long range accuracy and high power, the .338 Lapua Magnum is a favorite among military snipers and long-range competition shooters.",
+    "weight": "28 g",
+    "volume": "250 ml",
+    "price": "350 cent",
+    "price_postapoc": "15 USD",
+    "material": [ "brass", "powder" ],
+    "symbol": "=",
+    "color": "yellow",
+    "count": 20,
+    "stack_size": 20,
+    "ammo_type": "338",
+    "casing": "jkl_338_casing",
+    "range": 100,  
+    "damage": { "damage_type": "bullet", "amount": 80, "armor_penetration": 35 }, 
+    "dispersion": 12, 
+    "recoil": 4500, 
+    "effects": [ "COOKOFF" ]
+  },
+    {
+    "id": "jkl_338_lapua_incendiary",
+    "copy-from": "jkl_338_lapua",
+	"looks_like": "762_54R",
+    "type": "AMMO",
+    "name": { "str": ".338 Lapua Magnum tracer" },
+    "description": "Tracer rounds help keep the weapon on target.",
+    "extend": { "effects": [ "INCENDIARY" ] }
+  },
+  {
+    "id": "bp_338_lapua",
+    "copy-from": "jkl_338_lapua",
+	"looks_like": "762_54R",
+    "type": "AMMO",
+    "name": { "str": ".338 Lapua Magnum, black powder" },
+    "proportional": {
+      "price": 0.5,
+      "price_postapoc": 0.5,
+      "damage": { "damage_type": "bullet", "amount": 0.8, "armor_penetration": 0.5 },
+      "recoil": 0.76,
+      "dispersion": 1.2
+    },
+    "extend": { "effects": [ "RECYCLED", "BLACKPOWDER", "MUZZLE_SMOKE" ] }
+  },
+  {
+    "id": "jkl_338_lapua_match",
+    "copy-from": "jkl_338_lapua",
+	"looks_like": "762_54R",
+    "type": "AMMO",
+    "name": { "str": ".338 Lapua Magnum, match grade" },
+    "description": "Match grade .338 Lapua Magnum ammunition with a 250gr FMJ bullet.  Known for its extreme long range accuracy and high power, the .338 Lapua Magnum is a favorite among military snipers and long-range competition shooters. This match grade ammunition is even more precise.",
+    "proportional": {
+      "price": 1.5,
+      "price_postapoc": 1.5,
+      "dispersion": 0.75
+    }
   }
 ]

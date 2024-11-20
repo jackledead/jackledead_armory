@@ -17,8 +17,9 @@
         { "item": "jkl_vepr", "prob": 10 },
         { "item": "jkl_zbroyar_z15", "prob": 15 },
         { "item": "jkl_tos_84", "prob": 8 },
-        { "item": "jkl_tos_30", "prob": 10 }
-      ]
+        { "item": "jkl_tos_30", "prob": 10 },
+        { "item": "jkl_alex338", "prob": 1 }
+    ]
     }
   
 ]

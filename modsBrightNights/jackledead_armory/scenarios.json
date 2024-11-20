@@ -12,7 +12,8 @@
         "polish_mil_auto_rifleman",
         "ukrainian_special_rifleman",
         "ukrainian_special_mil_sniper",
-        "black_sea_mil_sniper"
+        "black_sea_mil_sniper",
+        "jkl_polish_sniper"
       ]
     },
     "map_extra": "mx_helicopter",
@@ -31,7 +32,8 @@
         "polish_mil_auto_rifleman",
         "ukrainian_special_rifleman",
         "ukrainian_special_mil_sniper",
-        "black_sea_mil_sniper"
+        "black_sea_mil_sniper",
+        "jkl_polish_sniper"
       ]
     },
     "flags": [ "CHALLENGE", "LONE_START" ]

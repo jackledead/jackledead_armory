@@ -7,7 +7,7 @@ possible json for gunmods:
 "proportional": { "aim_speed": 0.95 },
 "dispersion_modifier": -3,
 
-known sd of sights:
+known sight dispersion of sights:
 mine:
 gold iron sights: sd 29
 
@@ -18,3 +18,41 @@ holo: sight dispersion 23
 Rifle scope: SD 0
 holo magnifier: SD 13
 red dot sd 27
+
+
+{
+    "id": "upstest",
+    "type": "GUNMOD",
+    "name": { "str": "upstest" },
+    "description": "Test mod for UPS drain on mods, this should never spawn, if you see this, it's a bug.  50x more UPS drain.",
+    "weight": "450 g",
+    "volume": "500 ml",
+    "price": 20000,
+    "price_postapoc": 0,
+    "install_time": "0 s",
+    "material": [ "steel" ],
+    "symbol": ":",
+    "color": "light_gray",
+    "location": "barrel",
+    "mod_targets": [ "smg", "rifle", "shotgun", "pistol" ],
+    "damage_modifier": { "damage_type": "stab", "amount": 500 },
+    "dispersion_modifier": 500,
+    "energy_drain_multiplier": 50.0,
+    "min_skills": [ [ "gun", 1 ] ],
+    "melee_damage": { "bash": 5 }
+  }
+
+  {
+        "file": "jackledeadarmoryitems2large.png",
+        "//": "range  to ",
+        "sprite_width": 64,
+        "sprite_height": 80,
+        "sprite_offset_x": -16,
+        "sprite_offset_y": -48,
+        "tiles": [
+          { "id": "m3_gepard", "fg": 1, "rotates": false },
+          { "id": "overlay_wielded_m3_gepard", "fg": 1, "rotates": false },
+          { "id": "snipex_alligator", "fg": 1, "rotates": false },
+          { "id": "overlay_wielded_snipex_alligator", "fg": 1, "rotates": false }
+        ]
+      }

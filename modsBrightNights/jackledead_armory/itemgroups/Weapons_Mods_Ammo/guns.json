@@ -132,7 +132,8 @@
       { "group": "nested_vp_scout", "prob": 5 },
       { "group": "nested_vepr", "prob": 5 },
       { "group": "nested_tavor_x95", "prob": 2 },
-      { "group": "nested_zbroyar_z15", "prob": 8 }
+      { "group": "nested_zbroyar_z15", "prob": 8 },
+      { "group": "nested_alex338", "prob": 3 }
     ]
   },
   {
@@ -145,7 +146,8 @@
       { "item": "jkl_vp_scout", "prob": 2, "charges-min": 0, "charges-max": 0 },
       { "item": "jkl_vepr", "prob": 3, "charges-min": 0, "charges-max": 0 },
       { "item": "jkl_tavor_x95", "prob": 1, "charges-min": 0, "charges-max": 0 },
-      { "item": "jkl_zbroyar_z15", "prob": 3, "charges-min": 0, "charges-max": 0 }
+      { "item": "jkl_zbroyar_z15", "prob": 3, "charges-min": 0, "charges-max": 0 },
+      { "item": "jkl_alex338", "prob": 1, "charges-min": 0, "charges-max": 0 }
     ]
   },
   {
@@ -171,7 +173,8 @@
       { "group": "nested_ak47", "prob": 5 },
       { "group": "nested_ak74", "prob": 5 },
       { "group": "nested_snipex_alligator", "prob": 5 },
-      { "group": "nested_tos_akula", "prob": 5 }
+      { "group": "nested_tos_akula", "prob": 5 },
+      { "group": "nested_alex338", "prob": 2 }
     ]
   },
   {

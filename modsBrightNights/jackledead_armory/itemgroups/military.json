@@ -36,7 +36,8 @@
       { "item": "jkl_zbroyar_z15", "prob": 15, "charges": [ 0, 30 ] },
       { "item": "jkl_m3_gepard", "prob": 2, "charges": [ 0, 5 ] },
       { "item": "jkl_vp_scout", "prob": 20, "charges": [ 0, 10 ], "contents-item": [ "jkl_tactical_rifle_scope" ] },
-      { "item": "jkl_snipex_alligator", "prob": 2, "charges": [ 0, 5 ] }
+      { "item": "jkl_snipex_alligator", "prob": 2, "charges": [ 0, 5 ] },
+      { "item": "jkl_alex338", "prob": 5, "charges": [ 0, 5 ] }
     ]
   },
   {
@@ -142,7 +143,11 @@
       { "item": "jkl_holo_magnifier_4", "prob": 1 },
       { "item": "jkl_linear_compensator", "prob": 1 },
       { "item": "jkl_hybrid_muzzle_brake", "prob": 1 },
-      { "item": "jkl_laynard_pistol_sling", "prob": 1 }
+      { "item": "jkl_laynard_pistol_sling", "prob": 1 },
+      { "item": "jkl_alex338_mag", "prob": 1 },
+      { "item": "jkl_338_lapua", "prob": 1 },
+      { "item": "jkl_338_lapua_incendiary", "prob": 1 },
+      { "item": "jkl_338_lapua_match", "prob": 1 }
     ]
   },
   {
@@ -170,13 +175,14 @@
       { "item": "jkl_m3_gepard", "prob": 5, "charges": [ 0, 5 ] },
       { "item": "jkl_762R_tracer", "prob": 5, "charges": [ 1, 50 ] },
       { "item": "jkl_tos_akula", "prob": 25, "charges": [ 0, 200 ] },
-      { "item": "jkl_belt762r", "prob": 8, "charges": [ 0, 200 ] },
+      { "item": "jkl_belt762r", "prob": 8, "charges": [ 1, 200 ] },
       { "item": "jkl_drum762r", "prob": 10, "charges": [ 1, 50 ] },
       { "item": "jkl_m3gepardmag", "prob": 3, "charges": [ 1, 5 ] },
       { "item": "jkl_alligator_mag", "prob": 3, "charges": [ 1, 5 ] },
       { "item": "jkl_145x114mm", "prob": 3, "charges": [ 1, 25 ] },
       { "item": "jkl_145X114_incendiary", "prob": 1, "charges": [ 1, 25 ] },
-      { "item": "jkl_snipex_alligator", "prob": 5, "charges": [ 0, 5 ] }
+      { "item": "jkl_snipex_alligator", "prob": 5, "charges": [ 0, 5 ] },
+      { "item": "jkl_alex338", "prob": 2, "charges": [ 0, 5 ] }
     ]
   },
   {
@@ -202,7 +208,8 @@
       { "item": "jkl_145X114_incendiary", "prob": 1, "charges": [ 1, 15 ] },
       { "item": "jkl_snipex_alligator", "prob": 1, "charges": [ 0, 5 ] },
       { "item": "jkl_fort_14", "prob": 3, "charges": [ 0, 14 ] },
-      { "item": "jkl_tos_84", "prob": 2, "charges": [ 0, 30 ] }
+      { "item": "jkl_tos_84", "prob": 2, "charges": [ 0, 30 ] },
+      { "item": "jkl_alex338", "prob": 1, "charges": [ 0, 5 ] }
     ]
   }
 ]

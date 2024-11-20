@@ -4,5 +4,11 @@
     "id": "145x114",
     "name": "145x114mm anti material round",
     "default": "jkl_145x114mm"
+  },
+  {
+    "type": "ammunition_type",
+    "id": "338",
+    "name": ".338 Lapua Magnum",
+    "default": "jkl_338_lapua"
   }
 ]

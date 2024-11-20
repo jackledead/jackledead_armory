@@ -8,5 +8,15 @@
     "description": "An empty casing from a 14.5x114mm round. These casings are difficult to come by, but you don't think you have the skills to reload it.",
     "weight": "20 g",
     "volume": "15 ml"
+  },
+  {
+    "id": "jkl_338_casing",
+    "copy-from": "casing",
+    "looks_like": "50_casing",
+    "type": "GENERIC",
+    "name": { "str": ".338 Lapua Magnum casing" },
+    "description": "An empty casing from a .338 Lapua Magnum round.",
+    "weight": "25 g", 
+    "volume": "20 ml" 
   }
 ]

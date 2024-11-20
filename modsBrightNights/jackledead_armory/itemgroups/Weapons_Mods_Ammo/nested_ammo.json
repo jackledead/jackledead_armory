@@ -19,5 +19,16 @@
       { "item": "jkl_145x114mm", "prob": 100, "charges": [ 1, 15 ] },
       { "item": "jkl_145X114_incendiary", "prob": 20, "charges": [ 1, 10 ] }
     ]
+  },
+  {
+    "id": "on_hand_338",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "jkl_338_lapua", "prob": 80, "charges": [ 1, 10 ] },
+      { "item": "jkl_338_lapua_incendiary", "prob": 15, "charges": [ 1, 5 ] },
+      { "item": "jkl_338_lapua_match", "prob": 10, "charges": [ 1, 5 ] },
+      { "item": "bp_338_lapua", "prob": 5, "charges": [ 1, 5 ] }
+    ]
   }
 ]

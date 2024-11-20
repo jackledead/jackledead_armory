@@ -191,5 +191,23 @@
     "ammo_type": [ "9x18" ],
     "price": 2500,
     "capacity": 20
+  },
+  {
+    "id": "jkl_alex338_mag",
+    "looks_like": "as50mag",
+    "type": "MAGAZINE",
+    "name": { "str": "Alex-338 5-round magazine" },
+    "description": "A 5-round box magazine for the Alex-338 sniper rifle, chambered in .338 Lapua Magnum.",
+    "weight": "300 g",
+    "volume": "200 ml",
+    "price": 6000,
+    "price_postapoc": 150,
+    "material": [ "steel" ],
+    "symbol": "#",
+    "color": "dark_gray",
+    "ammo_type": [ "338" ],
+    "reload_time": 200,
+    "flags": [ "MAG_BULKY" ],
+    "capacity": 5
   }
 ]

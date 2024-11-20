@@ -186,5 +186,18 @@
 	  { "item": "jkl_vp_kunytsya_20rd_mag", "prob": 50 },
       { "group": "on_hand_9x18" }
     ]
-  }
+  },
+  {
+    "id": "nested_alex338",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+        { "item": "jkl_alex338", "charges-min": 0, "charges-max": 5 },
+        { "item": "jkl_alex338_mag" },
+        { "item": "jkl_alex338_mag", "prob": 50 },
+        { "group": "on_hand_338" }
+    ]
+}
 ]
